@@ -95,6 +95,8 @@ I_{\mathrm{conf}}(c) = \left[P_{\mathrm{grid}} - P_{\mathrm{grid}}^{(-c)}\right]
 
 A positive score means the channel supports intact objects more than scrambled ones. The local score is the channel's support for scrambled objects, P\_scr minus P\_scr without c.
 
+**Amended (A1, 15 October 2026).** The calibration pilot showed that this absolute difference favours channels that matter for every image, because intact objects start from a higher probability and so lose more in absolute terms. The primary score is now the channel's effect on configural reliance itself, computed on true-category probabilities: CR\_p = 1 minus (P\_scr minus 1/16) / (P\_grid minus 1/16), and I\_CR(c) = CR\_p(intact) minus CR\_p(with c ablated). Significance uses a one-sided, category-stratified bootstrap over objects (10,000 resamples) instead of the t-test, with the same Benjamini-Hochberg control and 1 to 40% bounds. Every rule that ranked by I\_conf now ranks by I\_CR. Full text: amendment\_01.md in the preregistration repository.
+
 **Reliability.** Scores are recomputed on the calibration test half. A site enters the lesion analyses only if the split-half Spearman correlation of channel scores, Spearman-Brown corrected, reaches 0.7. Failing sites are reported, not lesioned.
 
 **Sets.** At each site, with n channels:
@@ -184,10 +186,11 @@ Every hypothesis is reported whatever its outcome, and each failure pattern alre
 
 ## Design history and deviations
 
-Six design changes were made before this plan, all on calibration data and all listed in the paper's Methods. Changes after the freeze are appended here, newest first.
+Six design changes were made before this plan, all on calibration data and all listed in the paper's Methods. Changes after the freeze are appended here, newest first; amendment A1 is the only one.
 
 | Date | Change | Reason | Data seen before the change |
 | --- | --- | --- | --- |
+| 15 Oct 2026 (after freeze) | Amendment A1: unit score changed from absolute probability differences to the channel's effect on configural reliance (I\_CR), tested by object bootstrap; the only revision to unit selection | The absolute score favoured generally important channels; the configural lesion raised CR in the pilot (ResNet-50 SWSL 0.542 to 0.690) and removed all recognition in CORnet-S | Stage 3 calibration scores, sets and pilot; hold-out untouched |
 | 15 Oct 2026 | CLIP reloaded with its matching activation (QuickGELU) and Stage 2 rerun | Loader bug; selection unchanged | Stage 2 calibration results |
 | 15 Oct 2026 | Configural reliance (CR) made primary; absolute loss kept as secondary | Absolute losses are capped by control accuracy | Stage 2 calibration results |
 | 15 Oct 2026 | Four candidates added (adversarial and SWSL ResNet-50, ConvNeXt-T, CLIP) | Standard reviewer questions on robustness, data scale and modern models | None for these models |

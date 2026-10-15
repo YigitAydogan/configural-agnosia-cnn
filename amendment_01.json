@@ -1,0 +1,35 @@
+{
+  "amends_plan_sha256": "dc1a1b0e80b41dc3488c14bed7f96e4df281525eb112352a8533363360c48c6c",
+  "commitments": [
+    "This amendment is published before the new score is computed.",
+    "It is the only revision to unit selection: whatever the new calibration pilot shows, the resulting sets go to the hold-out tests unchanged.",
+    "Results under the original score are reported in the supplement for comparison."
+  ],
+  "data_seen_before_amendment": "Stage 3 calibration scores, sets and exploratory pilot (calibration test half). The hold-out set has not been evaluated by any study model (holdout_access_log.jsonl).",
+  "date": "2026-10-15",
+  "evidence": {
+    "cornet_s_V4": "configural set 80 of 256 channels (31%); pilot: configural lesion took grid-control accuracy to 0.069 (floor)",
+    "resnet50_swsl_layer3": "configural set 60 channels, damage 0.246 (random size-matched sets rarely reached it); pilot CR intact 0.542, after configural lesion 0.690, random 0.583 [0.475, 0.698]"
+  },
+  "holdout_fingerprint": "91de2ec2b23333075e1b51e5157cd1975f1ba1ccff578cb13f56ba9cca8c86bf",
+  "id": "A1",
+  "new_rule": {
+    "configural_test": "one-sided category-stratified bootstrap over localizer objects, 10000 resamples, p = (1 + #{I_CR_boot <= 0}) / (1 + 10000); Benjamini-Hochberg q = 0.05; set bounded to 1-40% of site channels as before",
+    "dose_response": "top channels by I_CR",
+    "local_set": "channels with I_CR <= site median, ranked by local score P_scr - P_scr(-c) (unchanged), size chosen to match the configural set's damage",
+    "primary_score": "I_CR(c) = CR_p(intact) - CR_p(channel c zero-ablated); positive = removing c lowers configural reliance",
+    "primary_site": "reliable site with the largest summed I_CR over its configural set",
+    "probability_cr": "CR_p = 1 - (Pbar_scr - 1/16) / (Pbar_grid - 1/16); Pbar = mean over localizer objects of true-category probability (16-way), scrambles averaged within object first",
+    "reliability": "split-half Spearman of I_CR between calibration halves, Spearman-Brown corrected, >= 0.7 (unchanged rule, new score)",
+    "unchanged": "unit definition, zero ablation, damage definition, random size- and damage-matched controls (including the 100-closest fallback), selective set, all hypotheses, measures and statistics on the hold-out set"
+  },
+  "reason": "The absolute score subtracts probability drops on scrambled from drops on intact objects. Intact objects start from a higher probability, so a channel that lowers both by the same proportion scores positive. The score therefore favoured generally important channels. The plan's stated principle is selection by causal effect on configural reliance; the new score measures exactly that, in the same form as the primary outcome CR. The same baseline confound led to CR replacing the absolute loss at the model level.",
+  "replaces": {
+    "configural_test": "one-sided one-sample t-test of per-object I_conf across localizer objects",
+    "primary_score": "I_conf(c) = [P_grid - P_grid(-c)] - [P_scr - P_scr(-c)]"
+  },
+  "sections_affected": [
+    "Unit localisation: primary score and configural-set test",
+    "Lesion protocol: every ranking that used I_conf (local-set eligibility, dose-response, primary site)"
+  ]
+}
