@@ -190,6 +190,7 @@ Six design changes were made before this plan, all on calibration data and all l
 
 | Date | Change | Reason | Data seen before the change |
 | --- | --- | --- | --- |
+| 15 Oct 2026 (after A1) | Implementation correction to A1: 16-way probabilities renormalised to sum to 1 (category averages divided by their total), so chance is 1/16 as A1 assumes; decisions unchanged | Averaged softmax values are not a 16-way distribution and fall below 1/16, so CR\_p was undefined at every site | None under A1: the first run returned no scores or sets |
 | 15 Oct 2026 (after freeze) | Amendment A1: unit score changed from absolute probability differences to the channel's effect on configural reliance (I\_CR), tested by object bootstrap; the only revision to unit selection | The absolute score favoured generally important channels; the configural lesion raised CR in the pilot (ResNet-50 SWSL 0.542 to 0.690) and removed all recognition in CORnet-S | Stage 3 calibration scores, sets and pilot; hold-out untouched |
 | 15 Oct 2026 | CLIP reloaded with its matching activation (QuickGELU) and Stage 2 rerun | Loader bug; selection unchanged | Stage 2 calibration results |
 | 15 Oct 2026 | Configural reliance (CR) made primary; absolute loss kept as secondary | Absolute losses are capped by control accuracy | Stage 2 calibration results |
