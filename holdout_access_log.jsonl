@@ -1,0 +1,3 @@
+{"time": "2026-10-15 11:56:36", "model": "bagnet9", "n_images": 11928, "script": "/usr/local/lib/python3.13/dist-packages/colab_kernel_launcher.py"}
+{"time": "2026-10-15 11:58:01", "model": "bagnet17", "n_images": 11928, "script": "/usr/local/lib/python3.13/dist-packages/colab_kernel_launcher.py"}
+{"time": "2026-10-15 11:59:23", "model": "bagnet33", "n_images": 11928, "script": "/usr/local/lib/python3.13/dist-packages/colab_kernel_launcher.py"}

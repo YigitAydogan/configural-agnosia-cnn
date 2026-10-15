@@ -1,0 +1,90 @@
+{
+  "created": "2026-10-15 11:56:31",
+  "fingerprint": "91de2ec2b23333075e1b51e5157cd1975f1ba1ccff578cb13f56ba9cca8c86bf",
+  "n_images": 26796,
+  "manifest_sha256": "cd0fc8d9103fc8059a04c293413dd40faa0ef656de36d65ab3f0048fc91fa009",
+  "frozen_design": {
+    "GAP_H": 6,
+    "GAP_G": 12,
+    "GRID": 3,
+    "N_SCRAMBLE": 3,
+    "MIN_PIECE_PX": 40,
+    "MIN_MANIP_STRENGTH": 0.1,
+    "JPEG_QUALITY": 95,
+    "TARGET_SIDE": 176,
+    "NAVON_LETTERS": [
+      "E",
+      "H",
+      "L",
+      "O",
+      "T",
+      "X"
+    ],
+    "N_NAVON": 10,
+    "N_OVERLAP_PAIRS": 320,
+    "OVERLAP_LINE_PX": 2
+  },
+  "frozen_design_hash": "8b207b127a64",
+  "selection": {
+    "N_PER_CAT": 100,
+    "SPLITS": [
+      "val2017",
+      "train2017"
+    ],
+    "MIN_AREA_FRAC": 0.05,
+    "MIN_AREA_FRAC_FALLBACK": 0.01,
+    "MIN_SIDE": 96,
+    "BORDER": 4,
+    "MAX_OCCLUSION": 0.1,
+    "MIN_LCC": 0.97,
+    "MIN_FILL": 0.15
+  },
+  "exclusion": "every COCO image containing a calibration object is excluded; no image appears twice",
+  "n_textured_sources_per_category": {
+    "airplane": 100,
+    "bear": 100,
+    "bicycle": 100,
+    "bird": 100,
+    "boat": 100,
+    "bottle": 100,
+    "car": 100,
+    "cat": 100,
+    "chair": 100,
+    "clock": 100,
+    "dog": 100,
+    "elephant": 100,
+    "keyboard": 100,
+    "knife": 0,
+    "oven": 100,
+    "truck": 100
+  },
+  "categories_below_min": [
+    "knife"
+  ],
+  "weighting_rule": {
+    "primary": "category-balanced",
+    "min_sources_per_category": 20
+  },
+  "replication_criteria": {
+    "MODELS": [
+      "bagnet9",
+      "bagnet17",
+      "bagnet33"
+    ],
+    "PRIMARY": "bagnet33",
+    "EQ_BOUND": 0.05,
+    "FLOOR_MULT": 2.0,
+    "N_BOOT": 10000,
+    "BATCH": 128,
+    "calibration_reference": {
+      "frankenstein_gap6": 0.011,
+      "scramble_gap12": 0.026
+    }
+  },
+  "design_history": [
+    "v1: binary silhouettes only; local-only control (BagNet-33) at chance, so the behavioural check was uninformative",
+    "v2: textured COCO objects added; Frankenstein passed; grid scramble at 6 px failed the +-0.05 bound (BagNet-33 drop 0.054 [0.041, 0.068])",
+    "1b: gap-width sensitivity with a pre-specified rule selected 12 px (BagNet-33 drop 0.026 [0.015, 0.038])",
+    "1c: design frozen; hold-out generated with disjoint images; lock enabled"
+  ]
+}

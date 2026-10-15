@@ -1,0 +1,122 @@
+{
+  "plan": {
+    "title": "Configural lesions in deep networks: analysis plan",
+    "document": "https://claude.ai/code/artifact/e8f3284a-df70-449b-b61d-ece24f47777d",
+    "version": 1,
+    "data": {
+      "unit_selection_split": "calibration localizer half",
+      "reliability_split": "calibration test half",
+      "confirmatory_set": "hold-out",
+      "holdout_categories_excluded": [
+        "knife"
+      ],
+      "weighting": "category-balanced; categories with fewer than 20 hold-out objects excluded from primary means",
+      "min_manip_strength": 0.1
+    },
+    "stimuli": {
+      "frankenstein_gap_px": 6,
+      "grid_gap_px": 12,
+      "grid": 3,
+      "n_scramble": 3,
+      "rendering_primary": "texture"
+    },
+    "models": {
+      "primary": "resnet50_swsl",
+      "secondary": "cornet_s",
+      "local_reference": "bagnet33",
+      "sites": {
+        "resnet50_swsl": [
+          "layer1",
+          "layer2",
+          "layer3",
+          "layer4"
+        ],
+        "cornet_s": [
+          "V1",
+          "V2",
+          "V4",
+          "IT"
+        ]
+      }
+    },
+    "measures": {
+      "primary": "configural reliance CR = (A_grid - A_scr) / (A_grid - 1/16)",
+      "secondary": [
+        "absolute scramble loss A_grid - A_scr"
+      ],
+      "floor_rule": "CR not computed if lower 95% bound of A_grid < 0.125; reported as floor, counts as not supporting",
+      "score_probability": "mean probability of the true category (16-way)"
+    },
+    "units": {
+      "unit": "channel at a site, ablated across all spatial positions",
+      "primary_score": "I_conf(c) = [P_grid - P_grid(-c)] - [P_scr - P_scr(-c)], single-channel zero ablation",
+      "local_score": "P_scr - P_scr(-c)",
+      "reliability": "split-half Spearman, Spearman-Brown corrected, >= 0.7 for a site to be lesioned",
+      "configural_set": "channels with I_conf reliably > 0: one-sided test across localizer objects, Benjamini-Hochberg q = 0.05; bounded to 1-40% of site channels (top 1% or 40% if outside); no fixed fraction (Dobs et al. 20% has no stated rationale)",
+      "local_set": "from channels with I_conf <= site median, top channels by local score; size chosen so damage is closest to the configural set's",
+      "selective_set": "paired t-test grid > scrambled on spatially averaged response, Benjamini-Hochberg q = 0.05 (secondary)",
+      "primary_site": "reliable site with the largest summed I_conf over its configural set (localizer half)"
+    },
+    "lesions": {
+      "primary_method": "zero ablation",
+      "robustness_method": "mean ablation (channel mean over calibration images); robust only if both agree",
+      "random_size_matched": {
+        "n_sets": 100,
+        "seeded": true
+      },
+      "random_damage_matched": {
+        "n_sets": 100,
+        "pool": 10000,
+        "tolerance": 0.02,
+        "fallback": "100 closest"
+      },
+      "damage": "drop in grid-control accuracy on the calibration localizer half",
+      "dose_response": {
+        "fractions": [
+          0.01,
+          0.02,
+          0.05,
+          0.1,
+          0.2,
+          0.4
+        ],
+        "random_sets_per_size": 20
+      },
+      "other_sites": {
+        "set_rule": "same FDR rule as primary site",
+        "random_sets": 20
+      },
+      "exploratory": "progressive lesioning with retraining"
+    },
+    "probes": {
+      "type": "linear, L2 logistic regression on penultimate features",
+      "cv": "5-fold, grouped by object, on calibration features",
+      "control_task": "labels shuffled at object level; selectivity = task - control accuracy",
+      "retrained_per_lesion": true
+    },
+    "hypotheses": {
+      "H1": "CR(model) - CR(BagNet-33): lower 95% bound > 0",
+      "H2": "dCR(config) - mean dCR(random), size- and damage-matched: both upper bounds < 0; and dCR(config) below 5th percentile of the 100 damage-matched random lesions",
+      "H3": "dCR(config) - dCR(local): upper bound < 0",
+      "H4": "hue and scrambled-category probe drops, config minus damage-matched random: upper bound < 0.05",
+      "H5": "JS distance to BagNet-33 errors falls more than after damage-matched random lesions",
+      "H6": "edge minus silhouette accuracy falls more than after damage-matched random lesions",
+      "H7": "multi-label overlap cost rises more than after damage-matched random lesions"
+    },
+    "statistics": {
+      "bootstrap": "category-stratified cluster bootstrap over objects, 10000 resamples, percentile intervals, conditions resampled jointly",
+      "multiplicity": "Holm within family: primary H1-H3 x 2 models (6 tests); secondary H4-H7 x 2 models (8 tests); family-wise 0.05",
+      "margin": 0.05,
+      "scope": "primary model decides headline; 'general' only if both models support",
+      "sensitivity": [
+        "mean ablation",
+        "absolute scramble loss",
+        "source-weighted means",
+        "all secondary sites"
+      ]
+    }
+  },
+  "plan_sha256": "dc1a1b0e80b41dc3488c14bed7f96e4df281525eb112352a8533363360c48c6c",
+  "holdout_fingerprint": "91de2ec2b23333075e1b51e5157cd1975f1ba1ccff578cb13f56ba9cca8c86bf",
+  "frozen_at": "2026-10-15 13:07:24"
+}
