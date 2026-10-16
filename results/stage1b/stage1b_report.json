@@ -1,0 +1,37 @@
+{
+  "config": {
+    "GAPS": [
+      6,
+      12,
+      18,
+      24
+    ],
+    "GRID": 3,
+    "N_SCRAMBLE": 3,
+    "MIN_PIECE_PX": 40,
+    "MIN_MANIP_STRENGTH": 0.1,
+    "JPEG_QUALITY": 95,
+    "MODELS": [
+      "bagnet9",
+      "bagnet17",
+      "bagnet33",
+      "resnet50"
+    ],
+    "LOCAL_REF": "bagnet33",
+    "HEADROOM_MODEL": "resnet50",
+    "N_BOOT": 10000,
+    "EQ_BOUND": 0.05,
+    "FLOOR_MULT": 2.0,
+    "BATCH": 128
+  },
+  "verdict": {
+    "status": "PASS",
+    "rule": "equivalence at smallest qualifying gap",
+    "primary_gap": 12,
+    "primary_metric": "raw drop (local-only control equivalent at this gap)"
+  },
+  "stage1_reference": {
+    "bagnet33_gap6_drop": 0.054,
+    "resnet50_gap6_drop": 0.293
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "config": {
+    "MODELS": [
+      "resnet50_swsl",
+      "cornet_s"
+    ],
+    "PROFILE_MODELS": [
+      "bagnet9",
+      "bagnet17",
+      "bagnet33",
+      "resnet50",
+      "resnet50_sin",
+      "dino_resnet50",
+      "resnet50_adv",
+      "resnet50_swsl",
+      "convnext_t",
+      "cornet_s",
+      "vit_b16",
+      "clip_vitb16"
+    ],
+    "MIN_STRENGTH": 0.1,
+    "EXCLUDED": [
+      "knife"
+    ],
+    "MIN_OBJECTS_PER_CATEGORY": 20,
+    "ANIMATE": [
+      "bear",
+      "bird",
+      "cat",
+      "dog",
+      "elephant"
+    ],
+    "N_RANDOM": 20,
+    "LAMBDAS": [
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1.0
+    ],
+    "N_FOLDS": 5,
+    "LBFGS_ITERS": 150,
+    "N_BOOT": 10000,
+    "BATCH": 128,
+    "CHUNK": 8
+  },
+  "lesion_sets_sha256": "9bb05eb1ee8729786246ff80f23575225c88f3271c4c6756a92525500c2fb904",
+  "letters": [
+    "E",
+    "H",
+    "L",
+    "O",
+    "T",
+    "X"
+  ],
+  "run_at": "2026-10-16 02:10:06"
+}

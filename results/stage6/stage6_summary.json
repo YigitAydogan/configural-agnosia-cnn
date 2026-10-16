@@ -1,0 +1,121 @@
+{
+  "plan_sha256": "dc1a1b0e80b41dc3488c14bed7f96e4df281525eb112352a8533363360c48c6c",
+  "lesion_sets_sha256": "9bb05eb1ee8729786246ff80f23575225c88f3271c4c6756a92525500c2fb904",
+  "holdout_fingerprint": "91de2ec2b23333075e1b51e5157cd1975f1ba1ccff578cb13f56ba9cca8c86bf",
+  "config": {
+    "MODELS": [
+      "resnet50_swsl",
+      "cornet_s"
+    ],
+    "REFERENCE": "bagnet33",
+    "MIN_STRENGTH": 0.1,
+    "EXCLUDED": [
+      "knife"
+    ],
+    "MIN_OBJECTS_PER_CATEGORY": 20,
+    "MARGIN": 0.05,
+    "N_HUE_BINS": 6,
+    "HUE_MIN_SAT": 0.2,
+    "HUE_MIN_PIXELS": 100,
+    "LAMBDAS": [
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1.0
+    ],
+    "N_FOLDS": 5,
+    "LBFGS_ITERS": 150,
+    "N_BOOT": 10000,
+    "ALPHA": 0.05,
+    "BATCH": 128,
+    "CHUNK": 8
+  },
+  "n_holdout_objects": 1421,
+  "n_hue_objects": 1357,
+  "n_pairs": 320,
+  "n_reference_pairs": 160,
+  "secondary_family": [
+    {
+      "model": "resnet50_swsl",
+      "hypothesis": "H4",
+      "p": 0.00019998000199980003,
+      "rule_met": true,
+      "p_holm": 0.0015998400159984002,
+      "supported": true,
+      "mean_ablation_rule": true,
+      "robust": true
+    },
+    {
+      "model": "resnet50_swsl",
+      "hypothesis": "H5",
+      "p": 0.00019998000199980003,
+      "rule_met": false,
+      "p_holm": 0.0015998400159984002,
+      "supported": false,
+      "mean_ablation_rule": true,
+      "robust": false
+    },
+    {
+      "model": "resnet50_swsl",
+      "hypothesis": "H6",
+      "p": 0.16198380161983802,
+      "rule_met": false,
+      "p_holm": 0.48595140485951405,
+      "supported": false,
+      "mean_ablation_rule": true,
+      "robust": false
+    },
+    {
+      "model": "resnet50_swsl",
+      "hypothesis": "H7",
+      "p": 0.8205179482051795,
+      "rule_met": false,
+      "p_holm": 0.8843115688431157,
+      "supported": false,
+      "mean_ablation_rule": true,
+      "robust": false
+    },
+    {
+      "model": "cornet_s",
+      "hypothesis": "H4",
+      "p": 0.00019998000199980003,
+      "rule_met": true,
+      "p_holm": 0.0015998400159984002,
+      "supported": true,
+      "mean_ablation_rule": true,
+      "robust": true
+    },
+    {
+      "model": "cornet_s",
+      "hypothesis": "H5",
+      "p": 0.00019998000199980003,
+      "rule_met": false,
+      "p_holm": 0.0015998400159984002,
+      "supported": false,
+      "mean_ablation_rule": true,
+      "robust": false
+    },
+    {
+      "model": "cornet_s",
+      "hypothesis": "H6",
+      "p": 0.00019998000199980003,
+      "rule_met": false,
+      "p_holm": 0.0015998400159984002,
+      "supported": false,
+      "mean_ablation_rule": false,
+      "robust": false
+    },
+    {
+      "model": "cornet_s",
+      "hypothesis": "H7",
+      "p": 0.44215578442155784,
+      "rule_met": false,
+      "p_holm": 0.8843115688431157,
+      "supported": false,
+      "mean_ablation_rule": false,
+      "robust": false
+    }
+  ],
+  "run_at": "2026-10-15 22:05:24"
+}

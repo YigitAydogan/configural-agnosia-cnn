@@ -1,0 +1,18 @@
+\begin{tabular}{lllrrr}
+\hline
+Model & Family & Role & Grid acc. & Scrambled acc. & CR [95\% CI] \\
+\hline
+BagNet-9 & local & control & 0.181 & 0.183 & -0.022 [-0.113, 0.057] \\
+BagNet-17 & local & control & 0.234 & 0.224 & 0.058 [-0.001, 0.112] \\
+BagNet-33 & local & control & 0.239 & 0.217 & 0.123 [0.068, 0.175] \\
+ResNet-50 & cnn & candidate & 0.330 & 0.162 & 0.629 [0.585, 0.670] \\
+ResNet-50 (SIN) & cnn & candidate & 0.205 & 0.102 & 0.719 [0.662, 0.770] \\
+ResNet-50 (DINO) & cnn & candidate & 0.299 & 0.200 & 0.420 [0.366, 0.472] \\
+ResNet-50 (adversarial) & cnn & candidate & 0.150 & 0.048 & 1.162 [1.066, 1.266] \\
+ResNet-50 (SWSL) & cnn & study (primary) & 0.427 & 0.225 & 0.553 [0.515, 0.590] \\
+ConvNeXt-T & cnn & candidate & 0.663 & 0.497 & 0.277 [0.248, 0.305] \\
+CORnet-S & recurrent & study (secondary) & 0.274 & 0.140 & 0.634 [0.589, 0.677] \\
+ViT-B/16 & transformer & candidate & 0.476 & 0.359 & 0.282 [0.244, 0.320] \\
+CLIP ViT-B/16 & transformer & candidate & 0.694 & 0.596 & 0.155 [0.129, 0.181] \\
+\hline
+\end{tabular}

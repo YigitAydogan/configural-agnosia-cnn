@@ -1,0 +1,17 @@
+model,ablation,analysis,contrast,estimate,lo,hi
+resnet50_swsl,zero,Navon,change in global advantage: configural minus mean random,-0.00016666646115481853,-0.0008333334699273109,0.0005000003147870302
+resnet50_swsl,zero,Navon,change in global advantage: configural minus local,0.0,0.0,0.0
+resnet50_swsl,zero,Frankenstein,change in frank cost: configural minus mean random,-0.012018371373414993,-0.019689422100782394,-0.004286248702555895
+resnet50_swsl,zero,Frankenstein,change in frank cost: configural minus local,-0.01653374545276165,-0.031914401799440384,-0.0011746605159714818
+resnet50_swsl,mean,Navon,change in global advantage: configural minus mean random,0.0009999993490055203,-0.0011666672071442008,0.004333332180976868
+resnet50_swsl,mean,Navon,change in global advantage: configural minus local,0.003333332249894738,0.0,0.009999996982514858
+resnet50_swsl,mean,Frankenstein,change in frank cost: configural minus mean random,0.005768336355686188,-0.006494473200291395,0.017897523939609528
+resnet50_swsl,mean,Frankenstein,change in frank cost: configural minus local,0.006481576710939407,-0.009345981292426586,0.022699803113937378
+cornet_s,zero,Navon,change in global advantage: configural minus mean random,-0.0010000000474974513,-0.002166667254641652,0.00016666689771227539
+cornet_s,zero,Navon,change in global advantage: configural minus local,-0.003333332249894738,-0.009999996982514858,0.0
+cornet_s,zero,Frankenstein,change in frank cost: configural minus mean random,-0.014934959821403027,-0.022640258073806763,-0.00737744988873601
+cornet_s,zero,Frankenstein,change in frank cost: configural minus local,-0.012429498136043549,-0.027919115498661995,0.0029513163026422262
+cornet_s,mean,Navon,change in global advantage: configural minus mean random,-0.00033333254395984113,-0.0023333332501351833,0.0016666688024997711
+cornet_s,mean,Navon,change in global advantage: configural minus local,0.0,0.0,0.0
+cornet_s,mean,Frankenstein,change in frank cost: configural minus mean random,-0.004613850265741348,-0.014771582558751106,0.005678047426044941
+cornet_s,mean,Frankenstein,change in frank cost: configural minus local,-0.01179712638258934,-0.02795415185391903,0.004337315913289785

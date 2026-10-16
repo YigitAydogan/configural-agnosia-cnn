@@ -1,0 +1,13 @@
+\begin{tabular}{lllrrl}
+\hline
+Model & Hypothesis & Contrast & Estimate [95\% CI] & $p_\mathrm{Holm}$ & Supported \\
+\hline
+ResNet-50 (SWSL) & H1 & CR(model) - CR(BagNet-33) & 0.431 [0.368, 0.498] & 0.0012 & yes \\
+ResNet-50 (SWSL) & H2 & configural lesion at floor & floor & 1.0000 & no \\
+ResNet-50 (SWSL) & H3 & configural lesion at floor & floor & 1.0000 & no \\
+CORnet-S & H1 & CR(model) - CR(BagNet-33) & 0.510 [0.445, 0.579] & 0.0012 & yes \\
+CORnet-S & H2 & $\Delta$CR(config) - mean $\Delta$CR(size-matched random) & -0.502 [-0.565, -0.439] & 0.0012 & yes \\
+CORnet-S & H2 & $\Delta$CR(config) - mean $\Delta$CR(damage-matched random) & -0.533 [-0.597, -0.470] & 0.0012 & yes \\
+CORnet-S & H3 & $\Delta$CR(config) - $\Delta$CR(local) & -0.836 [-0.924, -0.752] & 0.0012 & yes \\
+\hline
+\end{tabular}

@@ -1,0 +1,198 @@
+{
+  "counts": {
+    "airplane": 100,
+    "bear": 100,
+    "bicycle": 100,
+    "bird": 100,
+    "boat": 100,
+    "bottle": 100,
+    "car": 100,
+    "cat": 100,
+    "chair": 100,
+    "clock": 100,
+    "dog": 100,
+    "elephant": 100,
+    "keyboard": 100,
+    "knife": 0,
+    "oven": 100,
+    "truck": 100
+  },
+  "rejections": {
+    "airplane": {
+      "considered": 616,
+      "calibration_image": 11,
+      "small": 358,
+      "border": 122,
+      "occluded": 22,
+      "fragmented": 0,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 3
+    },
+    "bear": {
+      "considered": 346,
+      "calibration_image": 14,
+      "small": 115,
+      "border": 70,
+      "occluded": 38,
+      "fragmented": 6,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 3
+    },
+    "bicycle": {
+      "considered": 11320,
+      "calibration_image": 113,
+      "small": 8869,
+      "border": 942,
+      "occluded": 1219,
+      "fragmented": 38,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 39
+    },
+    "bird": {
+      "considered": 2569,
+      "calibration_image": 57,
+      "small": 2301,
+      "border": 47,
+      "occluded": 53,
+      "fragmented": 6,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 5
+    },
+    "boat": {
+      "considered": 3125,
+      "calibration_image": 61,
+      "small": 2638,
+      "border": 201,
+      "occluded": 96,
+      "fragmented": 1,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 28
+    },
+    "bottle": {
+      "considered": 34882,
+      "calibration_image": 484,
+      "small": 31974,
+      "border": 1071,
+      "occluded": 1118,
+      "fragmented": 2,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 133
+    },
+    "car": {
+      "considered": 22852,
+      "calibration_image": 362,
+      "small": 21012,
+      "border": 994,
+      "occluded": 301,
+      "fragmented": 7,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 76
+    },
+    "cat": {
+      "considered": 1168,
+      "calibration_image": 14,
+      "small": 303,
+      "border": 334,
+      "occluded": 412,
+      "fragmented": 2,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 3
+    },
+    "chair": {
+      "considered": 18791,
+      "calibration_image": 100,
+      "small": 16935,
+      "border": 1114,
+      "occluded": 503,
+      "fragmented": 4,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 35
+    },
+    "clock": {
+      "considered": 1492,
+      "calibration_image": 35,
+      "small": 1308,
+      "border": 25,
+      "occluded": 15,
+      "fragmented": 0,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 9
+    },
+    "dog": {
+      "considered": 1413,
+      "calibration_image": 19,
+      "small": 711,
+      "border": 288,
+      "occluded": 284,
+      "fragmented": 1,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 10
+    },
+    "elephant": {
+      "considered": 955,
+      "calibration_image": 22,
+      "small": 530,
+      "border": 155,
+      "occluded": 138,
+      "fragmented": 5,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 5
+    },
+    "keyboard": {
+      "considered": 3101,
+      "calibration_image": 79,
+      "small": 2091,
+      "border": 555,
+      "occluded": 221,
+      "fragmented": 4,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 51
+    },
+    "knife": {
+      "considered": 15972,
+      "calibration_image": 378,
+      "small": 14068,
+      "border": 810,
+      "occluded": 584,
+      "fragmented": 6,
+      "sparse": 1,
+      "excluded_qc": 0,
+      "duplicate_image": 125
+    },
+    "oven": {
+      "considered": 991,
+      "calibration_image": 16,
+      "small": 511,
+      "border": 259,
+      "occluded": 96,
+      "fragmented": 6,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 3
+    },
+    "truck": {
+      "considered": 1552,
+      "calibration_image": 53,
+      "small": 1116,
+      "border": 182,
+      "occluded": 83,
+      "fragmented": 4,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 14
+    }
+  }
+}

@@ -1,0 +1,5 @@
+model,hypothesis,zero_ablation_rule,mean_ablation_rule,robust
+resnet50_swsl,H2,False,True,False
+resnet50_swsl,H3,False,True,False
+cornet_s,H2,True,True,True
+cornet_s,H3,True,True,True

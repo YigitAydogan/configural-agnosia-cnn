@@ -1,0 +1,97 @@
+{
+  "by_family": {
+    "frankenstein": "REPLICATED",
+    "scramble": "REPLICATED"
+  },
+  "overall": "REPLICATED",
+  "table": [
+    {
+      "model": "bagnet9",
+      "family": "frankenstein",
+      "n_sources": 1253,
+      "ctrl_acc": 0.4309656823623304,
+      "ctrl_lo": 0.4038308060654429,
+      "ctrl_hi": 0.4581005586592179,
+      "drop": -0.0003990422984836393,
+      "drop_lo": -0.01077414205905826,
+      "drop_hi": 0.009577015163607342,
+      "drop_category_balanced": -0.0021527446813957916,
+      "floor_ok": true,
+      "decision": "equivalent"
+    },
+    {
+      "model": "bagnet9",
+      "family": "scramble",
+      "n_sources": 1421,
+      "ctrl_acc": 0.18789584799437017,
+      "ctrl_lo": 0.16748768472906403,
+      "ctrl_hi": 0.2083040112596763,
+      "drop": -0.0032840722495894874,
+      "drop_lo": -0.013605442176870744,
+      "drop_hi": 0.007037297677691771,
+      "drop_category_balanced": -0.0030771391777987133,
+      "floor_ok": true,
+      "decision": "equivalent"
+    },
+    {
+      "model": "bagnet17",
+      "family": "frankenstein",
+      "n_sources": 1253,
+      "ctrl_acc": 0.6336791699920191,
+      "ctrl_lo": 0.6065442936951316,
+      "ctrl_hi": 0.6600159616919393,
+      "drop": 0.008778930566640064,
+      "drop_lo": -0.0019952114924181963,
+      "drop_hi": 0.019553072625698324,
+      "drop_category_balanced": 0.0092576650764967,
+      "floor_ok": true,
+      "decision": "equivalent"
+    },
+    {
+      "model": "bagnet17",
+      "family": "scramble",
+      "n_sources": 1421,
+      "ctrl_acc": 0.23997185080928923,
+      "ctrl_lo": 0.21815622800844475,
+      "ctrl_hi": 0.2617874736101337,
+      "drop": 0.01032136992728126,
+      "drop_lo": 3.9025784715008175e-18,
+      "drop_hi": 0.020408163265306124,
+      "drop_category_balanced": 0.010165791382542363,
+      "floor_ok": true,
+      "decision": "equivalent"
+    },
+    {
+      "model": "bagnet33",
+      "family": "frankenstein",
+      "n_sources": 1253,
+      "ctrl_acc": 0.6336791699920191,
+      "ctrl_lo": 0.6073423782920989,
+      "ctrl_hi": 0.6600159616919393,
+      "drop": 0.008778930566640064,
+      "drop_lo": -0.0003990422984836393,
+      "drop_hi": 0.017956903431763767,
+      "drop_category_balanced": 0.007891849302977752,
+      "floor_ok": true,
+      "decision": "equivalent"
+    },
+    {
+      "model": "bagnet33",
+      "family": "scramble",
+      "n_sources": 1421,
+      "ctrl_acc": 0.247009148486981,
+      "ctrl_lo": 0.22448979591836735,
+      "ctrl_hi": 0.26952850105559467,
+      "drop": 0.022753929157870053,
+      "drop_lo": 0.012197982641332396,
+      "drop_hi": 0.03354445226366409,
+      "drop_category_balanced": 0.021962060405615505,
+      "floor_ok": true,
+      "decision": "equivalent"
+    }
+  ],
+  "calibration_reference": {
+    "frankenstein_gap6": 0.011,
+    "scramble_gap12": 0.026
+  }
+}

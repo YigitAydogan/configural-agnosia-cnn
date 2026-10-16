@@ -1,0 +1,165 @@
+{
+  "sets": "lesion_sets_A1.json",
+  "config": {
+    "N_OTHER": 200,
+    "N_ERF_IMAGES": 64,
+    "N_ATTR_IMAGES": 200,
+    "N_TOP_CHANNELS": 4,
+    "N_TOP_IMAGES": 3,
+    "N_BOOT": 10000,
+    "BATCH": 32,
+    "GRID": 3,
+    "ANIMATE": [
+      "bear",
+      "bird",
+      "cat",
+      "dog",
+      "elephant"
+    ],
+    "MIN_STRENGTH": 0.1
+  },
+  "top_channels": {
+    "resnet50_swsl": {
+      "site": "layer3",
+      "channels": [
+        685,
+        147,
+        118,
+        108
+      ],
+      "images": [
+        {
+          "channel": 685,
+          "object": "coco_692945",
+          "category": "knife"
+        },
+        {
+          "channel": 685,
+          "object": "coco_1123368",
+          "category": "oven"
+        },
+        {
+          "channel": 685,
+          "object": "coco_80583",
+          "category": "bottle"
+        },
+        {
+          "channel": 147,
+          "object": "coco_1979772",
+          "category": "oven"
+        },
+        {
+          "channel": 147,
+          "object": "coco_1121253",
+          "category": "oven"
+        },
+        {
+          "channel": 147,
+          "object": "coco_1931477",
+          "category": "chair"
+        },
+        {
+          "channel": 118,
+          "object": "coco_339227",
+          "category": "clock"
+        },
+        {
+          "channel": 118,
+          "object": "coco_336430",
+          "category": "clock"
+        },
+        {
+          "channel": 118,
+          "object": "coco_1117148",
+          "category": "keyboard"
+        },
+        {
+          "channel": 108,
+          "object": "coco_336430",
+          "category": "clock"
+        },
+        {
+          "channel": 108,
+          "object": "coco_338441",
+          "category": "clock"
+        },
+        {
+          "channel": 108,
+          "object": "coco_337936",
+          "category": "clock"
+        }
+      ]
+    },
+    "cornet_s": {
+      "site": "V4",
+      "channels": [
+        85,
+        235,
+        121,
+        204
+      ],
+      "images": [
+        {
+          "channel": 85,
+          "object": "coco_1943718",
+          "category": "chair"
+        },
+        {
+          "channel": 85,
+          "object": "coco_1979772",
+          "category": "oven"
+        },
+        {
+          "channel": 85,
+          "object": "coco_377950",
+          "category": "chair"
+        },
+        {
+          "channel": 235,
+          "object": "coco_587000",
+          "category": "bear"
+        },
+        {
+          "channel": 235,
+          "object": "coco_341538",
+          "category": "clock"
+        },
+        {
+          "channel": 235,
+          "object": "coco_338441",
+          "category": "clock"
+        },
+        {
+          "channel": 121,
+          "object": "coco_1123430",
+          "category": "oven"
+        },
+        {
+          "channel": 121,
+          "object": "coco_2093815",
+          "category": "bottle"
+        },
+        {
+          "channel": 121,
+          "object": "coco_1943718",
+          "category": "chair"
+        },
+        {
+          "channel": 204,
+          "object": "coco_373273",
+          "category": "chair"
+        },
+        {
+          "channel": 204,
+          "object": "coco_1126935",
+          "category": "oven"
+        },
+        {
+          "channel": 204,
+          "object": "coco_1117724",
+          "category": "keyboard"
+        }
+      ]
+    }
+  }
+}

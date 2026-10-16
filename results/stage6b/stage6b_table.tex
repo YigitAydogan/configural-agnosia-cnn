@@ -1,0 +1,16 @@
+\begin{tabular}{llrrrr}
+\hline
+Model & Condition & Network accuracy & Probe accuracy & Readout gap & Top-category share \\
+\hline
+ResNet-50 (SWSL) & intact & 0.428 & 0.790 & 0.363 & 0.458 \\
+ResNet-50 (SWSL) & configural, zero ablation & 0.107 & 0.786 & 0.679 & 0.951 \\
+ResNet-50 (SWSL) & configural, mean ablation & 0.384 & 0.780 & 0.396 & 0.469 \\
+ResNet-50 (SWSL) & random (damage-matched), zero ablation & 0.107 & 0.765 & 0.658 & 0.934 \\
+ResNet-50 (SWSL) & random (damage-matched), mean ablation & 0.373 & 0.774 & 0.401 & 0.446 \\
+CORnet-S & intact & 0.274 & 0.722 & 0.448 & 0.478 \\
+CORnet-S & configural, zero ablation & 0.172 & 0.693 & 0.521 & 0.509 \\
+CORnet-S & configural, mean ablation & 0.225 & 0.695 & 0.469 & 0.420 \\
+CORnet-S & random (damage-matched), zero ablation & 0.160 & 0.699 & 0.538 & 0.516 \\
+CORnet-S & random (damage-matched), mean ablation & 0.164 & 0.702 & 0.538 & 0.465 \\
+\hline
+\end{tabular}

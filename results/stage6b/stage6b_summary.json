@@ -1,0 +1,17 @@
+{
+  "verdicts": [
+    {
+      "model": "resnet50_swsl",
+      "P1": true,
+      "P2": false,
+      "P3": true
+    },
+    {
+      "model": "cornet_s",
+      "P1": false,
+      "P2": false,
+      "P3": true
+    }
+  ],
+  "run_at": "2026-10-15 22:15:32"
+}

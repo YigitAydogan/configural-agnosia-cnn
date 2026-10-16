@@ -1,0 +1,16 @@
+{
+  "sets": "lesion_sets_A1.json",
+  "config": {
+    "MIN_PIECES": 3,
+    "MIN_PIECE_PX": 40,
+    "N_PAIRS": 32,
+    "N_CHECK": 24,
+    "N_RANDOM": 10,
+    "N_BOOT": 10000,
+    "BATCH": 128,
+    "GRID": 3,
+    "MIN_STRENGTH": 0.1,
+    "REFERENCE": "bagnet33"
+  },
+  "n_objects": 747
+}

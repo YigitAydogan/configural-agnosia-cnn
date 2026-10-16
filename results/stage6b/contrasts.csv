@@ -1,0 +1,19 @@
+model,ablation,contrast,estimate,lo,hi
+resnet50_swsl,zero,"P1 top share, configural minus intact",0.49324485659599304,0.4696381986141205,0.5166891813278198
+resnet50_swsl,zero,"P1 concentration, configural minus intact",0.6332394182682037,0.6085384817793965,0.6569485552608967
+resnet50_swsl,zero,"P3 readout gap, configural minus intact",0.3167506158351898,0.28991034626960754,0.3436841070652008
+resnet50_swsl,mean,"P1 top share, configural minus intact",0.011313110589981079,-0.009259046986699104,0.03163481503725052
+resnet50_swsl,mean,"P1 concentration, configural minus intact",0.03591960668563843,0.018548186123371124,0.0535046949982643
+resnet50_swsl,mean,"P3 readout gap, configural minus intact",0.03379300236701965,0.014039523899555206,0.053168684244155884
+resnet50_swsl,zero vs mean,"P1 top share, zero minus mean ablation",0.48193174600601196,0.4580262005329132,0.5058777928352356
+resnet50_swsl,zero vs mean,"P1 concentration, zero minus mean ablation",0.5973198115825653,0.5722653789445757,0.6213537285104394
+resnet50_swsl,zero vs mean,"P3 readout gap, zero minus mean ablation",0.28295761346817017,0.257551908493042,0.3086166977882385
+cornet_s,zero,"P1 top share, configural minus intact",0.030657082796096802,-0.0008879644447006285,0.06200680881738663
+cornet_s,zero,"P1 concentration, configural minus intact",0.2738778591156006,0.2503905430436134,0.2948214814066887
+cornet_s,zero,"P3 readout gap, configural minus intact",0.07287019491195679,0.045756034553050995,0.1005646139383316
+cornet_s,mean,"P1 top share, configural minus intact",-0.05804198980331421,-0.08129926025867462,-0.034611620008945465
+cornet_s,mean,"P1 concentration, configural minus intact",0.09122878313064575,0.0711022138595581,0.11084970384836197
+cornet_s,mean,"P3 readout gap, configural minus intact",0.02131938934326172,-0.004658665508031845,0.046986859291791916
+cornet_s,zero vs mean,"P1 top share, zero minus mean ablation",0.08869907259941101,0.05732543766498566,0.11923693865537643
+cornet_s,zero vs mean,"P1 concentration, zero minus mean ablation",0.18264907598495483,0.16226090714335442,0.20145253017544745
+cornet_s,zero vs mean,"P3 readout gap, zero minus mean ablation",0.05155080556869507,0.02701037935912609,0.07604590058326721

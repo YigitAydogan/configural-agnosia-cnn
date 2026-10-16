@@ -1,0 +1,133 @@
+{
+  "plan_sha256": "dc1a1b0e80b41dc3488c14bed7f96e4df281525eb112352a8533363360c48c6c",
+  "amendment_sha256": "6dd4a7445862ba90f392a6028623abdf4d98340ada89fa8ff6f396bc5b814e9f",
+  "lesion_sets_sha256": "9bb05eb1ee8729786246ff80f23575225c88f3271c4c6756a92525500c2fb904",
+  "holdout_fingerprint": "91de2ec2b23333075e1b51e5157cd1975f1ba1ccff578cb13f56ba9cca8c86bf",
+  "n_objects": 1421,
+  "categories": [
+    "airplane",
+    "bear",
+    "bicycle",
+    "bird",
+    "boat",
+    "bottle",
+    "car",
+    "cat",
+    "chair",
+    "clock",
+    "dog",
+    "elephant",
+    "keyboard",
+    "oven",
+    "truck"
+  ],
+  "excluded_categories": [
+    "knife"
+  ],
+  "config": {
+    "MODELS": [
+      "resnet50_swsl",
+      "cornet_s"
+    ],
+    "REFERENCE": "bagnet33",
+    "MIN_STRENGTH": 0.1,
+    "EXCLUDED": [
+      "knife"
+    ],
+    "MIN_OBJECTS_PER_CATEGORY": 20,
+    "FLOOR": 0.125,
+    "N_BOOT": 10000,
+    "ALPHA": 0.05,
+    "BATCH": 128,
+    "MAX_SUFFIX_IMAGES": 1024,
+    "MAX_ELEMENTS": 400000000.0
+  },
+  "primary_family": [
+    {
+      "model": "resnet50_swsl",
+      "hypothesis": "H1",
+      "p": 0.00019998000199980003,
+      "rule_met": true,
+      "floor": false,
+      "p_holm": 0.0011998800119988001,
+      "supported": true
+    },
+    {
+      "model": "resnet50_swsl",
+      "hypothesis": "H2",
+      "p": 1.0,
+      "rule_met": false,
+      "floor": true,
+      "p_holm": 1.0,
+      "supported": false
+    },
+    {
+      "model": "resnet50_swsl",
+      "hypothesis": "H3",
+      "p": 1.0,
+      "rule_met": false,
+      "floor": true,
+      "p_holm": 1.0,
+      "supported": false
+    },
+    {
+      "model": "cornet_s",
+      "hypothesis": "H1",
+      "p": 0.00019998000199980003,
+      "rule_met": true,
+      "floor": false,
+      "p_holm": 0.0011998800119988001,
+      "supported": true
+    },
+    {
+      "model": "cornet_s",
+      "hypothesis": "H2",
+      "p": 0.00019998000199980003,
+      "rule_met": true,
+      "floor": false,
+      "p_holm": 0.0011998800119988001,
+      "supported": true
+    },
+    {
+      "model": "cornet_s",
+      "hypothesis": "H3",
+      "p": 0.00019998000199980003,
+      "rule_met": true,
+      "floor": false,
+      "p_holm": 0.0011998800119988001,
+      "supported": true
+    }
+  ],
+  "robustness": [
+    {
+      "model": "resnet50_swsl",
+      "hypothesis": "H2",
+      "zero_ablation_rule": false,
+      "mean_ablation_rule": true,
+      "robust": false
+    },
+    {
+      "model": "resnet50_swsl",
+      "hypothesis": "H3",
+      "zero_ablation_rule": false,
+      "mean_ablation_rule": true,
+      "robust": false
+    },
+    {
+      "model": "cornet_s",
+      "hypothesis": "H2",
+      "zero_ablation_rule": true,
+      "mean_ablation_rule": true,
+      "robust": true
+    },
+    {
+      "model": "cornet_s",
+      "hypothesis": "H3",
+      "zero_ablation_rule": true,
+      "mean_ablation_rule": true,
+      "robust": true
+    }
+  ],
+  "reference_CR": 0.12320854514837265,
+  "run_at": "2026-10-15 20:53:12"
+}

@@ -1,0 +1,7 @@
+model,hypothesis,p,rule_met,floor,p_holm,supported
+resnet50_swsl,H1,0.00019998000199980003,True,False,0.0011998800119988001,True
+resnet50_swsl,H2,1.0,False,True,1.0,False
+resnet50_swsl,H3,1.0,False,True,1.0,False
+cornet_s,H1,0.00019998000199980003,True,False,0.0011998800119988001,True
+cornet_s,H2,0.00019998000199980003,True,False,0.0011998800119988001,True
+cornet_s,H3,0.00019998000199980003,True,False,0.0011998800119988001,True

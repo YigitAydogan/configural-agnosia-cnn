@@ -1,0 +1,200 @@
+{
+  "counts": {
+    "airplane": 100,
+    "bear": 100,
+    "bicycle": 100,
+    "bird": 100,
+    "boat": 100,
+    "bottle": 100,
+    "car": 100,
+    "cat": 100,
+    "chair": 100,
+    "clock": 100,
+    "dog": 100,
+    "elephant": 100,
+    "keyboard": 100,
+    "knife": 99,
+    "oven": 100,
+    "truck": 100
+  },
+  "relaxed_pass": {
+    "airplane": 0,
+    "bear": 0,
+    "bicycle": 0,
+    "bird": 0,
+    "boat": 0,
+    "bottle": 19,
+    "car": 0,
+    "cat": 0,
+    "chair": 0,
+    "clock": 0,
+    "dog": 0,
+    "elephant": 0,
+    "keyboard": 0,
+    "knife": 79,
+    "oven": 0,
+    "truck": 0
+  },
+  "rejections": {
+    "airplane": {
+      "considered": 469,
+      "small": 270,
+      "border": 77,
+      "occluded": 17,
+      "fragmented": 1,
+      "sparse": 1,
+      "excluded_qc": 0,
+      "duplicate_image": 3
+    },
+    "bear": {
+      "considered": 273,
+      "small": 88,
+      "border": 42,
+      "occluded": 33,
+      "fragmented": 2,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 8
+    },
+    "bicycle": {
+      "considered": 5760,
+      "small": 4968,
+      "border": 329,
+      "occluded": 338,
+      "fragmented": 13,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 12
+    },
+    "bird": {
+      "considered": 1727,
+      "small": 1546,
+      "border": 33,
+      "occluded": 41,
+      "fragmented": 4,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 3
+    },
+    "boat": {
+      "considered": 2230,
+      "small": 1902,
+      "border": 145,
+      "occluded": 62,
+      "fragmented": 4,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 17
+    },
+    "bottle": {
+      "considered": 26518,
+      "small": 25358,
+      "border": 568,
+      "occluded": 421,
+      "fragmented": 1,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 70
+    },
+    "car": {
+      "considered": 16305,
+      "small": 15214,
+      "border": 702,
+      "occluded": 217,
+      "fragmented": 7,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 65
+    },
+    "cat": {
+      "considered": 959,
+      "small": 272,
+      "border": 269,
+      "occluded": 316,
+      "fragmented": 0,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 2
+    },
+    "chair": {
+      "considered": 12463,
+      "small": 11253,
+      "border": 711,
+      "occluded": 375,
+      "fragmented": 4,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 20
+    },
+    "clock": {
+      "considered": 1271,
+      "small": 1135,
+      "border": 18,
+      "occluded": 10,
+      "fragmented": 0,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 8
+    },
+    "dog": {
+      "considered": 969,
+      "small": 474,
+      "border": 198,
+      "occluded": 192,
+      "fragmented": 1,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 4
+    },
+    "elephant": {
+      "considered": 700,
+      "small": 383,
+      "border": 101,
+      "occluded": 104,
+      "fragmented": 3,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 9
+    },
+    "keyboard": {
+      "considered": 1716,
+      "small": 1211,
+      "border": 295,
+      "occluded": 100,
+      "fragmented": 2,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 8
+    },
+    "knife": {
+      "considered": 16150,
+      "small": 14581,
+      "border": 821,
+      "occluded": 594,
+      "fragmented": 7,
+      "sparse": 1,
+      "excluded_qc": 0,
+      "duplicate_image": 47
+    },
+    "oven": {
+      "considered": 777,
+      "small": 389,
+      "border": 213,
+      "occluded": 70,
+      "fragmented": 2,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 3
+    },
+    "truck": {
+      "considered": 1008,
+      "small": 715,
+      "border": 131,
+      "occluded": 39,
+      "fragmented": 4,
+      "sparse": 0,
+      "excluded_qc": 0,
+      "duplicate_image": 19
+    }
+  }
+}

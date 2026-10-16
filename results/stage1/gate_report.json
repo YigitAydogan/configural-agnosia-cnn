@@ -1,0 +1,440 @@
+{
+  "version": 2,
+  "config_hash": "2b626621d242",
+  "eq_bound": 0.05,
+  "primary_model": "bagnet33",
+  "verdict": {
+    "configural": {
+      "frankenstein": {
+        "status": "INCONCLUSIVE_FLOOR",
+        "by_set": {
+          "coco": {
+            "decision": "floor",
+            "floor_ok": false,
+            "ctrl_acc": 0.052,
+            "drop": -0.0026,
+            "ci": [
+              -0.0086,
+              0.003
+            ]
+          },
+          "geirhos": {
+            "decision": "floor",
+            "floor_ok": false,
+            "ctrl_acc": 0.032,
+            "drop": -0.008,
+            "ci": [
+              -0.032,
+              0.016
+            ]
+          },
+          "pooled": {
+            "decision": "floor",
+            "floor_ok": false,
+            "ctrl_acc": 0.05,
+            "drop": -0.0031,
+            "ci": [
+              -0.0089,
+              0.0024
+            ]
+          }
+        }
+      },
+      "scramble": {
+        "status": "INCONCLUSIVE_FLOOR",
+        "by_set": {
+          "coco": {
+            "decision": "floor",
+            "floor_ok": false,
+            "ctrl_acc": 0.064,
+            "drop": -0.0053,
+            "ci": [
+              -0.0112,
+              0.0008
+            ]
+          },
+          "geirhos": {
+            "decision": "floor",
+            "floor_ok": false,
+            "ctrl_acc": 0.064,
+            "drop": -0.0051,
+            "ci": [
+              -0.0268,
+              0.0153
+            ]
+          },
+          "pooled": {
+            "decision": "floor",
+            "floor_ok": false,
+            "ctrl_acc": 0.064,
+            "drop": -0.0053,
+            "ci": [
+              -0.011,
+              0.0004
+            ]
+          }
+        }
+      },
+      "resnet50_headroom": {
+        "frankenstein": {
+          "ctrl_acc": 0.281,
+          "drop": 0.043,
+          "ci": [
+            0.0297,
+            0.0563
+          ],
+          "drop_sig": true
+        },
+        "scramble": {
+          "ctrl_acc": 0.09,
+          "drop": 0.0291,
+          "ci": [
+            0.0197,
+            0.0387
+          ],
+          "drop_sig": true
+        },
+        "cut_cost_H": {
+          "ctrl_acc": 0.335,
+          "drop": 0.0421,
+          "ci": [
+            0.0244,
+            0.0591
+          ],
+          "drop_sig": true
+        },
+        "cut_cost_grid": {
+          "ctrl_acc": 0.335,
+          "drop": 0.2393,
+          "ci": [
+            0.2149,
+            0.2638
+          ],
+          "drop_sig": true
+        }
+      }
+    },
+    "configural_tex": {
+      "frankenstein": {
+        "status": "PASS",
+        "by_set": {
+          "coco": {
+            "decision": "equivalent",
+            "floor_ok": true,
+            "ctrl_acc": 0.617,
+            "drop": 0.0108,
+            "ci": [
+              0.0015,
+              0.0198
+            ]
+          }
+        }
+      },
+      "scramble": {
+        "status": "FAIL",
+        "by_set": {
+          "coco": {
+            "decision": "non-equivalent",
+            "floor_ok": true,
+            "ctrl_acc": 0.408,
+            "drop": 0.0543,
+            "ci": [
+              0.041,
+              0.0681
+            ]
+          }
+        }
+      },
+      "resnet50_headroom": {
+        "frankenstein": {
+          "ctrl_acc": 0.802,
+          "drop": 0.0336,
+          "ci": [
+            0.0201,
+            0.0474
+          ],
+          "drop_sig": true
+        },
+        "scramble": {
+          "ctrl_acc": 0.596,
+          "drop": 0.2925,
+          "ci": [
+            0.2698,
+            0.3149
+          ],
+          "drop_sig": true
+        },
+        "cut_cost_H": {
+          "ctrl_acc": 0.84,
+          "drop": 0.0294,
+          "ci": [
+            0.0144,
+            0.0444
+          ],
+          "drop_sig": true
+        },
+        "cut_cost_grid": {
+          "ctrl_acc": 0.84,
+          "drop": 0.2452,
+          "ci": [
+            0.222,
+            0.2689
+          ],
+          "drop_sig": true
+        }
+      }
+    },
+    "primary_battery": "configural_tex",
+    "silhouette_local_equivalence": "ANALYTIC_PASS",
+    "overall": "NOT PASSED"
+  },
+  "sensitivity_min_cell_px": 48,
+  "verdict_sensitivity": {
+    "configural": {
+      "frankenstein": {
+        "status": "INCONCLUSIVE_FLOOR",
+        "by_set": {
+          "coco": {
+            "decision": "floor",
+            "floor_ok": false,
+            "ctrl_acc": 0.104,
+            "drop": -0.0043,
+            "ci": [
+              -0.0203,
+              0.0101
+            ]
+          },
+          "geirhos": {
+            "decision": "floor",
+            "floor_ok": false,
+            "ctrl_acc": 0.042,
+            "drop": -0.0105,
+            "ci": [
+              -0.0421,
+              0.0211
+            ]
+          },
+          "pooled": {
+            "decision": "floor",
+            "floor_ok": false,
+            "ctrl_acc": 0.091,
+            "drop": -0.0057,
+            "ci": [
+              -0.0205,
+              0.008
+            ]
+          }
+        }
+      },
+      "scramble": {
+        "status": "INCONCLUSIVE_FLOOR",
+        "by_set": {
+          "coco": {
+            "decision": "floor",
+            "floor_ok": false,
+            "ctrl_acc": 0.157,
+            "drop": -0.0009,
+            "ci": [
+              -0.0169,
+              0.0155
+            ]
+          },
+          "geirhos": {
+            "decision": "floor",
+            "floor_ok": false,
+            "ctrl_acc": 0.078,
+            "drop": -0.0052,
+            "ci": [
+              -0.0345,
+              0.0207
+            ]
+          },
+          "pooled": {
+            "decision": "floor",
+            "floor_ok": false,
+            "ctrl_acc": 0.141,
+            "drop": -0.0018,
+            "ci": [
+              -0.0159,
+              0.0123
+            ]
+          }
+        }
+      },
+      "resnet50_headroom": {
+        "frankenstein": {
+          "ctrl_acc": 0.275,
+          "drop": 0.0307,
+          "ci": [
+            0.0045,
+            0.0568
+          ],
+          "drop_sig": true
+        },
+        "scramble": {
+          "ctrl_acc": 0.148,
+          "drop": 0.0032,
+          "ci": [
+            -0.0101,
+            0.0169
+          ],
+          "drop_sig": false
+        },
+        "cut_cost_H": {
+          "ctrl_acc": 0.319,
+          "drop": 0.0194,
+          "ci": [
+            -0.0158,
+            0.0546
+          ],
+          "drop_sig": false
+        },
+        "cut_cost_grid": {
+          "ctrl_acc": 0.319,
+          "drop": 0.162,
+          "ci": [
+            0.1127,
+            0.2113
+          ],
+          "drop_sig": true
+        }
+      }
+    },
+    "configural_tex": {
+      "frankenstein": {
+        "status": "PASS",
+        "by_set": {
+          "coco": {
+            "decision": "equivalent",
+            "floor_ok": true,
+            "ctrl_acc": 0.733,
+            "drop": 0.0116,
+            "ci": [
+              -0.0058,
+              0.0304
+            ]
+          }
+        }
+      },
+      "scramble": {
+        "status": "FAIL",
+        "by_set": {
+          "coco": {
+            "decision": "non-equivalent",
+            "floor_ok": true,
+            "ctrl_acc": 0.608,
+            "drop": 0.06,
+            "ci": [
+              0.0372,
+              0.0843
+            ]
+          }
+        }
+      },
+      "resnet50_headroom": {
+        "frankenstein": {
+          "ctrl_acc": 0.846,
+          "drop": 0.0217,
+          "ci": [
+            0.0029,
+            0.0406
+          ],
+          "drop_sig": true
+        },
+        "scramble": {
+          "ctrl_acc": 0.736,
+          "drop": 0.3045,
+          "ci": [
+            0.2658,
+            0.344
+          ],
+          "drop_sig": true
+        },
+        "cut_cost_H": {
+          "ctrl_acc": 0.889,
+          "drop": 0.0311,
+          "ci": [
+            0.0089,
+            0.0533
+          ],
+          "drop_sig": true
+        },
+        "cut_cost_grid": {
+          "ctrl_acc": 0.889,
+          "drop": 0.1533,
+          "ci": [
+            0.1156,
+            0.1911
+          ],
+          "drop_sig": true
+        }
+      }
+    },
+    "primary_battery": "configural_tex",
+    "silhouette_local_equivalence": "ANALYTIC_PASS",
+    "overall": "NOT PASSED"
+  },
+  "lowlevel_flags": [],
+  "binarisation_sanity": {
+    "bagnet9": {
+      "original_silhouette_acc": 0.0938,
+      "binarised_intact_acc": 0.0625
+    },
+    "bagnet17": {
+      "original_silhouette_acc": 0.1562,
+      "binarised_intact_acc": 0.1437
+    },
+    "bagnet33": {
+      "original_silhouette_acc": 0.1625,
+      "binarised_intact_acc": 0.075
+    },
+    "resnet50": {
+      "original_silhouette_acc": 0.5437,
+      "binarised_intact_acc": 0.4938
+    }
+  },
+  "weak_manipulations_excluded": {
+    "configural/frank_bottom/coco": {
+      "excluded": 386,
+      "total": 1599
+    },
+    "configural/frank_bottom/geirhos": {
+      "excluded": 54,
+      "total": 160
+    },
+    "configural/frank_top/coco": {
+      "excluded": 452,
+      "total": 1599
+    },
+    "configural/frank_top/geirhos": {
+      "excluded": 47,
+      "total": 160
+    },
+    "configural/scrambled/coco": {
+      "excluded": 200,
+      "total": 7960
+    },
+    "configural/scrambled/geirhos": {
+      "excluded": 15,
+      "total": 800
+    },
+    "configural_tex/frank_bottom/coco": {
+      "excluded": 386,
+      "total": 1599
+    },
+    "configural_tex/frank_top/coco": {
+      "excluded": 452,
+      "total": 1599
+    },
+    "configural_tex/scrambled/coco": {
+      "excluded": 120,
+      "total": 4776
+    }
+  },
+  "n_sources": {
+    "configural/geirhos": 160,
+    "configural/coco": 1599,
+    "configural_tex/geirhos": 0,
+    "configural_tex/coco": 1599
+  }
+}

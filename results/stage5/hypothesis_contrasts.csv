@@ -1,0 +1,8 @@
+model,hypothesis,contrast,estimate,lo,hi,p_two_sided,rule_met,floor,n_random,n_random_used,random_mean_dCR,p_iut,random_5th_percentile,below_5th_percentile
+resnet50_swsl,H1,CR(model) - CR(BagNet-33),0.43101856112480164,0.368117243796587,0.4975916303694248,0.00019998000199980003,True,False,,,,,,
+resnet50_swsl,H2,configural lesion at floor,,,,1.0,False,True,,,,,,
+resnet50_swsl,H3,configural lesion at floor,,,,1.0,False,True,,,,,,
+cornet_s,H1,CR(model) - CR(BagNet-33),0.5104747414588928,0.444901081174612,0.5792715013027191,0.00019998000199980003,True,False,,,,,,
+cornet_s,H2,dCR(config) - mean dCR(size-matched random),-0.5017269849777222,-0.5648786842823028,-0.43869601264595987,0.00019998000199980003,True,False,100.0,52.0,-0.0662931501865387,0.00019998000199980003,,
+cornet_s,H2,dCR(config) - mean dCR(damage-matched random),-0.532591700553894,-0.5972341954708099,-0.46984139084815985,0.00019998000199980003,True,False,100.0,80.0,-0.0354284942150116,0.00019998000199980003,-0.3785626292228699,True
+cornet_s,H3,dCR(config) - dCR(local),-0.8358247876167297,-0.9237318843603134,-0.7520198926329613,0.00019998000199980003,True,False,,,,,,

@@ -1,0 +1,69 @@
+{
+  "config": {
+    "MODELS": [
+      "resnet50_swsl",
+      "cornet_s"
+    ],
+    "MIN_STRENGTH": 0.1,
+    "EXCLUDED": [
+      "knife"
+    ],
+    "MIN_OBJECTS_PER_CATEGORY": 20,
+    "STEPS": [
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "N_RANDOM_ORDERS": 3,
+    "REGIMES": [
+      "readout",
+      "downstream"
+    ],
+    "EPOCHS": 3,
+    "TRAIN_BATCH": 64,
+    "GRAD_CLIP": 1.0,
+    "DIVERGED_TRAIN_ACC": 0.5,
+    "LR": {
+      "readout": 0.001,
+      "downstream_body": 3e-05,
+      "downstream_head": 0.001
+    },
+    "SHIFT_PX": 16,
+    "N_BOOT": 10000,
+    "EVAL_BATCH": 128
+  },
+  "steps": {
+    "resnet50_swsl": {
+      "site": "layer3",
+      "n_channels": 1024,
+      "sizes": [
+        10,
+        20,
+        51,
+        102,
+        205,
+        224
+      ],
+      "a1_size": 224
+    },
+    "cornet_s": {
+      "site": "V4",
+      "n_channels": 256,
+      "sizes": [
+        3,
+        5,
+        13,
+        26,
+        51,
+        80
+      ],
+      "a1_size": 80
+    }
+  },
+  "lesion_sets_sha256": "9bb05eb1ee8729786246ff80f23575225c88f3271c4c6756a92525500c2fb904",
+  "n_train": 1599,
+  "n_test_objects": 1421,
+  "run_at": "2026-10-15 23:49:25"
+}

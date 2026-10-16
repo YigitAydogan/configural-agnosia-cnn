@@ -1,0 +1,81 @@
+model,regime,contrast,measure,seed,estimate,n_reference_tracks
+resnet50_swsl,readout,configural - no lesion,CR,1,-0.12172603607177734,1
+resnet50_swsl,readout,configural - no lesion,CR,2,-0.10191872715950012,1
+resnet50_swsl,readout,configural - no lesion,CR,3,-0.145979106426239,1
+resnet50_swsl,readout,configural - no lesion,CR,4,-0.1318565309047699,1
+resnet50_swsl,readout,configural - no lesion,CR,5,-0.1628512740135193,1
+resnet50_swsl,readout,configural - no lesion,grid accuracy,1,-0.019329726696014404,1
+resnet50_swsl,readout,configural - no lesion,grid accuracy,2,-0.015126705169677734,1
+resnet50_swsl,readout,configural - no lesion,grid accuracy,3,-0.06954824924468994,1
+resnet50_swsl,readout,configural - no lesion,grid accuracy,4,0.011710703372955322,1
+resnet50_swsl,readout,configural - no lesion,grid accuracy,5,-0.010314345359802246,1
+resnet50_swsl,readout,configural - mean random,CR,1,-0.1339784065882365,3
+resnet50_swsl,readout,configural - mean random,CR,2,-0.14020248254140216,3
+resnet50_swsl,readout,configural - mean random,CR,3,-0.14168782035509747,3
+resnet50_swsl,readout,configural - mean random,CR,4,-0.1576678951581319,3
+resnet50_swsl,readout,configural - mean random,CR,5,-0.1456511418024699,3
+resnet50_swsl,readout,configural - mean random,grid accuracy,1,0.03318306803703308,3
+resnet50_swsl,readout,configural - mean random,grid accuracy,2,0.023994286855061886,3
+resnet50_swsl,readout,configural - mean random,grid accuracy,3,-0.03459852933883667,3
+resnet50_swsl,readout,configural - mean random,grid accuracy,4,0.05227706829706824,3
+resnet50_swsl,readout,configural - mean random,grid accuracy,5,0.01281881332397461,3
+resnet50_swsl,downstream,configural - no lesion,CR,1,-0.15701782703399658,1
+resnet50_swsl,downstream,configural - no lesion,CR,2,-0.1905176043510437,1
+resnet50_swsl,downstream,configural - no lesion,CR,3,0.028106212615966797,1
+resnet50_swsl,downstream,configural - no lesion,CR,4,-0.22550323605537415,1
+resnet50_swsl,downstream,configural - no lesion,CR,5,-0.03461766242980957,1
+resnet50_swsl,downstream,configural - no lesion,grid accuracy,1,0.003934502601623535,1
+resnet50_swsl,downstream,configural - no lesion,grid accuracy,2,-0.0318264365196228,1
+resnet50_swsl,downstream,configural - no lesion,grid accuracy,3,-0.052247583866119385,1
+resnet50_swsl,downstream,configural - no lesion,grid accuracy,4,-0.014971375465393066,1
+resnet50_swsl,downstream,configural - no lesion,grid accuracy,5,-0.07725554704666138,1
+resnet50_swsl,downstream,configural - mean random,CR,1,-0.12565024693806964,3
+resnet50_swsl,downstream,configural - mean random,CR,2,-0.128932923078537,3
+resnet50_swsl,downstream,configural - mean random,CR,3,-0.027252882719039917,3
+resnet50_swsl,downstream,configural - mean random,CR,4,-0.21230343977610272,3
+resnet50_swsl,downstream,configural - mean random,CR,5,-0.04923487703005475,3
+resnet50_swsl,downstream,configural - mean random,grid accuracy,1,-0.0026999314626058313,3
+resnet50_swsl,downstream,configural - mean random,grid accuracy,2,0.016287048657735226,3
+resnet50_swsl,downstream,configural - mean random,grid accuracy,3,-0.02001134554545081,3
+resnet50_swsl,downstream,configural - mean random,grid accuracy,4,-0.0005626479784647254,3
+resnet50_swsl,downstream,configural - mean random,grid accuracy,5,0.01708911856015527,3
+cornet_s,readout,configural - no lesion,CR,1,-0.31184665858745575,1
+cornet_s,readout,configural - no lesion,CR,2,-0.35879963636398315,1
+cornet_s,readout,configural - no lesion,CR,3,-0.32878828048706055,1
+cornet_s,readout,configural - no lesion,CR,4,-0.3528162091970444,1
+cornet_s,readout,configural - no lesion,CR,5,-0.3146499842405319,1
+cornet_s,readout,configural - no lesion,grid accuracy,1,0.057924628257751465,1
+cornet_s,readout,configural - no lesion,grid accuracy,2,0.04230940341949463,1
+cornet_s,readout,configural - no lesion,grid accuracy,3,0.04076296091079712,1
+cornet_s,readout,configural - no lesion,grid accuracy,4,0.03780567646026611,1
+cornet_s,readout,configural - no lesion,grid accuracy,5,0.04065811634063721,1
+cornet_s,readout,configural - mean random,CR,1,-0.49137674272060394,3
+cornet_s,readout,configural - mean random,CR,2,-0.5389982064565023,3
+cornet_s,readout,configural - mean random,CR,3,-0.5009490152200063,3
+cornet_s,readout,configural - mean random,CR,4,-0.4972402503093084,3
+cornet_s,readout,configural - mean random,CR,5,-0.49505659441153205,3
+cornet_s,readout,configural - mean random,grid accuracy,1,0.20081291099389395,3
+cornet_s,readout,configural - mean random,grid accuracy,2,0.18946207563082376,3
+cornet_s,readout,configural - mean random,grid accuracy,3,0.19082745909690857,3
+cornet_s,readout,configural - mean random,grid accuracy,4,0.17452765504519147,3
+cornet_s,readout,configural - mean random,grid accuracy,5,0.18452227115631104,3
+cornet_s,downstream,configural - no lesion,CR,1,-0.11136424541473389,1
+cornet_s,downstream,configural - no lesion,CR,2,-0.1811956763267517,1
+cornet_s,downstream,configural - no lesion,CR,3,-0.2911551743745804,1
+cornet_s,downstream,configural - no lesion,CR,4,-0.15585502982139587,1
+cornet_s,downstream,configural - no lesion,CR,5,-0.28050315380096436,1
+cornet_s,downstream,configural - no lesion,grid accuracy,1,-0.11647564172744751,1
+cornet_s,downstream,configural - no lesion,grid accuracy,2,-0.07203522324562073,1
+cornet_s,downstream,configural - no lesion,grid accuracy,3,-0.02530992031097412,1
+cornet_s,downstream,configural - no lesion,grid accuracy,4,-0.002887338399887085,1
+cornet_s,downstream,configural - no lesion,grid accuracy,5,-0.08321624994277954,1
+cornet_s,downstream,configural - mean random,CR,1,-0.22111336390177405,3
+cornet_s,downstream,configural - mean random,CR,2,-0.2704475919405619,3
+cornet_s,downstream,configural - mean random,CR,3,-0.32165226836999256,3
+cornet_s,downstream,configural - mean random,CR,4,-0.14206798871358234,3
+cornet_s,downstream,configural - mean random,CR,5,-0.2587059537569682,3
+cornet_s,downstream,configural - mean random,grid accuracy,1,-0.05438801646232605,3
+cornet_s,downstream,configural - mean random,grid accuracy,2,0.04132583737373352,3
+cornet_s,downstream,configural - mean random,grid accuracy,3,0.028265664974848448,3
+cornet_s,downstream,configural - mean random,grid accuracy,4,0.0073233048121134625,3
+cornet_s,downstream,configural - mean random,grid accuracy,5,0.013268242279688536,3

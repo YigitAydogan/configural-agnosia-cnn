@@ -1,0 +1,18 @@
+family,model,hypothesis,contrast,estimate,lo,hi,floor,p_holm,supported,robust
+primary,resnet50_swsl,H1,CR(model) - CR(BagNet-33),0.4310185611248016,0.368117243796587,0.4975916303694248,False,0.0011998800119988,True,True
+primary,resnet50_swsl,H2,configural lesion at floor,,,,True,1.0,False,False
+primary,resnet50_swsl,H3,configural lesion at floor,,,,True,1.0,False,False
+primary,cornet_s,H1,CR(model) - CR(BagNet-33),0.5104747414588928,0.444901081174612,0.5792715013027191,False,0.0011998800119988,True,True
+primary,cornet_s,H2,dCR(config) - mean dCR(size-matched random),-0.5017269849777222,-0.5648786842823028,-0.4386960126459598,False,0.0011998800119988,True,True
+primary,cornet_s,H2,dCR(config) - mean dCR(damage-matched random),-0.532591700553894,-0.5972341954708099,-0.4698413908481598,False,0.0011998800119988,True,True
+primary,cornet_s,H3,dCR(config) - dCR(local),-0.8358247876167297,-0.9237318843603134,-0.7520198926329613,False,0.0011998800119988,True,True
+secondary,resnet50_swsl,H4,"hue probe drop, configural minus random",-0.0057007512077689,-0.0149271631380543,0.0035634856321848,False,0.0015998400159984,True,True
+secondary,resnet50_swsl,H4,"scrambled-category probe drop, configural minus random",-0.0075909569859504,-0.0177296135108917,0.002622641751077,False,0.0015998400159984,True,True
+secondary,resnet50_swsl,H5,"change in error distance to BagNet-33, configural minus random",0.5753563046455383,0.5518804714083672,0.5976574644446373,False,0.0015998400159984,False,False
+secondary,resnet50_swsl,H6,"change in edge minus silhouette accuracy, configural minus random",-0.0356875211000442,-0.085689065977931,0.013749973103404,False,0.485951404859514,False,False
+secondary,resnet50_swsl,H7,"change in overlap cost, configural minus random",0.0049114264547824,-0.0380037225782871,0.0480926947668194,False,0.8843115688431157,False,False
+secondary,cornet_s,H4,"hue probe drop, configural minus random",-0.0161859653890132,-0.0258576416410505,-0.0060797529062256,False,0.0015998400159984,True,True
+secondary,cornet_s,H4,"scrambled-category probe drop, configural minus random",-0.0097429063171148,-0.0223212835844606,0.0034073683898895,False,0.0015998400159984,True,True
+secondary,cornet_s,H5,"change in error distance to BagNet-33, configural minus random",0.2533107399940491,0.2329915158450603,0.26570640578866,False,0.0015998400159984,False,False
+secondary,cornet_s,H6,"change in edge minus silhouette accuracy, configural minus random",0.1700625121593475,0.1353124976158142,0.2026875019073486,False,0.0015998400159984,False,False
+secondary,cornet_s,H7,"change in overlap cost, configural minus random",0.0190609861165285,-0.0257194479461759,0.0639351265504956,False,0.8843115688431157,False,False

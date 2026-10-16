@@ -1,0 +1,23 @@
+\begin{tabular}{llp{6.2cm}rrll}
+\hline
+Model & H & Contrast & Estimate [95\% CI] & $p_\mathrm{Holm}$ & Supported & Robust \\
+\hline
+ResNet-50 (SWSL) & H1 & CR(model) - CR(BagNet-33) & 0.431 [0.368, 0.498] & 0.0012 & yes & yes \\
+ResNet-50 (SWSL) & H2 & configural lesion at floor & floor & 1.0000 & no & no \\
+ResNet-50 (SWSL) & H3 & configural lesion at floor & floor & 1.0000 & no & no \\
+CORnet-S & H1 & CR(model) - CR(BagNet-33) & 0.510 [0.445, 0.579] & 0.0012 & yes & yes \\
+CORnet-S & H2 & $\Delta$CR(config) - mean $\Delta$CR(size-matched random) & -0.502 [-0.565, -0.439] & 0.0012 & yes & yes \\
+CORnet-S & H2 & $\Delta$CR(config) - mean $\Delta$CR(damage-matched random) & -0.533 [-0.597, -0.470] & 0.0012 & yes & yes \\
+CORnet-S & H3 & $\Delta$CR(config) - $\Delta$CR(local) & -0.836 [-0.924, -0.752] & 0.0012 & yes & yes \\
+ResNet-50 (SWSL) & H4 & hue probe drop, configural minus random & -0.006 [-0.015, 0.004] & 0.0016 & yes & yes \\
+ResNet-50 (SWSL) & H4 & scrambled-category probe drop, configural minus random & -0.008 [-0.018, 0.003] & 0.0016 & yes & yes \\
+ResNet-50 (SWSL) & H5 & change in error distance to BagNet-33, configural minus random & 0.575 [0.552, 0.598] & 0.0016 & no & no \\
+ResNet-50 (SWSL) & H6 & change in edge minus silhouette accuracy, configural minus random & -0.036 [-0.086, 0.014] & 0.4860 & no & no \\
+ResNet-50 (SWSL) & H7 & change in overlap cost, configural minus random & 0.005 [-0.038, 0.048] & 0.8843 & no & no \\
+CORnet-S & H4 & hue probe drop, configural minus random & -0.016 [-0.026, -0.006] & 0.0016 & yes & yes \\
+CORnet-S & H4 & scrambled-category probe drop, configural minus random & -0.010 [-0.022, 0.003] & 0.0016 & yes & yes \\
+CORnet-S & H5 & change in error distance to BagNet-33, configural minus random & 0.253 [0.233, 0.266] & 0.0016 & no & no \\
+CORnet-S & H6 & change in edge minus silhouette accuracy, configural minus random & 0.170 [0.135, 0.203] & 0.0016 & no & no \\
+CORnet-S & H7 & change in overlap cost, configural minus random & 0.019 [-0.026, 0.064] & 0.8843 & no & no \\
+\hline
+\end{tabular}

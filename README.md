@@ -37,3 +37,17 @@ assert hashlib.sha256(body.encode()).hexdigest() == f["plan_sha256"]
 The hold-out fingerprint is a SHA-256 over the sorted relative paths in `holdout_manifest.csv`
 and the bytes of each image (`fingerprint_files` in `agnosia_common.py`). The images will be
 released with the paper.
+
+## Analysis code and results
+
+Added after the confirmatory analyses, in a separate commit; the preregistration releases
+(`preregistration-v1`, `-v1.1`, `-v1.2`) are unchanged.
+
+| Folder | Contents |
+| --- | --- |
+| `code/` | Every analysis script, in run order (`stage1_stimuli.py` to `stage9_final.py`), plus the plan freeze and the Figure 1 script. Each is a self-contained Colab cell that embeds `agnosia_common.py`. |
+| `results/` | All result tables (csv, json, tex) per analysis step. Large tables are gzipped (`.csv.gz`); `pandas.read_csv` reads them directly. |
+| `plan/deviations_after_freeze.md` | Every point fixed after the plan was frozen, and the exploratory analyses added (Table 1 of the paper). |
+
+Hold-out images are regenerated from COCO 2017 by `code/stage1c_holdout.py`; `holdout_manifest.csv`
+and the fingerprint function in `agnosia_common.py` verify that the regenerated set is identical.
