@@ -1,0 +1,73 @@
+{
+  "config": {
+    "MODEL": "resnet50",
+    "SITES": [
+      "layer1",
+      "layer2",
+      "layer3",
+      "layer4"
+    ],
+    "MIN_STRENGTH": 0.1,
+    "EXCLUDED": [
+      "knife"
+    ],
+    "MIN_OBJECTS_PER_CATEGORY": 20,
+    "FLOOR": 0.125,
+    "Q": 0.05,
+    "MIN_FRAC": 0.01,
+    "MAX_FRAC": 0.4,
+    "REL_THRESHOLD": 0.7,
+    "N_RANDOM_SIZE": 100,
+    "N_DAMAGE": 100,
+    "DAMAGE_POOL": 10000,
+    "DAMAGE_TOL": 0.02,
+    "N_BOOT": 10000,
+    "BATCH": 128,
+    "MAX_SUFFIX_IMAGES": 1024,
+    "MAX_ELEMENTS": 400000000.0
+  },
+  "sets_sha256": "d16d4516523d7de352dda994de8470065aa9f70ab9e10ee28bba5f1b27e6ecee",
+  "primary_site": "layer3",
+  "sites": {
+    "layer1": {
+      "n_channels": 256,
+      "reliable": true,
+      "spearman_brown": 0.9276064556238183,
+      "configural_rule": "57 FDR-significant channels",
+      "n_configural": 57,
+      "sum_I_CR": 0.538908473803106
+    },
+    "layer2": {
+      "n_channels": 512,
+      "reliable": true,
+      "spearman_brown": 0.9513550864083518,
+      "configural_rule": "121 FDR-significant channels",
+      "n_configural": 121,
+      "sum_I_CR": 0.7723955916152965
+    },
+    "layer3": {
+      "n_channels": 1024,
+      "reliable": true,
+      "spearman_brown": 0.9304997939848549,
+      "configural_rule": "215 FDR-significant channels",
+      "n_configural": 215,
+      "sum_I_CR": 0.9223043126935355
+    },
+    "layer4": {
+      "n_channels": 2048,
+      "reliable": true,
+      "spearman_brown": 0.9397510352164576,
+      "configural_rule": "503 FDR-significant channels",
+      "n_configural": 503,
+      "sum_I_CR": 0.45801980544839216
+    }
+  },
+  "n_planned": 215,
+  "n_matched": 406,
+  "damage": {
+    "planned": -0.013167450547084902,
+    "matched": 0.09200671589314055,
+    "target": 0.09190915135396521
+  },
+  "run_at": "2026-10-22 11:36:27"
+}

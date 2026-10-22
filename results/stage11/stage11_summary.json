@@ -1,0 +1,33 @@
+{
+  "config": {
+    "MODELS": [
+      "resnet50_swsl",
+      "cornet_s"
+    ],
+    "RESNET": "resnet50_swsl",
+    "CORNET": "cornet_s",
+    "MIN_STRENGTH": 0.1,
+    "EXCLUDED": [
+      "knife"
+    ],
+    "MIN_OBJECTS_PER_CATEGORY": 20,
+    "FLOOR": 0.125,
+    "N_SIZE": 100,
+    "N_DAMAGE": 100,
+    "DAMAGE_POOL": 10000,
+    "DAMAGE_TOL": 0.02,
+    "N_RANDOM_CUE": 20,
+    "MIN_DECIDED": 0.25,
+    "N_BOOT": 10000,
+    "BATCH": 128,
+    "MAX_SUFFIX_IMAGES": 1024,
+    "MAX_ELEMENTS": 400000000.0
+  },
+  "small_sets_sha256": "c110f3096b57a8f1995342ef3ca2a5a710381f7beb9d46ac8730bf396fc658a6",
+  "k": 31,
+  "target_damage": 0.09190915135396521,
+  "n_holdout_objects": 1421,
+  "n_cue_conflict": 1200,
+  "lesion_sets_sha256": "9bb05eb1ee8729786246ff80f23575225c88f3271c4c6756a92525500c2fb904",
+  "run_at": "2026-10-22 11:04:01"
+}

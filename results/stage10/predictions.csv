@@ -1,0 +1,37 @@
+model,prediction,ablation,estimate,lo,hi,rule,informative,held,note
+resnet50_swsl,P1 local minus random,zero,-0.00024460069835186005,-0.0008325884584337472,0.00037480294704437254,upper<0,False,,piece accuracy
+resnet50_swsl,P2 configural minus random,zero,-0.0011056941002607346,-0.0015267593320459128,-0.0006634705699980266,lower>-margin,False,,piece accuracy
+resnet50_swsl,P3 local minus configural,zero,0.0008610934019088745,0.00038889050483703613,0.0014073997735977173,upper<0,False,,piece accuracy
+resnet50_swsl,P1 local minus random,zero,-0.002749510109424591,-0.003448695386759937,-0.0020613424014300106,upper<0,True,True,piece probability (companion measure)
+resnet50_swsl,P2 configural minus random,zero,-0.0021991655230522156,-0.0025574214290827514,-0.0018296170979738237,lower>-margin,True,True,piece probability (companion measure)
+resnet50_swsl,P3 local minus configural,zero,-0.0005503445863723755,-0.0014699876308441162,0.00033258646726608255,upper<0,True,False,piece probability (companion measure)
+resnet50_swsl,P1 local minus random,mean,0.015901360660791397,0.013569774548523128,0.018299155216664077,upper<0,False,,piece accuracy
+resnet50_swsl,P2 configural minus random,mean,0.005514484830200672,0.002323365001939237,0.008665429148823022,lower>-margin,False,,piece accuracy
+resnet50_swsl,P3 local minus configural,mean,0.0103868767619133,0.006280243769288063,0.014580309949815273,upper<0,False,,piece accuracy
+resnet50_swsl,P1 local minus random,mean,0.012140179052948952,0.011146020400337875,0.013177183456718922,upper<0,True,False,piece probability (companion measure)
+resnet50_swsl,P2 configural minus random,mean,0.000439690425992012,-0.0012242599157616496,0.002106332033872604,lower>-margin,True,True,piece probability (companion measure)
+resnet50_swsl,P3 local minus configural,mean,0.01170048862695694,0.00943727307021618,0.013988895528018474,upper<0,True,False,piece probability (companion measure)
+resnet50_swsl,P4 corner loss over centre loss,none,0.9156084060668945,0.8499467670917511,0.9883352503180504,lower>0.5,True,True,intact network; uninformative if the centre loss itself includes 0
+resnet50_swsl,"P5 configural minus random, corner scramble loss",zero,-0.008906885981559753,-0.011679723858833313,-0.006198841705918313,upper<0,True,True,"absolute scramble loss, no floor rule"
+resnet50_swsl,"P5 configural minus random, corner scramble loss",mean,-0.04454926401376724,-0.052931612264364956,-0.036079405155032884,upper<0,True,True,"absolute scramble loss, no floor rule"
+resnet50_swsl,P6 configural: D zero minus D mean,zero vs mean,31.11809730529785,30.857768392562868,31.37441668510437,lower>0,True,True,
+resnet50_swsl,P6 local: D zero minus D mean,zero vs mean,-0.3794124722480774,-0.3983761966228485,-0.36107039600610735,lower>0,True,False,
+resnet50_swsl,P7 Spearman of D with top share,both,0.6002818886539817,0.5778717406624382,0.6339675828047922,lower>0,True,True,44 lesion conditions
+cornet_s,P1 local minus random,zero,-0.0070988573133945465,-0.009565288526937365,-0.004694758681580426,upper<0,False,,piece accuracy
+cornet_s,P2 configural minus random,zero,0.06113049015402794,0.05626920815557242,0.06591144241392613,lower>-margin,False,,piece accuracy
+cornet_s,P3 local minus configural,zero,-0.06822934746742249,-0.07355209682136774,-0.06277715526521206,upper<0,False,,piece accuracy
+cornet_s,P1 local minus random,zero,-0.005223125219345093,-0.006238015298731625,-0.004227560246363282,upper<0,True,True,piece probability (companion measure)
+cornet_s,P2 configural minus random,zero,0.04816653952002525,0.04563398603349924,0.050708824582397935,lower>-margin,True,True,piece probability (companion measure)
+cornet_s,P3 local minus configural,zero,-0.053389664739370346,-0.05627819523215294,-0.05047750286757947,upper<0,True,True,piece probability (companion measure)
+cornet_s,P1 local minus random,mean,0.016717933118343353,0.014197459444403648,0.019257083535194397,upper<0,False,,piece accuracy
+cornet_s,P2 configural minus random,mean,0.0630616843700409,0.05931924767792225,0.06671074293553829,lower>-margin,False,,piece accuracy
+cornet_s,P3 local minus configural,mean,-0.04634374752640724,-0.05105283297598362,-0.04171695252880454,upper<0,False,,piece accuracy
+cornet_s,P1 local minus random,mean,0.008233664557337761,0.007164667500182987,0.009272738639265298,upper<0,True,False,piece probability (companion measure)
+cornet_s,P2 configural minus random,mean,0.04153096675872803,0.03952073883265257,0.04357446376234293,lower>-margin,True,True,piece probability (companion measure)
+cornet_s,P3 local minus configural,mean,-0.03329730033874512,-0.03552269665524364,-0.031038515269756317,upper<0,True,True,piece probability (companion measure)
+cornet_s,P4 corner loss over centre loss,none,0.8610100746154785,0.7471297457814217,0.9986300036311149,lower>0.5,True,True,intact network; uninformative if the centre loss itself includes 0
+cornet_s,"P5 configural minus random, corner scramble loss",zero,-0.009658243507146835,-0.017522148601710797,-0.0016918345354497435,upper<0,True,True,"absolute scramble loss, no floor rule"
+cornet_s,"P5 configural minus random, corner scramble loss",mean,-0.017115850001573563,-0.02488353168591857,-0.009444329980760814,upper<0,True,True,"absolute scramble loss, no floor rule"
+cornet_s,P6 configural: D zero minus D mean,zero vs mean,1.3725727796554565,1.3488728731870652,1.3959072679281235,lower>0,True,True,
+cornet_s,P6 local: D zero minus D mean,zero vs mean,-0.029749155044555664,-0.03459039628505707,-0.024929693341255187,lower>0,True,False,
+cornet_s,P7 Spearman of D with top share,both,0.023960535588442564,-0.029883720930232553,0.08823114869626496,lower>0,True,False,44 lesion conditions

@@ -1,0 +1,34 @@
+{
+  "config": {
+    "MODELS": [
+      "resnet50_swsl",
+      "cornet_s"
+    ],
+    "MIN_STRENGTH": 0.1,
+    "EXCLUDED": [
+      "knife"
+    ],
+    "MIN_OBJECTS_PER_CATEGORY": 20,
+    "GRID": 3,
+    "MIN_PIECE_PX": 40,
+    "N_RANDOM": 20,
+    "SCALE": 0.7,
+    "CORNER_MARGIN": 4,
+    "FLOOR": 0.125,
+    "MARGIN": 0.05,
+    "N_BOOT": 10000,
+    "BATCH": 128,
+    "COND_CHUNK": 9
+  },
+  "n_objects": 1421,
+  "n_images_per_condition": 27684,
+  "lesion_sets_sha256": "9bb05eb1ee8729786246ff80f23575225c88f3271c4c6756a92525500c2fb904",
+  "positions": [
+    "centre",
+    "top left",
+    "top right",
+    "bottom left",
+    "bottom right"
+  ],
+  "run_at": "2026-10-22 10:49:18"
+}

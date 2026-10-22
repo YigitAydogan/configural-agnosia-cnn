@@ -1,0 +1,901 @@
+model,analysis,condition,measure,value,lo,hi,floor
+resnet50_swsl,single pieces,intact,piece accuracy,0.08621727675199509,0.08147864583879709,0.09090731665492058,
+resnet50_swsl,single pieces,intact,piece probability,0.08715029805898666,0.08356655444949865,0.09075928591191769,
+resnet50_swsl,single pieces,configural zero,piece accuracy,0.06675000488758087,0.06666665524244308,0.06691666692495346,
+resnet50_swsl,single pieces,configural zero,piece probability,0.06683091819286346,0.06672894880175591,0.0670107699930668,
+resnet50_swsl,single pieces,local zero,piece accuracy,0.06761109828948975,0.06712961941957474,0.06816666573286057,
+resnet50_swsl,single pieces,local zero,piece probability,0.06628057360649109,0.06534658893942832,0.06719720792025327,
+resnet50_swsl,single pieces,random 1 zero,piece accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,single pieces,random 1 zero,piece probability,0.06677548587322235,0.06672289967536926,0.06685272920876742,
+resnet50_swsl,single pieces,random 2 zero,piece accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,single pieces,random 2 zero,piece probability,0.0669102594256401,0.06683032922446727,0.06700292360037566,
+resnet50_swsl,single pieces,random 3 zero,piece accuracy,0.07534551620483398,0.07032100316137076,0.08023739699274302,
+resnet50_swsl,single pieces,random 3 zero,piece probability,0.07404010742902756,0.07163126207888126,0.07641337104141713,
+resnet50_swsl,single pieces,random 4 zero,piece accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,single pieces,random 4 zero,piece probability,0.0668160542845726,0.06661922466009855,0.06701408457010985,
+resnet50_swsl,single pieces,random 5 zero,piece accuracy,0.06666667014360428,0.06666664779186249,0.06666667014360428,
+resnet50_swsl,single pieces,random 5 zero,piece probability,0.0669681504368782,0.06684219837188721,0.06710853204131126,
+resnet50_swsl,single pieces,random 6 zero,piece accuracy,0.0667407438158989,0.06666665524244308,0.06688889116048813,
+resnet50_swsl,single pieces,random 6 zero,piece probability,0.06687293946743011,0.06675127875059843,0.06705075930804014,
+resnet50_swsl,single pieces,random 7 zero,piece accuracy,0.0667407363653183,0.06666664779186249,0.06688888370990753,
+resnet50_swsl,single pieces,random 7 zero,piece probability,0.0668088048696518,0.06670683603733778,0.06696399301290512,
+resnet50_swsl,single pieces,random 8 zero,piece accuracy,0.0678379088640213,0.06728703528642654,0.06844667941331864,
+resnet50_swsl,single pieces,random 8 zero,piece probability,0.07119328528642654,0.07035479228943586,0.07203200422227382,
+resnet50_swsl,single pieces,random 9 zero,piece accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,single pieces,random 9 zero,piece probability,0.06666860729455948,0.066667839884758,0.06666957587003708,
+resnet50_swsl,single pieces,random 10 zero,piece accuracy,0.06708855926990509,0.06674999743700027,0.06750375777482986,
+resnet50_swsl,single pieces,random 10 zero,piece probability,0.06943005323410034,0.06892879474908113,0.06994523592293263,
+resnet50_swsl,single pieces,random 11 zero,piece accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,single pieces,random 11 zero,piece probability,0.06680960208177567,0.06673072781413794,0.06691037882119417,
+resnet50_swsl,single pieces,random 12 zero,piece accuracy,0.06824710965156555,0.06756447162479162,0.06899328958243131,
+resnet50_swsl,single pieces,random 12 zero,piece probability,0.07481216639280319,0.07372853122651576,0.07588112484663725,
+resnet50_swsl,single pieces,random 13 zero,piece accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,single pieces,random 13 zero,piece probability,0.0683780089020729,0.06811464000493288,0.06863844636827707,
+resnet50_swsl,single pieces,random 14 zero,piece accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,single pieces,random 14 zero,piece probability,0.06683308631181717,0.06676567289978266,0.06692402847111226,
+resnet50_swsl,single pieces,random 15 zero,piece accuracy,0.07011020183563232,0.06883738096803427,0.07149832602590322,
+resnet50_swsl,single pieces,random 15 zero,piece probability,0.07359141111373901,0.07248060517013073,0.0747087737545371,
+resnet50_swsl,single pieces,random 16 zero,piece accuracy,0.06760184466838837,0.06712961941957474,0.06814812123775482,
+resnet50_swsl,single pieces,random 16 zero,piece probability,0.07450707256793976,0.07346507627516985,0.07554475404322147,
+resnet50_swsl,single pieces,random 17 zero,piece accuracy,0.06676384806632996,0.06666664779186249,0.06695821136236191,
+resnet50_swsl,single pieces,random 17 zero,piece probability,0.06678268313407898,0.06671281158924103,0.06690634842962026,
+resnet50_swsl,single pieces,random 18 zero,piece accuracy,0.06666667014360428,0.06666664779186249,0.06666667014360428,
+resnet50_swsl,single pieces,random 18 zero,piece probability,0.06676502525806427,0.06675181537866592,0.06677902508527041,
+resnet50_swsl,single pieces,random 19 zero,piece accuracy,0.07342269271612167,0.06957098376005888,0.07726811226457357,
+resnet50_swsl,single pieces,random 19 zero,piece probability,0.06934166699647903,0.06712718904018403,0.07151975240558386,
+resnet50_swsl,single pieces,random 20 zero,piece accuracy,0.06721486151218414,0.06683672219514847,0.06768814586102963,
+resnet50_swsl,single pieces,random 20 zero,piece probability,0.07029721885919571,0.06972471550107003,0.07093437630683183,
+resnet50_swsl,single pieces,configural mean,piece accuracy,0.07644159346818924,0.07423395868390799,0.07875429764389992,
+resnet50_swsl,single pieces,configural mean,piece probability,0.07454099506139755,0.07258998285979032,0.076514632999897,
+resnet50_swsl,single pieces,local mean,piece accuracy,0.08682847023010254,0.08233944065868855,0.09132324904203415,
+resnet50_swsl,single pieces,local mean,piece probability,0.08624148368835449,0.08294324893504382,0.08955873977392911,
+resnet50_swsl,single pieces,random 1 mean,piece accuracy,0.07654676586389542,0.0720465648919344,0.08117901887744665,
+resnet50_swsl,single pieces,random 1 mean,piece probability,0.07772357016801834,0.07487796675413846,0.08065710216760635,
+resnet50_swsl,single pieces,random 2 mean,piece accuracy,0.05219435691833496,0.04749932000413537,0.05685214987024665,
+resnet50_swsl,single pieces,random 2 mean,piece probability,0.05975882336497307,0.056272294744849204,0.06321304086595773,
+resnet50_swsl,single pieces,random 3 mean,piece accuracy,0.06823740899562836,0.0642221262678504,0.07221801988780499,
+resnet50_swsl,single pieces,random 3 mean,piece probability,0.07102827727794647,0.06806713473051787,0.07405670266598463,
+resnet50_swsl,single pieces,random 4 mean,piece accuracy,0.07157770544290543,0.06724952422082424,0.0759154487401247,
+resnet50_swsl,single pieces,random 4 mean,piece probability,0.0755004733800888,0.07267337255179881,0.07831958476454019,
+resnet50_swsl,single pieces,random 5 mean,piece accuracy,0.06020743399858475,0.0565300996415317,0.06389759574085474,
+resnet50_swsl,single pieces,random 5 mean,piece probability,0.06313083320856094,0.06074079042300582,0.06551154833287001,
+resnet50_swsl,single pieces,random 6 mean,piece accuracy,0.08350565284490585,0.07960587423294782,0.087465301156044,
+resnet50_swsl,single pieces,random 6 mean,piece probability,0.08445639163255692,0.08153527043759823,0.08739843498915434,
+resnet50_swsl,single pieces,random 7 mean,piece accuracy,0.06908982992172241,0.06520616002380848,0.07295985296368598,
+resnet50_swsl,single pieces,random 7 mean,piece probability,0.07143253087997437,0.06868552397936582,0.07415408324450254,
+resnet50_swsl,single pieces,random 8 mean,piece accuracy,0.06816978752613068,0.06369650643318892,0.07277483213692904,
+resnet50_swsl,single pieces,random 8 mean,piece probability,0.07299491763114929,0.070201132632792,0.07586784288287163,
+resnet50_swsl,single pieces,random 9 mean,piece accuracy,0.07613266259431839,0.07156531680375337,0.08056655097752809,
+resnet50_swsl,single pieces,random 9 mean,piece probability,0.0808820128440857,0.07762908264994621,0.08412034064531326,
+resnet50_swsl,single pieces,random 10 mean,piece accuracy,0.0718727558851242,0.06751726996153593,0.0762101836502552,
+resnet50_swsl,single pieces,random 10 mean,piece probability,0.07261329144239426,0.0699505116790533,0.07520981132984161,
+resnet50_swsl,single pieces,random 11 mean,piece accuracy,0.08440012484788895,0.08009570147842168,0.08860413264483213,
+resnet50_swsl,single pieces,random 11 mean,piece probability,0.08315156400203705,0.08025926128029823,0.08606010619550944,
+resnet50_swsl,single pieces,random 12 mean,piece accuracy,0.06225369870662689,0.05807194504886866,0.06641175411641598,
+resnet50_swsl,single pieces,random 12 mean,piece probability,0.0686630830168724,0.06567464955151081,0.0716473763808608,
+resnet50_swsl,single pieces,random 13 mean,piece accuracy,0.07552243769168854,0.07080109678208828,0.08011852130293846,
+resnet50_swsl,single pieces,random 13 mean,piece probability,0.07800298929214478,0.07491551712155342,0.08108795061707497,
+resnet50_swsl,single pieces,random 14 mean,piece accuracy,0.06767374277114868,0.06341306585818529,0.07198256310075521,
+resnet50_swsl,single pieces,random 14 mean,piece probability,0.07444235682487488,0.07164041250944138,0.07722174692898989,
+resnet50_swsl,single pieces,random 15 mean,piece accuracy,0.07690200209617615,0.07286325693130494,0.08087039105594158,
+resnet50_swsl,single pieces,random 15 mean,piece probability,0.08020062744617462,0.07736772578209639,0.08301535695791244,
+resnet50_swsl,single pieces,random 16 mean,piece accuracy,0.07689918577671051,0.0729643253609538,0.08086417987942696,
+resnet50_swsl,single pieces,random 16 mean,piece probability,0.07872464507818222,0.07579890601336955,0.08162282854318618,
+resnet50_swsl,single pieces,random 17 mean,piece accuracy,0.08116602897644043,0.07707240674644708,0.08529000040143728,
+resnet50_swsl,single pieces,random 17 mean,piece probability,0.0798371285200119,0.07701383307576179,0.08265188373625278,
+resnet50_swsl,single pieces,random 18 mean,piece accuracy,0.08023089170455933,0.07617851439863443,0.0844343964010477,
+resnet50_swsl,single pieces,random 18 mean,piece probability,0.08171706646680832,0.07898917384445667,0.0844104390591383,
+resnet50_swsl,single pieces,random 19 mean,piece accuracy,0.055320583283901215,0.051340929511934516,0.05924718398600816,
+resnet50_swsl,single pieces,random 19 mean,piece probability,0.06168635934591293,0.05909212762489915,0.06425526030361652,
+resnet50_swsl,single pieces,random 20 mean,piece accuracy,0.060639142990112305,0.056542685441672805,0.06464546769857407,
+resnet50_swsl,single pieces,random 20 mean,piece probability,0.06607915461063385,0.06336233485490084,0.06880586985498667,
+resnet50_swsl,"shift, centre",intact,grid accuracy,0.3235565423965454,0.30322192087769506,0.3433987259864807,
+resnet50_swsl,"shift, centre",intact,scramble accuracy,0.1130528599023819,0.10222595166414976,0.12390803750604391,
+resnet50_swsl,"shift, centre",intact,scramble loss,0.2105036824941635,0.1902523200958967,0.23073395192623136,
+resnet50_swsl,"shift, centre",intact,configural reliance,0.8063528537750244,0.7649658143520355,0.8470056563615799,False
+resnet50_swsl,"shift, centre",configural zero,grid accuracy,0.06733333319425583,0.06666665524244308,0.06866666674613953,
+resnet50_swsl,"shift, centre",configural zero,scramble accuracy,0.06733333319425583,0.06666665524244308,0.06866666674613953,
+resnet50_swsl,"shift, centre",configural zero,scramble loss,0.0,0.0,0.0,
+resnet50_swsl,"shift, centre",configural zero,configural reliance,,,,True
+resnet50_swsl,"shift, centre",local zero,grid accuracy,0.07533333450555801,0.07133330404758453,0.07999999076128006,
+resnet50_swsl,"shift, centre",local zero,scramble accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,"shift, centre",local zero,scramble loss,0.008666671812534332,0.004666656255722046,0.013333328068256378,
+resnet50_swsl,"shift, centre",local zero,configural reliance,,,,True
+resnet50_swsl,"shift, centre",random 1 zero,grid accuracy,0.06733333319425583,0.06666664779186249,0.06866665929555893,
+resnet50_swsl,"shift, centre",random 1 zero,scramble accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,"shift, centre",random 1 zero,scramble loss,0.0006666705012321472,0.0,0.001999996602535248,
+resnet50_swsl,"shift, centre",random 1 zero,configural reliance,,,,True
+resnet50_swsl,"shift, centre",random 2 zero,grid accuracy,0.06733333319425583,0.06666664779186249,0.06866665929555893,
+resnet50_swsl,"shift, centre",random 2 zero,scramble accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,"shift, centre",random 2 zero,scramble loss,0.0006666705012321472,0.0,0.001999996602535248,
+resnet50_swsl,"shift, centre",random 2 zero,configural reliance,,,,True
+resnet50_swsl,"shift, centre",random 3 zero,grid accuracy,0.1067119762301445,0.09918727446347475,0.11357736606150866,
+resnet50_swsl,"shift, centre",random 3 zero,scramble accuracy,0.08615611493587494,0.07726346682757139,0.0950417147949338,
+resnet50_swsl,"shift, centre",random 3 zero,scramble loss,0.020555861294269562,0.011669829115271568,0.02947671059519052,
+resnet50_swsl,"shift, centre",random 3 zero,configural reliance,,,,True
+resnet50_swsl,"shift, centre",random 4 zero,grid accuracy,0.07200000435113907,0.06866665184497833,0.07599998265504837,
+resnet50_swsl,"shift, centre",random 4 zero,scramble accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,"shift, centre",random 4 zero,scramble loss,0.005333341658115387,0.001999996602535248,0.009333327412605286,
+resnet50_swsl,"shift, centre",random 4 zero,configural reliance,,,,True
+resnet50_swsl,"shift, centre",random 5 zero,grid accuracy,0.06870748102664948,0.06666666269302368,0.0714285597205162,
+resnet50_swsl,"shift, centre",random 5 zero,scramble accuracy,0.06666667014360428,0.06666664779186249,0.06666667014360428,
+resnet50_swsl,"shift, centre",random 5 zero,scramble loss,0.0020408108830451965,0.0,0.00476190447807312,
+resnet50_swsl,"shift, centre",random 5 zero,configural reliance,,,,True
+resnet50_swsl,"shift, centre",random 6 zero,grid accuracy,0.06734694540500641,0.06666665524244308,0.06870748102664948,
+resnet50_swsl,"shift, centre",random 6 zero,scramble accuracy,0.06666667014360428,0.06666664779186249,0.06666667014360428,
+resnet50_swsl,"shift, centre",random 6 zero,scramble loss,0.0006802752614021301,0.0,0.0020408183336257935,
+resnet50_swsl,"shift, centre",random 6 zero,configural reliance,,,,True
+resnet50_swsl,"shift, centre",random 7 zero,grid accuracy,0.07333333790302277,0.06933332979679108,0.07733333110809326,
+resnet50_swsl,"shift, centre",random 7 zero,scramble accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,"shift, centre",random 7 zero,scramble loss,0.0066666752099990845,0.002666667103767395,0.01066666841506958,
+resnet50_swsl,"shift, centre",random 7 zero,configural reliance,,,,True
+resnet50_swsl,"shift, centre",random 8 zero,grid accuracy,0.08076587319374084,0.07535395007580518,0.0867864714935422,
+resnet50_swsl,"shift, centre",random 8 zero,scramble accuracy,0.06866666674613953,0.06666665524244308,0.07133331894874573,
+resnet50_swsl,"shift, centre",random 8 zero,scramble loss,0.012099206447601318,0.006707906723022461,0.018082902580499643,
+resnet50_swsl,"shift, centre",random 8 zero,configural reliance,,,,True
+resnet50_swsl,"shift, centre",random 9 zero,grid accuracy,0.06734693795442581,0.06666664779186249,0.06870748102664948,
+resnet50_swsl,"shift, centre",random 9 zero,scramble accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,"shift, centre",random 9 zero,scramble loss,0.0006802752614021301,0.0,0.0020408183336257935,
+resnet50_swsl,"shift, centre",random 9 zero,configural reliance,,,,True
+resnet50_swsl,"shift, centre",random 10 zero,grid accuracy,0.06799999624490738,0.06666664779186249,0.06999999284744263,
+resnet50_swsl,"shift, centre",random 10 zero,scramble accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,"shift, centre",random 10 zero,scramble loss,0.0013333335518836975,0.0,0.0033333301544189453,
+resnet50_swsl,"shift, centre",random 10 zero,configural reliance,,,,True
+resnet50_swsl,"shift, centre",random 11 zero,grid accuracy,0.06868728250265121,0.06666665524244308,0.0713745579123497,
+resnet50_swsl,"shift, centre",random 11 zero,scramble accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,"shift, centre",random 11 zero,scramble loss,0.002020619809627533,0.0,0.004707902669906616,
+resnet50_swsl,"shift, centre",random 11 zero,configural reliance,,,,True
+resnet50_swsl,"shift, centre",random 12 zero,grid accuracy,0.08000000566244125,0.07466665655374527,0.08533333986997604,
+resnet50_swsl,"shift, centre",random 12 zero,scramble accuracy,0.06800000369548798,0.06666664779186249,0.06999999284744263,
+resnet50_swsl,"shift, centre",random 12 zero,scramble loss,0.012000001966953278,0.007333323359489441,0.01733332872390747,
+resnet50_swsl,"shift, centre",random 12 zero,configural reliance,,,,True
+resnet50_swsl,"shift, centre",random 13 zero,grid accuracy,0.07533333450555801,0.07133329659700394,0.07999999076128006,
+resnet50_swsl,"shift, centre",random 13 zero,scramble accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,"shift, centre",random 13 zero,scramble loss,0.008666671812534332,0.004666648805141449,0.013333328068256378,
+resnet50_swsl,"shift, centre",random 13 zero,configural reliance,,,,True
+resnet50_swsl,"shift, centre",random 14 zero,grid accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,"shift, centre",random 14 zero,scramble accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,"shift, centre",random 14 zero,scramble loss,0.0,0.0,0.0,
+resnet50_swsl,"shift, centre",random 14 zero,configural reliance,,,,True
+resnet50_swsl,"shift, centre",random 15 zero,grid accuracy,0.0693197250366211,0.06661222130060196,0.07266664505004883,
+resnet50_swsl,"shift, centre",random 15 zero,scramble accuracy,0.06394557654857635,0.06122446805238724,0.06598639488220215,
+resnet50_swsl,"shift, centre",random 15 zero,scramble loss,0.005374148488044739,0.0020136013627052307,0.009401358664035797,
+resnet50_swsl,"shift, centre",random 15 zero,configural reliance,,,,True
+resnet50_swsl,"shift, centre",random 16 zero,grid accuracy,0.07199999690055847,0.06866665184497833,0.07599999010562897,
+resnet50_swsl,"shift, centre",random 16 zero,scramble accuracy,0.06866666674613953,0.06666665524244308,0.07133331894874573,
+resnet50_swsl,"shift, centre",random 16 zero,scramble loss,0.0033333301544189453,-0.0006666705012321472,0.008000001311302185,
+resnet50_swsl,"shift, centre",random 16 zero,configural reliance,,,,True
+resnet50_swsl,"shift, centre",random 17 zero,grid accuracy,0.06734693795442581,0.06666664779186249,0.06870748847723007,
+resnet50_swsl,"shift, centre",random 17 zero,scramble accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,"shift, centre",random 17 zero,scramble loss,0.0006802752614021301,0.0,0.0020408183336257935,
+resnet50_swsl,"shift, centre",random 17 zero,configural reliance,,,,True
+resnet50_swsl,"shift, centre",random 18 zero,grid accuracy,0.06666667014360428,0.06666664779186249,0.06666667014360428,
+resnet50_swsl,"shift, centre",random 18 zero,scramble accuracy,0.06666667014360428,0.06666664779186249,0.06666667014360428,
+resnet50_swsl,"shift, centre",random 18 zero,scramble loss,0.0,0.0,0.0,
+resnet50_swsl,"shift, centre",random 18 zero,configural reliance,,,,True
+resnet50_swsl,"shift, centre",random 19 zero,grid accuracy,0.09635402262210846,0.0874889912083745,0.10457340143620968,
+resnet50_swsl,"shift, centre",random 19 zero,scramble accuracy,0.08116276562213898,0.07429692130535841,0.08803563565015793,
+resnet50_swsl,"shift, centre",random 19 zero,scramble loss,0.015191256999969482,0.0056187335401773454,0.024715917743742467,
+resnet50_swsl,"shift, centre",random 19 zero,configural reliance,,,,True
+resnet50_swsl,"shift, centre",random 20 zero,grid accuracy,0.07441584765911102,0.07020112127065659,0.07926648873835802,
+resnet50_swsl,"shift, centre",random 20 zero,scramble accuracy,0.0673912987112999,0.06666664779186249,0.06884058564901352,
+resnet50_swsl,"shift, centre",random 20 zero,scramble loss,0.007024548947811127,0.0028541980311274527,0.011372380144894122,
+resnet50_swsl,"shift, centre",random 20 zero,configural reliance,,,,True
+resnet50_swsl,"shift, centre",configural mean,grid accuracy,0.22982150316238403,0.21297686435282231,0.24653246738016604,
+resnet50_swsl,"shift, centre",configural mean,scramble accuracy,0.10507221519947052,0.09568434990942479,0.11454201508313418,
+resnet50_swsl,"shift, centre",configural mean,scramble loss,0.12474928796291351,0.1086406646296382,0.14093459136784076,
+resnet50_swsl,"shift, centre",configural mean,configural reliance,0.7455663681030273,0.6915491476655007,0.7967060029506683,False
+resnet50_swsl,"shift, centre",local mean,grid accuracy,0.328460156917572,0.308329938352108,0.3486371822655201,
+resnet50_swsl,"shift, centre",local mean,scramble accuracy,0.10827692598104477,0.09765400327742099,0.1189780680462718,
+resnet50_swsl,"shift, centre",local mean,scramble loss,0.22018322348594666,0.19979100860655308,0.24096496850252153,
+resnet50_swsl,"shift, centre",local mean,configural reliance,0.8278805017471313,0.7879712626338005,0.8663814768195152,False
+resnet50_swsl,"shift, centre",random 1 mean,grid accuracy,0.273589551448822,0.25448805540800096,0.29317482709884646,
+resnet50_swsl,"shift, centre",random 1 mean,scramble accuracy,0.09319593757390976,0.08303207084536553,0.10340787004679441,
+resnet50_swsl,"shift, centre",random 1 mean,scramble loss,0.18039360642433167,0.16022713035345076,0.20044038221240043,
+resnet50_swsl,"shift, centre",random 1 mean,configural reliance,0.8545833230018616,0.8075621664524079,0.9018604099750519,False
+resnet50_swsl,"shift, centre",random 2 mean,grid accuracy,0.3216066062450409,0.3011826939880848,0.34174062609672545,
+resnet50_swsl,"shift, centre",random 2 mean,scramble accuracy,0.10405568778514862,0.09255848024040461,0.1155528476461768,
+resnet50_swsl,"shift, centre",random 2 mean,scramble loss,0.21755091845989227,0.19650527127087117,0.23868902251124383,
+resnet50_swsl,"shift, centre",random 2 mean,configural reliance,0.8396193385124207,0.7955298960208893,0.8839470133185386,False
+resnet50_swsl,"shift, centre",random 3 mean,grid accuracy,0.23393839597702026,0.21658747643232346,0.25132334381341936,
+resnet50_swsl,"shift, centre",random 3 mean,scramble accuracy,0.09068770706653595,0.08263327162712812,0.09879754539579153,
+resnet50_swsl,"shift, centre",random 3 mean,scramble loss,0.14325068891048431,0.12581357322633266,0.16111106500029562,
+resnet50_swsl,"shift, centre",random 3 mean,configural reliance,0.8355811238288879,0.7871429443359375,0.8819199532270432,False
+resnet50_swsl,"shift, centre",random 4 mean,grid accuracy,0.2507016062736511,0.23303889408707618,0.26894836500287056,
+resnet50_swsl,"shift, centre",random 4 mean,scramble accuracy,0.09142198413610458,0.08135394752025604,0.10144916921854019,
+resnet50_swsl,"shift, centre",random 4 mean,scramble loss,0.15927961468696594,0.14157881699502467,0.17732525467872617,
+resnet50_swsl,"shift, centre",random 4 mean,configural reliance,0.8463244438171387,0.7964967623353004,0.8970105603337287,False
+resnet50_swsl,"shift, centre",random 5 mean,grid accuracy,0.2741885781288147,0.25535399168729783,0.2931035041809082,
+resnet50_swsl,"shift, centre",random 5 mean,scramble accuracy,0.08806853741407394,0.07799695041030645,0.09824202377349138,
+resnet50_swsl,"shift, centre",random 5 mean,scramble loss,0.18612003326416016,0.1674022626131773,0.20490878485143185,
+resnet50_swsl,"shift, centre",random 5 mean,configural reliance,0.8792162537574768,0.8327551260590553,0.924853965640068,False
+resnet50_swsl,"shift, centre",random 6 mean,grid accuracy,0.29733237624168396,0.27793445959687235,0.31656963825225826,
+resnet50_swsl,"shift, centre",random 6 mean,scramble accuracy,0.09961288422346115,0.09018427599221468,0.10904801655560732,
+resnet50_swsl,"shift, centre",random 6 mean,scramble loss,0.1977194845676422,0.17805716432631016,0.21696436330676078,
+resnet50_swsl,"shift, centre",random 6 mean,configural reliance,0.841960072517395,0.8025681883096695,0.8808689698576927,False
+resnet50_swsl,"shift, centre",random 7 mean,grid accuracy,0.27977806329727173,0.26110976189374924,0.2986272856593132,
+resnet50_swsl,"shift, centre",random 7 mean,scramble accuracy,0.09480322897434235,0.08473509810864925,0.10494289509952068,
+resnet50_swsl,"shift, centre",random 7 mean,scramble loss,0.18497483432292938,0.16594910584390163,0.2038288176059723,
+resnet50_swsl,"shift, centre",random 7 mean,configural reliance,0.8513277173042297,0.8066024661064148,0.895590816438198,False
+resnet50_swsl,"shift, centre",random 8 mean,grid accuracy,0.26736021041870117,0.2485712967813015,0.2857291825115681,
+resnet50_swsl,"shift, centre",random 8 mean,scramble accuracy,0.10167127847671509,0.09155184775590897,0.11174347586929798,
+resnet50_swsl,"shift, centre",random 8 mean,scramble loss,0.16568893194198608,0.14701915793120862,0.18435659557580947,
+resnet50_swsl,"shift, centre",random 8 mean,configural reliance,0.8087902069091797,0.7610428377985954,0.8554834187030792,False
+resnet50_swsl,"shift, centre",random 9 mean,grid accuracy,0.2865441143512726,0.26757702231407166,0.3053951531648636,
+resnet50_swsl,"shift, centre",random 9 mean,scramble accuracy,0.10961642861366272,0.09874136541038751,0.12107607908546925,
+resnet50_swsl,"shift, centre",random 9 mean,scramble loss,0.17692768573760986,0.15779932774603367,0.19648007340729237,
+resnet50_swsl,"shift, centre",random 9 mean,configural reliance,0.7897002100944519,0.7396913290023803,0.8382166445255279,False
+resnet50_swsl,"shift, centre",random 10 mean,grid accuracy,0.3015657067298889,0.28193404749035833,0.32118955925107,
+resnet50_swsl,"shift, centre",random 10 mean,scramble accuracy,0.10057009756565094,0.09006909970194102,0.11144336089491842,
+resnet50_swsl,"shift, centre",random 10 mean,scramble loss,0.20099560916423798,0.1807896036654711,0.22123248875141144,
+resnet50_swsl,"shift, centre",random 10 mean,configural reliance,0.8407546877861023,0.7952552363276482,0.8844032928347587,False
+resnet50_swsl,"shift, centre",random 11 mean,grid accuracy,0.25197818875312805,0.2342725183814764,0.2700635246932507,
+resnet50_swsl,"shift, centre",random 11 mean,scramble accuracy,0.08332014083862305,0.0744966259226203,0.09220617283135651,
+resnet50_swsl,"shift, centre",random 11 mean,scramble loss,0.168658047914505,0.1505836695432663,0.1869545340538025,
+resnet50_swsl,"shift, centre",random 11 mean,configural reliance,0.8901185393333435,0.8429632544517517,0.9363208875060082,False
+resnet50_swsl,"shift, centre",random 12 mean,grid accuracy,0.2637593746185303,0.24505406394600868,0.2827326737344265,
+resnet50_swsl,"shift, centre",random 12 mean,scramble accuracy,0.09679266810417175,0.08606141898781061,0.10755100846290588,
+resnet50_swsl,"shift, centre",random 12 mean,scramble loss,0.16696670651435852,0.14811290986835957,0.18619425930082797,
+resnet50_swsl,"shift, centre",random 12 mean,configural reliance,0.8296095728874207,0.7785981670022011,0.8802407056093215,False
+resnet50_swsl,"shift, centre",random 13 mean,grid accuracy,0.26213231682777405,0.2433557078242302,0.28086996227502825,
+resnet50_swsl,"shift, centre",random 13 mean,scramble accuracy,0.09733501821756363,0.08657267689704895,0.10817936826497317,
+resnet50_swsl,"shift, centre",random 13 mean,scramble loss,0.16479730606079102,0.14608955010771751,0.18358378745615483,
+resnet50_swsl,"shift, centre",random 13 mean,configural reliance,0.8255041241645813,0.772660231590271,0.8777256995439529,False
+resnet50_swsl,"shift, centre",random 14 mean,grid accuracy,0.24584755301475525,0.2276298962533474,0.26421270295977595,
+resnet50_swsl,"shift, centre",random 14 mean,scramble accuracy,0.08736881613731384,0.07798803728073836,0.09680398404598237,
+resnet50_swsl,"shift, centre",random 14 mean,scramble loss,0.1584787368774414,0.14006604105234147,0.1771972358226776,
+resnet50_swsl,"shift, centre",random 14 mean,configural reliance,0.8643624186515808,0.8144899725914001,0.9132255584001541,False
+resnet50_swsl,"shift, centre",random 15 mean,grid accuracy,0.29502207040786743,0.27609616443514823,0.3142211869359016,
+resnet50_swsl,"shift, centre",random 15 mean,scramble accuracy,0.08941622823476791,0.07995339930057525,0.09887285102158785,
+resnet50_swsl,"shift, centre",random 15 mean,scramble loss,0.20560583472251892,0.18640780299901963,0.22510614097118378,
+resnet50_swsl,"shift, centre",random 15 mean,configural reliance,0.8842422366142273,0.8436555147171021,0.9242974907159806,False
+resnet50_swsl,"shift, centre",random 16 mean,grid accuracy,0.2919182777404785,0.2727229155600071,0.31141056045889853,
+resnet50_swsl,"shift, centre",random 16 mean,scramble accuracy,0.10284092277288437,0.09208509270101786,0.1136507235467434,
+resnet50_swsl,"shift, centre",random 16 mean,scramble loss,0.18907734751701355,0.16991892084479332,0.2085910864174366,
+resnet50_swsl,"shift, centre",random 16 mean,configural reliance,0.8241599202156067,0.7781096458435058,0.8703133732080459,False
+resnet50_swsl,"shift, centre",random 17 mean,grid accuracy,0.2883274257183075,0.2693163029849529,0.3073360465466976,
+resnet50_swsl,"shift, centre",random 17 mean,scramble accuracy,0.10376693308353424,0.09431424401700497,0.11326841022819281,
+resnet50_swsl,"shift, centre",random 17 mean,scramble loss,0.18456049263477325,0.16530648060142994,0.20390994772315024,
+resnet50_swsl,"shift, centre",random 17 mean,configural reliance,0.8172634243965149,0.7747477740049362,0.8579623833298683,False
+resnet50_swsl,"shift, centre",random 18 mean,grid accuracy,0.26037734746932983,0.24215518049895762,0.2785287946462631,
+resnet50_swsl,"shift, centre",random 18 mean,scramble accuracy,0.10574673861265182,0.09624226354062557,0.11588062960654497,
+resnet50_swsl,"shift, centre",random 18 mean,scramble loss,0.1546306014060974,0.13648265972733498,0.172866752743721,
+resnet50_swsl,"shift, centre",random 18 mean,configural reliance,0.7814466953277588,0.7292308688163758,0.8286691576242446,False
+resnet50_swsl,"shift, centre",random 19 mean,grid accuracy,0.28118282556533813,0.2622842401266098,0.30033473297953606,
+resnet50_swsl,"shift, centre",random 19 mean,scramble accuracy,0.07989900559186935,0.06982338633388281,0.08940302897244692,
+resnet50_swsl,"shift, centre",random 19 mean,scramble loss,0.20128381252288818,0.1816228423267603,0.22100459821522234,
+resnet50_swsl,"shift, centre",random 19 mean,configural reliance,0.920437216758728,0.8769071742892265,0.9651460871100426,False
+resnet50_swsl,"shift, centre",random 20 mean,grid accuracy,0.26993441581726074,0.25160967111587523,0.2882174000144005,
+resnet50_swsl,"shift, centre",random 20 mean,scramble accuracy,0.09546677023172379,0.08596973083913326,0.10552462972700596,
+resnet50_swsl,"shift, centre",random 20 mean,scramble loss,0.17446765303611755,0.1561642363667488,0.1926983378827572,
+resnet50_swsl,"shift, centre",random 20 mean,configural reliance,0.8410738110542297,0.7952774420380593,0.8866326451301575,False
+resnet50_swsl,"shift, corners",intact,grid accuracy,0.29949063062667847,0.2828392148017883,0.3162351824343204,
+resnet50_swsl,"shift, corners",intact,scramble accuracy,0.1067516952753067,0.09787946045398713,0.11573737021535634,
+resnet50_swsl,"shift, corners",intact,scramble loss,0.19273893535137177,0.17696931213140488,0.20850270986557007,
+resnet50_swsl,"shift, corners",intact,configural reliance,0.8132765889167786,0.7780605897307395,0.8480967670679092,False
+resnet50_swsl,"shift, corners",configural zero,grid accuracy,0.07266667485237122,0.06983332335948944,0.07583333551883698,
+resnet50_swsl,"shift, corners",configural zero,scramble accuracy,0.06833333522081375,0.06683333218097687,0.0703333243727684,
+resnet50_swsl,"shift, corners",configural zero,scramble loss,0.004333339631557465,0.0013333335518836975,0.007500000298023224,
+resnet50_swsl,"shift, corners",configural zero,configural reliance,,,,True
+resnet50_swsl,"shift, corners",local zero,grid accuracy,0.08336766064167023,0.07885217647999525,0.08821307513862849,
+resnet50_swsl,"shift, corners",local zero,scramble accuracy,0.06700000166893005,0.06666664779186249,0.0676666647195816,
+resnet50_swsl,"shift, corners",local zero,scramble loss,0.016367658972740173,0.012007590942084792,0.021171815879642963,
+resnet50_swsl,"shift, corners",local zero,configural reliance,,,,True
+resnet50_swsl,"shift, corners",random 1 zero,grid accuracy,0.07126633822917938,0.06907496582716703,0.07366355545818806,
+resnet50_swsl,"shift, corners",random 1 zero,scramble accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,"shift, corners",random 1 zero,scramble loss,0.004599675536155701,0.0024083105847239493,0.006996899843215942,
+resnet50_swsl,"shift, corners",random 1 zero,configural reliance,,,,True
+resnet50_swsl,"shift, corners",random 2 zero,grid accuracy,0.07511327415704727,0.07222967520356179,0.07831240016967059,
+resnet50_swsl,"shift, corners",random 2 zero,scramble accuracy,0.06683672964572906,0.06666664779186249,0.06717686355113983,
+resnet50_swsl,"shift, corners",random 2 zero,scramble loss,0.008276544511318207,0.005426106043159962,0.011443304829299448,
+resnet50_swsl,"shift, corners",random 2 zero,configural reliance,,,,True
+resnet50_swsl,"shift, corners",random 3 zero,grid accuracy,0.11536212265491486,0.10824358332902193,0.12251104675233364,
+resnet50_swsl,"shift, corners",random 3 zero,scramble accuracy,0.10011644661426544,0.09347599893808364,0.10687948390841484,
+resnet50_swsl,"shift, corners",random 3 zero,scramble loss,0.015245676040649414,0.00859593041241169,0.0220373073592782,
+resnet50_swsl,"shift, corners",random 3 zero,configural reliance,,,,True
+resnet50_swsl,"shift, corners",random 4 zero,grid accuracy,0.0900455042719841,0.08435319028794766,0.09614263344556093,
+resnet50_swsl,"shift, corners",random 4 zero,scramble accuracy,0.06733332574367523,0.06666664779186249,0.06833332777023315,
+resnet50_swsl,"shift, corners",random 4 zero,scramble loss,0.02271217852830887,0.017159425653517246,0.028638501092791556,
+resnet50_swsl,"shift, corners",random 4 zero,configural reliance,,,,True
+resnet50_swsl,"shift, corners",random 5 zero,grid accuracy,0.0800408199429512,0.07560874242335558,0.08481639940291644,
+resnet50_swsl,"shift, corners",random 5 zero,scramble accuracy,0.06802205741405487,0.06683673709630966,0.06937579065561295,
+resnet50_swsl,"shift, corners",random 5 zero,scramble loss,0.012018762528896332,0.007942128740251065,0.016542765498161312,
+resnet50_swsl,"shift, corners",random 5 zero,configural reliance,,,,True
+resnet50_swsl,"shift, corners",random 6 zero,grid accuracy,0.08070924133062363,0.0770050996914506,0.08461575470864773,
+resnet50_swsl,"shift, corners",random 6 zero,scramble accuracy,0.0685340166091919,0.0675135999917984,0.06988774985074997,
+resnet50_swsl,"shift, corners",random 6 zero,scramble loss,0.012175224721431732,0.008450738899409772,0.016091989167034627,
+resnet50_swsl,"shift, corners",random 6 zero,configural reliance,,,,True
+resnet50_swsl,"shift, corners",random 7 zero,grid accuracy,0.07600000500679016,0.07249998301267624,0.07983333617448807,
+resnet50_swsl,"shift, corners",random 7 zero,scramble accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,"shift, corners",random 7 zero,scramble loss,0.00933334231376648,0.005833335220813751,0.013166673481464386,
+resnet50_swsl,"shift, corners",random 7 zero,configural reliance,,,,True
+resnet50_swsl,"shift, corners",random 8 zero,grid accuracy,0.09015301614999771,0.08435958325862884,0.09619400091469288,
+resnet50_swsl,"shift, corners",random 8 zero,scramble accuracy,0.0673350840806961,0.0664931982755661,0.06834361720830202,
+resnet50_swsl,"shift, corners",random 8 zero,scramble loss,0.022817932069301605,0.01720122154802084,0.028670176491141317,
+resnet50_swsl,"shift, corners",random 8 zero,configural reliance,,,,True
+resnet50_swsl,"shift, corners",random 9 zero,grid accuracy,0.06785713881254196,0.06683671474456787,0.06938772667199374,
+resnet50_swsl,"shift, corners",random 9 zero,scramble accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,"shift, corners",random 9 zero,scramble loss,0.00119047611951828,0.0001700669527053833,0.0027210861444473267,
+resnet50_swsl,"shift, corners",random 9 zero,configural reliance,,,,True
+resnet50_swsl,"shift, corners",random 10 zero,grid accuracy,0.08887717127799988,0.08408044371753931,0.09409289006143809,
+resnet50_swsl,"shift, corners",random 10 zero,scramble accuracy,0.0673384815454483,0.06666664779186249,0.06851030886173248,
+resnet50_swsl,"shift, corners",random 10 zero,scramble loss,0.021538689732551575,0.016877738386392595,0.02653340045362711,
+resnet50_swsl,"shift, corners",random 10 zero,configural reliance,,,,True
+resnet50_swsl,"shift, corners",random 11 zero,grid accuracy,0.06985297799110413,0.06817181408405304,0.07189238052815199,
+resnet50_swsl,"shift, corners",random 11 zero,scramble accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,"shift, corners",random 11 zero,scramble loss,0.0031863152980804443,0.0015051588416099548,0.0052257178351283054,
+resnet50_swsl,"shift, corners",random 11 zero,configural reliance,,,,True
+resnet50_swsl,"shift, corners",random 12 zero,grid accuracy,0.09537755697965622,0.08920738585293293,0.10187414307147265,
+resnet50_swsl,"shift, corners",random 12 zero,scramble accuracy,0.07068115472793579,0.06816667299717664,0.07369564473628998,
+resnet50_swsl,"shift, corners",random 12 zero,scramble loss,0.02469640225172043,0.019012726657092572,0.03071769345551729,
+resnet50_swsl,"shift, corners",random 12 zero,configural reliance,,,,True
+resnet50_swsl,"shift, corners",random 13 zero,grid accuracy,0.08021099120378494,0.0758588908240199,0.08506157640367747,
+resnet50_swsl,"shift, corners",random 13 zero,scramble accuracy,0.0676666647195816,0.06683331727981567,0.06883332133293152,
+resnet50_swsl,"shift, corners",random 13 zero,scramble loss,0.012544326484203339,0.008042532578110695,0.017532400414347647,
+resnet50_swsl,"shift, corners",random 13 zero,configural reliance,,,,True
+resnet50_swsl,"shift, corners",random 14 zero,grid accuracy,0.06800000369548798,0.06699998676776886,0.06916666030883789,
+resnet50_swsl,"shift, corners",random 14 zero,scramble accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,"shift, corners",random 14 zero,scramble loss,0.0013333410024642944,0.00033333152532577515,0.002499997615814209,
+resnet50_swsl,"shift, corners",random 14 zero,configural reliance,,,,True
+resnet50_swsl,"shift, corners",random 15 zero,grid accuracy,0.07118037343025208,0.06933332979679108,0.07335053645074367,
+resnet50_swsl,"shift, corners",random 15 zero,scramble accuracy,0.06699319183826447,0.06615644693374634,0.067829929292202,
+resnet50_swsl,"shift, corners",random 15 zero,scramble loss,0.00418718159198761,0.002170071005821228,0.006517104804515839,
+resnet50_swsl,"shift, corners",random 15 zero,configural reliance,,,,True
+resnet50_swsl,"shift, corners",random 16 zero,grid accuracy,0.09930361807346344,0.09308460261672735,0.1058907452970743,
+resnet50_swsl,"shift, corners",random 16 zero,scramble accuracy,0.07250680029392242,0.07000338286161423,0.07550340164452791,
+resnet50_swsl,"shift, corners",random 16 zero,scramble loss,0.026796817779541016,0.02090467233210802,0.0328453516587615,
+resnet50_swsl,"shift, corners",random 16 zero,configural reliance,,,,True
+resnet50_swsl,"shift, corners",random 17 zero,grid accuracy,0.07185713946819305,0.06918367724865675,0.07502719759941101,
+resnet50_swsl,"shift, corners",random 17 zero,scramble accuracy,0.06666666269302368,0.06666664034128189,0.06666667014360428,
+resnet50_swsl,"shift, corners",random 17 zero,scramble loss,0.0051904767751693726,0.002517007291316986,0.008360542356967926,
+resnet50_swsl,"shift, corners",random 17 zero,configural reliance,,,,True
+resnet50_swsl,"shift, corners",random 18 zero,grid accuracy,0.07037755846977234,0.06819047033786774,0.07292865496128798,
+resnet50_swsl,"shift, corners",random 18 zero,scramble accuracy,0.06716667115688324,0.06666665524244308,0.06816666573286057,
+resnet50_swsl,"shift, corners",random 18 zero,scramble loss,0.003210887312889099,0.0008469372987747192,0.0059251638129353525,
+resnet50_swsl,"shift, corners",random 18 zero,configural reliance,,,,True
+resnet50_swsl,"shift, corners",random 19 zero,grid accuracy,0.09345462173223495,0.08635330423712731,0.10074043069034815,
+resnet50_swsl,"shift, corners",random 19 zero,scramble accuracy,0.07320825755596161,0.06961049679666757,0.0771427396684885,
+resnet50_swsl,"shift, corners",random 19 zero,scramble loss,0.020246364176273346,0.013356762006878853,0.027141909860074517,
+resnet50_swsl,"shift, corners",random 19 zero,configural reliance,,,,True
+resnet50_swsl,"shift, corners",random 20 zero,grid accuracy,0.10246996581554413,0.09540248047560454,0.10969218295067548,
+resnet50_swsl,"shift, corners",random 20 zero,scramble accuracy,0.06896627694368362,0.0672101378440857,0.07114020735025406,
+resnet50_swsl,"shift, corners",random 20 zero,scramble loss,0.033503688871860504,0.02660803645849228,0.04042145274579525,
+resnet50_swsl,"shift, corners",random 20 zero,configural reliance,,,,True
+resnet50_swsl,"shift, corners",configural mean,grid accuracy,0.21417266130447388,0.20028920210897921,0.22809032797813417,
+resnet50_swsl,"shift, corners",configural mean,scramble accuracy,0.09738116711378098,0.08995762951672077,0.1049424646422267,
+resnet50_swsl,"shift, corners",configural mean,scramble loss,0.1167914941906929,0.10448156613856555,0.1292411632835865,
+resnet50_swsl,"shift, corners",configural mean,configural reliance,0.7700233459472656,0.7258281812071801,0.8139160886406899,False
+resnet50_swsl,"shift, corners",local mean,grid accuracy,0.2931308150291443,0.2761877730488777,0.3101196587085724,
+resnet50_swsl,"shift, corners",local mean,scramble accuracy,0.10013024508953094,0.09169571101665497,0.10891761351376772,
+resnet50_swsl,"shift, corners",local mean,scramble loss,0.19300056993961334,0.17677892595529557,0.20915670096874237,
+resnet50_swsl,"shift, corners",local mean,configural reliance,0.8368377685546875,0.800891001522541,0.8720717787742615,False
+resnet50_swsl,"shift, corners",random 1 mean,grid accuracy,0.24826624989509583,0.2329650465399027,0.2639202378690243,
+resnet50_swsl,"shift, corners",random 1 mean,scramble accuracy,0.0865115225315094,0.07890916727483273,0.09437179025262595,
+resnet50_swsl,"shift, corners",random 1 mean,scramble loss,0.16175472736358643,0.14707669019699096,0.17681382969021797,
+resnet50_swsl,"shift, corners",random 1 mean,configural reliance,0.8707433342933655,0.8306030213832856,0.9101957142353058,False
+resnet50_swsl,"shift, corners",random 2 mean,grid accuracy,0.27764153480529785,0.26099809557199477,0.2945043809711933,
+resnet50_swsl,"shift, corners",random 2 mean,scramble accuracy,0.08380654454231262,0.07493577841669322,0.09284923020750284,
+resnet50_swsl,"shift, corners",random 2 mean,scramble loss,0.19383499026298523,0.1776909250766039,0.2101927235722542,
+resnet50_swsl,"shift, corners",random 2 mean,configural reliance,0.9009649753570557,0.8611411288380623,0.9404522836208343,False
+resnet50_swsl,"shift, corners",random 3 mean,grid accuracy,0.21432727575302124,0.20033008381724357,0.22867375500500203,
+resnet50_swsl,"shift, corners",random 3 mean,scramble accuracy,0.08462101221084595,0.0778766643255949,0.0916064567863941,
+resnet50_swsl,"shift, corners",random 3 mean,scramble loss,0.1297062635421753,0.11626702267676592,0.14346130900084972,
+resnet50_swsl,"shift, corners",random 3 mean,configural reliance,0.8543014526367188,0.810613825917244,0.8967565223574638,False
+resnet50_swsl,"shift, corners",random 4 mean,grid accuracy,0.24367831647396088,0.22805615179240704,0.2594694659113884,
+resnet50_swsl,"shift, corners",random 4 mean,scramble accuracy,0.08332158625125885,0.07518636733293534,0.09172811359167099,
+resnet50_swsl,"shift, corners",random 4 mean,scramble loss,0.16035673022270203,0.14566286616027355,0.17530907578766344,
+resnet50_swsl,"shift, corners",random 4 mean,configural reliance,0.8850768208503723,0.8421210542321205,0.9277546212077141,False
+resnet50_swsl,"shift, corners",random 5 mean,grid accuracy,0.21950718760490417,0.20503309220075608,0.23450882993638517,
+resnet50_swsl,"shift, corners",random 5 mean,scramble accuracy,0.0679236501455307,0.06100703086704016,0.07500205039978028,
+resnet50_swsl,"shift, corners",random 5 mean,scramble loss,0.15158353745937347,0.13734133988618852,0.16612829230725765,
+resnet50_swsl,"shift, corners",random 5 mean,configural reliance,0.9654560685157776,0.9218959406018257,1.0097813189029694,False
+resnet50_swsl,"shift, corners",random 6 mean,grid accuracy,0.2640431523323059,0.24804604165256022,0.28019507601857185,
+resnet50_swsl,"shift, corners",random 6 mean,scramble accuracy,0.09133705496788025,0.08426180239766837,0.09862873032689094,
+resnet50_swsl,"shift, corners",random 6 mean,scramble loss,0.17270609736442566,0.15776339918375015,0.18804177790880203,
+resnet50_swsl,"shift, corners",random 6 mean,configural reliance,0.8569186925888062,0.8230378150939941,0.8900915652513504,False
+resnet50_swsl,"shift, corners",random 7 mean,grid accuracy,0.23498308658599854,0.21957942508161069,0.2504661314189434,
+resnet50_swsl,"shift, corners",random 7 mean,scramble accuracy,0.08601483702659607,0.07795737311244011,0.09427279476076364,
+resnet50_swsl,"shift, corners",random 7 mean,scramble loss,0.14896824955940247,0.13444053381681442,0.163283521682024,
+resnet50_swsl,"shift, corners",random 7 mean,configural reliance,0.8636687397956848,0.8191953226923943,0.9082615584135055,False
+resnet50_swsl,"shift, corners",random 8 mean,grid accuracy,0.24682234227657318,0.23148556798696518,0.26274541616439817,
+resnet50_swsl,"shift, corners",random 8 mean,scramble accuracy,0.09079502522945404,0.0831809662282467,0.09863734189420938,
+resnet50_swsl,"shift, corners",random 8 mean,scramble loss,0.15602731704711914,0.1415943630039692,0.17083465568721296,
+resnet50_swsl,"shift, corners",random 8 mean,configural reliance,0.8464916348457336,0.8073082700371742,0.8856988221406936,False
+resnet50_swsl,"shift, corners",random 9 mean,grid accuracy,0.25764110684394836,0.24211036153137683,0.27385309487581255,
+resnet50_swsl,"shift, corners",random 9 mean,scramble accuracy,0.09178273379802704,0.08298169896006584,0.10078471563756465,
+resnet50_swsl,"shift, corners",random 9 mean,scramble loss,0.16585837304592133,0.15086969621479512,0.18092045858502387,
+resnet50_swsl,"shift, corners",random 9 mean,configural reliance,0.8499407172203064,0.8069462537765503,0.8924182474613189,False
+resnet50_swsl,"shift, corners",random 10 mean,grid accuracy,0.2666112184524536,0.25072755590081214,0.2825787991285324,
+resnet50_swsl,"shift, corners",random 10 mean,scramble accuracy,0.09015677869319916,0.08243203703314066,0.09818907529115677,
+resnet50_swsl,"shift, corners",random 10 mean,scramble loss,0.17645443975925446,0.1611005373299122,0.19163007847964764,
+resnet50_swsl,"shift, corners",random 10 mean,configural reliance,0.864501416683197,0.8276432648301124,0.9005598708987236,False
+resnet50_swsl,"shift, corners",random 11 mean,grid accuracy,0.23758144676685333,0.22318323105573654,0.25206255093216895,
+resnet50_swsl,"shift, corners",random 11 mean,scramble accuracy,0.07910224795341492,0.07140321023762226,0.08715358413755893,
+resnet50_swsl,"shift, corners",random 11 mean,scramble loss,0.15847919881343842,0.1443747367709875,0.17287751995027065,
+resnet50_swsl,"shift, corners",random 11 mean,configural reliance,0.9051741361618042,0.8615994721651077,0.9478742718696594,False
+resnet50_swsl,"shift, corners",random 12 mean,grid accuracy,0.23627257347106934,0.22109367586672307,0.25176357924938203,
+resnet50_swsl,"shift, corners",random 12 mean,scramble accuracy,0.0840936154127121,0.07562091611325741,0.09267365522682666,
+resnet50_swsl,"shift, corners",random 12 mean,scramble loss,0.15217895805835724,0.13796152994036676,0.16663428656756876,
+resnet50_swsl,"shift, corners",random 12 mean,configural reliance,0.8757363557815552,0.8293478921055794,0.9221908122301101,False
+resnet50_swsl,"shift, corners",random 13 mean,grid accuracy,0.23443353176116943,0.21888152062892913,0.2500050850212574,
+resnet50_swsl,"shift, corners",random 13 mean,scramble accuracy,0.08875429630279541,0.08054063096642494,0.09741380084306,
+resnet50_swsl,"shift, corners",random 13 mean,scramble loss,0.14567923545837402,0.1313340924680233,0.16027416624128818,
+resnet50_swsl,"shift, corners",random 13 mean,configural reliance,0.8472997546195984,0.8013325020670891,0.8931130304932594,False
+resnet50_swsl,"shift, corners",random 14 mean,grid accuracy,0.23682676255702972,0.22163376919925212,0.25230739638209343,
+resnet50_swsl,"shift, corners",random 14 mean,scramble accuracy,0.07617629319429398,0.0680078312754631,0.08461595475673675,
+resnet50_swsl,"shift, corners",random 14 mean,scramble loss,0.16065046191215515,0.14547030106186867,0.17600508853793145,
+resnet50_swsl,"shift, corners",random 14 mean,configural reliance,0.9215478897094727,0.8748041078448295,0.9677324011921883,False
+resnet50_swsl,"shift, corners",random 15 mean,grid accuracy,0.25687646865844727,0.24182933643460275,0.27264012694358825,
+resnet50_swsl,"shift, corners",random 15 mean,scramble accuracy,0.07977087795734406,0.0726921483874321,0.0871261952444911,
+resnet50_swsl,"shift, corners",random 15 mean,scramble loss,0.1771055907011032,0.16210973262786865,0.19234179221093656,
+resnet50_swsl,"shift, corners",random 15 mean,configural reliance,0.9111472964286804,0.8745011419057847,0.946912370622158,False
+resnet50_swsl,"shift, corners",random 16 mean,grid accuracy,0.2588123679161072,0.24313181713223458,0.27483058869838717,
+resnet50_swsl,"shift, corners",random 16 mean,scramble accuracy,0.09457176923751831,0.08620114270597697,0.10316444393247365,
+resnet50_swsl,"shift, corners",random 16 mean,scramble loss,0.16424059867858887,0.1493770819157362,0.17930552847683429,
+resnet50_swsl,"shift, corners",random 16 mean,configural reliance,0.8366289138793945,0.7962072521448136,0.8765372812747956,False
+resnet50_swsl,"shift, corners",random 17 mean,grid accuracy,0.2638772130012512,0.2482679530978203,0.2796668201684952,
+resnet50_swsl,"shift, corners",random 17 mean,scramble accuracy,0.09417060017585754,0.08707869928330184,0.1017251456156373,
+resnet50_swsl,"shift, corners",random 17 mean,scramble loss,0.16970661282539368,0.15482135862112045,0.18496932350099088,
+resnet50_swsl,"shift, corners",random 17 mean,configural reliance,0.8427299857139587,0.8074681296944618,0.8764754489064217,False
+resnet50_swsl,"shift, corners",random 18 mean,grid accuracy,0.24834436178207397,0.23272993192076682,0.2638303428888321,
+resnet50_swsl,"shift, corners",random 18 mean,scramble accuracy,0.08966140449047089,0.0827079089358449,0.09713316690176725,
+resnet50_swsl,"shift, corners",random 18 mean,scramble loss,0.1586829572916031,0.14386339522898198,0.17323884442448614,
+resnet50_swsl,"shift, corners",random 18 mean,configural reliance,0.8538486361503601,0.8162223622202873,0.8889851152896882,False
+resnet50_swsl,"shift, corners",random 19 mean,grid accuracy,0.23310643434524536,0.21785505749285222,0.24889124669134616,
+resnet50_swsl,"shift, corners",random 19 mean,scramble accuracy,0.06774862110614777,0.06036395765841007,0.07549680564552545,
+resnet50_swsl,"shift, corners",random 19 mean,scramble loss,0.1653578132390976,0.15047105625271798,0.18066194020211696,
+resnet50_swsl,"shift, corners",random 19 mean,configural reliance,0.9692354798316956,0.9256516456604004,1.0128358870744705,False
+resnet50_swsl,"shift, corners",random 20 mean,grid accuracy,0.24281957745552063,0.2276422593742609,0.25843665227293966,
+resnet50_swsl,"shift, corners",random 20 mean,scramble accuracy,0.08533662557601929,0.07726993411779404,0.09360304940491915,
+resnet50_swsl,"shift, corners",random 20 mean,scramble loss,0.15748295187950134,0.14318216890096663,0.17188375815749168,
+resnet50_swsl,"shift, corners",random 20 mean,configural reliance,0.8733547329902649,0.8304938599467278,0.9153520599007606,False
+cornet_s,single pieces,intact,piece accuracy,0.07571989297866821,0.07152036000043153,0.07986024562269449,
+cornet_s,single pieces,intact,piece probability,0.07496242225170135,0.07236539870500565,0.07754262760281563,
+cornet_s,single pieces,configural zero,piece accuracy,0.11607037484645844,0.11138615943491459,0.12064756974577903,
+cornet_s,single pieces,configural zero,piece probability,0.1072876825928688,0.10449028350412845,0.11006986387073994,
+cornet_s,single pieces,local zero,piece accuracy,0.04784102737903595,0.04475554386153817,0.05089171482250094,
+cornet_s,single pieces,local zero,piece probability,0.05389801785349846,0.05227259835228324,0.05546569237485528,
+cornet_s,single pieces,random 1 zero,piece accuracy,0.04603567719459534,0.04242294151335955,0.04954659901559353,
+cornet_s,single pieces,random 1 zero,piece probability,0.05565458536148071,0.05395151088014245,0.05735438372939825,
+cornet_s,single pieces,random 2 zero,piece accuracy,0.09705542027950287,0.09190813787281513,0.10224793422967196,
+cornet_s,single pieces,random 2 zero,piece probability,0.07889887690544128,0.07683569565415382,0.08101275265216827,
+cornet_s,single pieces,random 3 zero,piece accuracy,0.04841037839651108,0.0449837651103735,0.05188139276579022,
+cornet_s,single pieces,random 3 zero,piece probability,0.059208616614341736,0.05798544650897384,0.06042749248445034,
+cornet_s,single pieces,random 4 zero,piece accuracy,0.07961784303188324,0.07589587066322565,0.08327801432460546,
+cornet_s,single pieces,random 4 zero,piece probability,0.07199878990650177,0.07014415450394154,0.0738894896581769,
+cornet_s,single pieces,random 5 zero,piece accuracy,0.005943796597421169,0.004351960949134081,0.007592781470157205,
+cornet_s,single pieces,random 5 zero,piece probability,0.031628694385290146,0.03075806344859302,0.03251134073361754,
+cornet_s,single pieces,random 6 zero,piece accuracy,0.09950260818004608,0.09609168507158757,0.10281484853476286,
+cornet_s,single pieces,random 6 zero,piece probability,0.07786866277456284,0.07637916915118695,0.07934176996350288,
+cornet_s,single pieces,random 7 zero,piece accuracy,0.05399695411324501,0.05169085180386901,0.05624829009175301,
+cornet_s,single pieces,random 7 zero,piece probability,0.054313693195581436,0.05351246101781726,0.05512829972431064,
+cornet_s,single pieces,random 8 zero,piece accuracy,0.00584050128236413,0.004134011152200401,0.007657565595582128,
+cornet_s,single pieces,random 8 zero,piece probability,0.032076042145490646,0.030901919351890683,0.03326051374897361,
+cornet_s,single pieces,random 9 zero,piece accuracy,0.02444293349981308,0.021769947186112405,0.027258415520191193,
+cornet_s,single pieces,random 9 zero,piece probability,0.048141125589609146,0.04709296422079205,0.04919447312131524,
+cornet_s,single pieces,random 10 zero,piece accuracy,0.05564367398619652,0.053094604332000014,0.05814767563715577,
+cornet_s,single pieces,random 10 zero,piece probability,0.05865366384387016,0.05761774955317378,0.05969177037477493,
+cornet_s,single pieces,random 11 zero,piece accuracy,0.04645315557718277,0.041966532543301585,0.05082140201702714,
+cornet_s,single pieces,random 11 zero,piece probability,0.05864471569657326,0.057109447196125984,0.060170882102102044,
+cornet_s,single pieces,random 12 zero,piece accuracy,0.04359162971377373,0.039522881433367726,0.04777525952085852,
+cornet_s,single pieces,random 12 zero,piece probability,0.05719014257192612,0.05552750118076801,0.05884436471387744,
+cornet_s,single pieces,random 13 zero,piece accuracy,0.07801911234855652,0.07471730411052704,0.08136214185506105,
+cornet_s,single pieces,random 13 zero,piece probability,0.07081324607133865,0.06914302203804254,0.07254760824143887,
+cornet_s,single pieces,random 14 zero,piece accuracy,0.07352577149868011,0.06867325808852912,0.07839554250240326,
+cornet_s,single pieces,random 14 zero,piece probability,0.07187893986701965,0.06967295221984386,0.07406004108488559,
+cornet_s,single pieces,random 15 zero,piece accuracy,0.037433866411447525,0.03473120639100671,0.04013605434447527,
+cornet_s,single pieces,random 15 zero,piece probability,0.04299549385905266,0.04174492824822664,0.04425220219418406,
+cornet_s,single pieces,random 16 zero,piece accuracy,0.04161872714757919,0.03825358236208558,0.045013779867440464,
+cornet_s,single pieces,random 16 zero,piece probability,0.054614774882793427,0.053178253769874576,0.05605358891189098,
+cornet_s,single pieces,random 17 zero,piece accuracy,0.06652592122554779,0.0652579840272665,0.0677141746506095,
+cornet_s,single pieces,random 17 zero,piece probability,0.06641767174005508,0.06517611220479011,0.06761063113808632,
+cornet_s,single pieces,random 18 zero,piece accuracy,0.059192363172769547,0.05556608065962791,0.06277967933565379,
+cornet_s,single pieces,random 18 zero,piece probability,0.06181244179606438,0.060251090303063394,0.06336190029978753,
+cornet_s,single pieces,random 19 zero,piece accuracy,0.05396723747253418,0.05103847477585077,0.05688062775880098,
+cornet_s,single pieces,random 19 zero,piece probability,0.06095060706138611,0.059663621615618466,0.06223410619422794,
+cornet_s,single pieces,random 20 zero,piece accuracy,0.0819801390171051,0.07847431898117066,0.0854297710582614,
+cornet_s,single pieces,random 20 zero,piece probability,0.06866209954023361,0.06766854468733072,0.06964885946363211,
+cornet_s,single pieces,configural mean,piece accuracy,0.09754452854394913,0.09312238730490208,0.10183289553970098,
+cornet_s,single pieces,configural mean,piece probability,0.09155282378196716,0.08875489495694637,0.09434775449335575,
+cornet_s,single pieces,local mean,piece accuracy,0.051200781017541885,0.04747263714671135,0.05481739556416869,
+cornet_s,single pieces,local mean,piece probability,0.058255523443222046,0.05626344988122582,0.06019569272175431,
+cornet_s,single pieces,random 1 mean,piece accuracy,0.04182927682995796,0.038247847091406585,0.045503858570009464,
+cornet_s,single pieces,random 1 mean,piece probability,0.05373918637633324,0.05216404395177961,0.055370247550308706,
+cornet_s,single pieces,random 2 mean,piece accuracy,0.04398985952138901,0.040044037904590365,0.047961822152137755,
+cornet_s,single pieces,random 2 mean,piece probability,0.05576825141906738,0.05420446339994669,0.05739513132721186,
+cornet_s,single pieces,random 3 mean,piece accuracy,0.02806934341788292,0.025074130995199083,0.031085210712626578,
+cornet_s,single pieces,random 3 mean,piece probability,0.04774513468146324,0.04660966033115983,0.04887120956555009,
+cornet_s,single pieces,random 4 mean,piece accuracy,0.04752250015735626,0.04353184783831239,0.05147007806226611,
+cornet_s,single pieces,random 4 mean,piece probability,0.054577190428972244,0.052830169629305604,0.05633742632344365,
+cornet_s,single pieces,random 5 mean,piece accuracy,0.019461654126644135,0.016811778163537384,0.022164243599399922,
+cornet_s,single pieces,random 5 mean,piece probability,0.04065975546836853,0.039672888536006215,0.0416437397710979,
+cornet_s,single pieces,random 6 mean,piece accuracy,0.041391924023628235,0.03753340374678373,0.045224882755428554,
+cornet_s,single pieces,random 6 mean,piece probability,0.0528835691511631,0.051446712017059325,0.05431928811594844,
+cornet_s,single pieces,random 7 mean,piece accuracy,0.01906808279454708,0.016401359532028436,0.02177217835560441,
+cornet_s,single pieces,random 7 mean,piece probability,0.04355091601610184,0.042636328376829624,0.044461259711533786,
+cornet_s,single pieces,random 8 mean,piece accuracy,0.006636719685047865,0.005193208961281925,0.008130020485259593,
+cornet_s,single pieces,random 8 mean,piece probability,0.0345136821269989,0.033477804716676475,0.03555815033614636,
+cornet_s,single pieces,random 9 mean,piece accuracy,0.03231172263622284,0.029573097126558423,0.03512902585789561,
+cornet_s,single pieces,random 9 mean,piece probability,0.04894670844078064,0.04778166459873319,0.05012738294899464,
+cornet_s,single pieces,random 10 mean,piece accuracy,0.028198659420013428,0.02483015051111579,0.03150279987603426,
+cornet_s,single pieces,random 10 mean,piece probability,0.04584405571222305,0.04464873941615224,0.047062164079397915,
+cornet_s,single pieces,random 11 mean,piece accuracy,0.017451299354434013,0.015030064643360675,0.020004987623542546,
+cornet_s,single pieces,random 11 mean,piece probability,0.03995945677161217,0.03874251153320074,0.041195427998900414,
+cornet_s,single pieces,random 12 mean,piece accuracy,0.05536198616027832,0.05156775256618858,0.05924236951395869,
+cornet_s,single pieces,random 12 mean,piece probability,0.0598796047270298,0.0580415396951139,0.06170354532077908,
+cornet_s,single pieces,random 13 mean,piece accuracy,0.047713372856378555,0.043711431045085195,0.05166368205100298,
+cornet_s,single pieces,random 13 mean,piece probability,0.05864086374640465,0.057058417703956366,0.060291683487594123,
+cornet_s,single pieces,random 14 mean,piece accuracy,0.05474667623639107,0.05023378618061543,0.059339895471930505,
+cornet_s,single pieces,random 14 mean,piece probability,0.062276724725961685,0.06017448240891099,0.06441091746091843,
+cornet_s,single pieces,random 15 mean,piece accuracy,0.02546747773885727,0.02217798475176096,0.028838675562292335,
+cornet_s,single pieces,random 15 mean,piece probability,0.04294845834374428,0.04178574085235596,0.04412626270204782,
+cornet_s,single pieces,random 16 mean,piece accuracy,0.040329985320568085,0.0367303105071187,0.043883069325238465,
+cornet_s,single pieces,random 16 mean,piece probability,0.05351144075393677,0.05198923302814364,0.05502360370010138,
+cornet_s,single pieces,random 17 mean,piece accuracy,0.006951679475605488,0.005257805774454028,0.008760466100648045,
+cornet_s,single pieces,random 17 mean,piece probability,0.03642769530415535,0.03573085395619273,0.03713320577517152,
+cornet_s,single pieces,random 18 mean,piece accuracy,0.058090463280677795,0.05419530589133501,0.062007640954107046,
+cornet_s,single pieces,random 18 mean,piece probability,0.06202865019440651,0.06019267095252871,0.06390050798654556,
+cornet_s,single pieces,random 19 mean,piece accuracy,0.047163430601358414,0.04333599833771586,0.050856072921305895,
+cornet_s,single pieces,random 19 mean,piece probability,0.05664031207561493,0.05518424296751619,0.058140555024147035,
+cornet_s,single pieces,random 20 mean,piece accuracy,0.027900900691747665,0.02506572245620191,0.030821969592943785,
+cornet_s,single pieces,random 20 mean,piece probability,0.0498955175280571,0.04878062354400754,0.05102476822212339,
+cornet_s,"shift, centre",intact,grid accuracy,0.20202268660068512,0.1871072083711624,0.217424538359046,
+cornet_s,"shift, centre",intact,scramble accuracy,0.1039460152387619,0.09442175161093473,0.11406181808561086,
+cornet_s,"shift, centre",intact,scramble loss,0.09807667136192322,0.08267414551228285,0.11383013874292373,
+cornet_s,"shift, centre",intact,configural reliance,0.702944278717041,0.6321442306041718,0.7705787152051925,False
+cornet_s,"shift, centre",configural zero,grid accuracy,0.15319424867630005,0.14442174099385738,0.16192896589636802,
+cornet_s,"shift, centre",configural zero,scramble accuracy,0.12949703633785248,0.12004823964089155,0.1389467515051365,
+cornet_s,"shift, centre",configural zero,scramble loss,0.02369721233844757,0.014951868727803231,0.032551273703575134,
+cornet_s,"shift, centre",configural zero,configural reliance,0.26128682494163513,0.17135744728147984,0.3505099266767502,False
+cornet_s,"shift, centre",local zero,grid accuracy,0.1197168305516243,0.10827403739094735,0.13131086006760598,
+cornet_s,"shift, centre",local zero,scramble accuracy,0.06319770216941833,0.057081833481788635,0.06930694747716189,
+cornet_s,"shift, centre",local zero,scramble loss,0.05651912838220596,0.044383423402905464,0.0687175741419196,
+cornet_s,"shift, centre",local zero,configural reliance,,,,True
+cornet_s,"shift, centre",random 1 zero,grid accuracy,0.12372681498527527,0.11141790673136712,0.13599957153201103,
+cornet_s,"shift, centre",random 1 zero,scramble accuracy,0.0773182213306427,0.06942250560969114,0.08551622219383717,
+cornet_s,"shift, centre",random 1 zero,scramble loss,0.04640859365463257,0.03441045731306076,0.05850856266915798,
+cornet_s,"shift, centre",random 1 zero,configural reliance,,,,True
+cornet_s,"shift, centre",random 2 zero,grid accuracy,0.181308776140213,0.1681973222643137,0.19493295811116695,
+cornet_s,"shift, centre",random 2 zero,scramble accuracy,0.1176767498254776,0.1060524508357048,0.12987505942583083,
+cornet_s,"shift, centre",random 2 zero,scramble loss,0.06363202631473541,0.05000414941459894,0.07739210464060306,
+cornet_s,"shift, centre",random 2 zero,configural reliance,0.5355835556983948,0.44108927845954893,0.6253872320055962,False
+cornet_s,"shift, centre",random 3 zero,grid accuracy,0.13223232328891754,0.12063650004565715,0.14396094642579554,
+cornet_s,"shift, centre",random 3 zero,scramble accuracy,0.08478911966085434,0.07404081504791975,0.09557823091745377,
+cornet_s,"shift, centre",random 3 zero,scramble loss,0.0474432036280632,0.03450405653566122,0.060437309369444844,
+cornet_s,"shift, centre",random 3 zero,configural reliance,,,,True
+cornet_s,"shift, centre",random 4 zero,grid accuracy,0.15365684032440186,0.14169771857559682,0.16568088233470915,
+cornet_s,"shift, centre",random 4 zero,scramble accuracy,0.10802722722291946,0.09921085834503174,0.11689793318510056,
+cornet_s,"shift, centre",random 4 zero,scramble loss,0.04562961310148239,0.032765374146401884,0.05846310667693615,
+cornet_s,"shift, centre",random 4 zero,configural reliance,0.5005615949630737,0.38996316120028496,0.5973875313997268,False
+cornet_s,"shift, centre",random 5 zero,grid accuracy,0.09817687422037125,0.08798637986183167,0.10842243060469627,
+cornet_s,"shift, centre",random 5 zero,scramble accuracy,0.04963264986872673,0.04217686504125595,0.05706121399998665,
+cornet_s,"shift, centre",random 5 zero,scramble loss,0.048544224351644516,0.03708842759951949,0.060000316519290206,
+cornet_s,"shift, centre",random 5 zero,configural reliance,,,,True
+cornet_s,"shift, centre",random 6 zero,grid accuracy,0.16743972897529602,0.15801769830286502,0.17689898684620858,
+cornet_s,"shift, centre",random 6 zero,scramble accuracy,0.12287076562643051,0.11410880833864212,0.13163261115550995,
+cornet_s,"shift, centre",random 6 zero,scramble loss,0.04456896334886551,0.03433762826025486,0.05498230699449776,
+cornet_s,"shift, centre",random 6 zero,configural reliance,0.42471009492874146,0.3411033652722836,0.5042970404028893,False
+cornet_s,"shift, centre",random 7 zero,grid accuracy,0.09434715658426285,0.08491897266358137,0.10375510435551405,
+cornet_s,"shift, centre",random 7 zero,scramble accuracy,0.06802720576524734,0.06326527893543243,0.0734693706035614,
+cornet_s,"shift, centre",random 7 zero,scramble loss,0.026319950819015503,0.01682333629578352,0.03580997381359339,
+cornet_s,"shift, centre",random 7 zero,configural reliance,,,,True
+cornet_s,"shift, centre",random 8 zero,grid accuracy,0.084125816822052,0.07337070107460023,0.09496360290795565,
+cornet_s,"shift, centre",random 8 zero,scramble accuracy,0.018129460513591766,0.012081632390618324,0.02485097204335034,
+cornet_s,"shift, centre",random 8 zero,scramble loss,0.06599635630846024,0.05457437401637435,0.07753504067659378,
+cornet_s,"shift, centre",random 8 zero,configural reliance,,,,True
+cornet_s,"shift, centre",random 9 zero,grid accuracy,0.06851784884929657,0.06102123158052564,0.07659244537353516,
+cornet_s,"shift, centre",random 9 zero,scramble accuracy,0.014965986832976341,0.009523809887468815,0.02040816475637257,
+cornet_s,"shift, centre",random 9 zero,scramble loss,0.05355186015367508,0.04474954027682543,0.06238178461790085,
+cornet_s,"shift, centre",random 9 zero,configural reliance,,,,True
+cornet_s,"shift, centre",random 10 zero,grid accuracy,0.11824490875005722,0.10608161222189665,0.13097956776618958,
+cornet_s,"shift, centre",random 10 zero,scramble accuracy,0.09450341016054153,0.08632616251707077,0.10269385576248169,
+cornet_s,"shift, centre",random 10 zero,scramble loss,0.023741498589515686,0.01031294446438551,0.03723845295608043,
+cornet_s,"shift, centre",random 10 zero,configural reliance,,,,True
+cornet_s,"shift, centre",random 11 zero,grid accuracy,0.08650120347738266,0.0796743182465434,0.09336553234606981,
+cornet_s,"shift, centre",random 11 zero,scramble accuracy,0.08196273446083069,0.0731564611196518,0.09078632164746522,
+cornet_s,"shift, centre",random 11 zero,scramble loss,0.0045384690165519714,-0.005479102954268455,0.014069816097617148,
+cornet_s,"shift, centre",random 11 zero,configural reliance,,,,True
+cornet_s,"shift, centre",random 12 zero,grid accuracy,0.1715642213821411,0.15733576901257038,0.1861812625080347,
+cornet_s,"shift, centre",random 12 zero,scramble accuracy,0.06474871933460236,0.053966608736664055,0.0755994327366352,
+cornet_s,"shift, centre",random 12 zero,scramble loss,0.10681550204753876,0.09110719431191683,0.12271213233470915,
+cornet_s,"shift, centre",random 12 zero,configural reliance,0.9793816804885864,0.8810863941907883,1.0800247013568878,False
+cornet_s,"shift, centre",random 13 zero,grid accuracy,0.13556930422782898,0.125110137835145,0.14630397744476795,
+cornet_s,"shift, centre",random 13 zero,scramble accuracy,0.08228571712970734,0.07482992112636566,0.08910201489925385,
+cornet_s,"shift, centre",random 13 zero,scramble loss,0.05328358709812164,0.04187550600618124,0.06514402572065592,
+cornet_s,"shift, centre",random 13 zero,configural reliance,0.7292198538780212,0.6300050213932991,0.8253783360123634,False
+cornet_s,"shift, centre",random 14 zero,grid accuracy,0.13496066629886627,0.12337480448186397,0.14655345119535923,
+cornet_s,"shift, centre",random 14 zero,scramble accuracy,0.07027211040258408,0.059442177414894104,0.08166021537035703,
+cornet_s,"shift, centre",random 14 zero,scramble loss,0.0646885558962822,0.05048488471657038,0.07882460542023181,
+cornet_s,"shift, centre",random 14 zero,configural reliance,,,,True
+cornet_s,"shift, centre",random 15 zero,grid accuracy,0.09578975290060043,0.0842315398156643,0.10730752144008875,
+cornet_s,"shift, centre",random 15 zero,scramble accuracy,0.06038094684481621,0.052965980023145676,0.06782311201095581,
+cornet_s,"shift, centre",random 15 zero,scramble loss,0.035408806055784225,0.02331314589828253,0.04750363761559129,
+cornet_s,"shift, centre",random 15 zero,configural reliance,,,,True
+cornet_s,"shift, centre",random 16 zero,grid accuracy,0.1482788473367691,0.13390330374240875,0.16278942413628095,
+cornet_s,"shift, centre",random 16 zero,scramble accuracy,0.05566687136888504,0.046149659901857376,0.065742083825171,
+cornet_s,"shift, centre",random 16 zero,scramble loss,0.09261197596788406,0.07769918739795685,0.10811511036008596,
+cornet_s,"shift, centre",random 16 zero,configural reliance,1.0796598196029663,0.9670938670635223,1.2066289126873015,False
+cornet_s,"shift, centre",random 17 zero,grid accuracy,0.12631379067897797,0.11683071851730346,0.1358109127730131,
+cornet_s,"shift, centre",random 17 zero,scramble accuracy,0.07591177523136139,0.06850338727235794,0.08334733564406634,
+cornet_s,"shift, centre",random 17 zero,scramble loss,0.05040201544761658,0.03957845494151115,0.061265903525054455,
+cornet_s,"shift, centre",random 17 zero,configural reliance,,,,True
+cornet_s,"shift, centre",random 18 zero,grid accuracy,0.17399635910987854,0.16075290367007256,0.18723857253789902,
+cornet_s,"shift, centre",random 18 zero,scramble accuracy,0.0808439627289772,0.07264577392488718,0.08959258422255516,
+cornet_s,"shift, centre",random 18 zero,scramble loss,0.09315239638090134,0.07854273859411479,0.10772566907107829,
+cornet_s,"shift, centre",random 18 zero,configural reliance,0.8354747891426086,0.7587134435772895,0.9097354635596275,False
+cornet_s,"shift, centre",random 19 zero,grid accuracy,0.10673680901527405,0.09523215349763632,0.1181939922273159,
+cornet_s,"shift, centre",random 19 zero,scramble accuracy,0.04553123936057091,0.03796604415401818,0.05304887155070901,
+cornet_s,"shift, centre",random 19 zero,scramble loss,0.06120556965470314,0.04909627493470907,0.07337579131126404,
+cornet_s,"shift, centre",random 19 zero,configural reliance,,,,True
+cornet_s,"shift, centre",random 20 zero,grid accuracy,0.15659984946250916,0.14448355361819268,0.16868553645908832,
+cornet_s,"shift, centre",random 20 zero,scramble accuracy,0.09031292796134949,0.08013604581356049,0.10046257078647614,
+cornet_s,"shift, centre",random 20 zero,scramble loss,0.06628692150115967,0.05248678419739008,0.08031731601804494,
+cornet_s,"shift, centre",random 20 zero,configural reliance,0.7044317722320557,0.5973632797598839,0.8094964936375618,False
+cornet_s,"shift, centre",configural mean,grid accuracy,0.16379593312740326,0.15383638627827168,0.17382307387888432,
+cornet_s,"shift, centre",configural mean,scramble accuracy,0.1365034282207489,0.12975506484508514,0.1438775211572647,
+cornet_s,"shift, centre",configural mean,scramble loss,0.027292504906654358,0.017945557460188867,0.0372789204120636,
+cornet_s,"shift, centre",configural mean,configural reliance,0.2694333791732788,0.1901934914290905,0.34336847960948935,False
+cornet_s,"shift, centre",local mean,grid accuracy,0.15842023491859436,0.144751350954175,0.1726926974952221,
+cornet_s,"shift, centre",local mean,scramble accuracy,0.061776138842105865,0.053674296196550134,0.0699328139424324,
+cornet_s,"shift, centre",local mean,scramble loss,0.0966440960764885,0.08180836271494626,0.11165488064289092,
+cornet_s,"shift, centre",local mean,configural reliance,1.0075465440750122,0.922774501144886,1.0939672321081162,False
+cornet_s,"shift, centre",random 1 mean,grid accuracy,0.12236078083515167,0.11022449620068073,0.13456480205059052,
+cornet_s,"shift, centre",random 1 mean,scramble accuracy,0.07337415218353271,0.06389114260673523,0.0828707292675972,
+cornet_s,"shift, centre",random 1 mean,scramble loss,0.04898662865161896,0.03548999112099409,0.06260578464716672,
+cornet_s,"shift, centre",random 1 mean,configural reliance,,,,True
+cornet_s,"shift, centre",random 2 mean,grid accuracy,0.14749610424041748,0.13524321019649505,0.15971490442752836,
+cornet_s,"shift, centre",random 2 mean,scramble accuracy,0.08419749140739441,0.07408144995570183,0.09432751424610615,
+cornet_s,"shift, centre",random 2 mean,scramble loss,0.06329861283302307,0.04900132473558187,0.07756068613380193,
+cornet_s,"shift, centre",random 2 mean,configural reliance,0.7447236776351929,0.6240874946117401,0.8580103054642677,False
+cornet_s,"shift, centre",random 3 mean,grid accuracy,0.1236853078007698,0.11237244177609682,0.13454322703182697,
+cornet_s,"shift, centre",random 3 mean,scramble accuracy,0.05500679835677147,0.047442854940891274,0.0631292313337326,
+cornet_s,"shift, centre",random 3 mean,scramble loss,0.06867851316928864,0.05654575312510133,0.08033938892185688,
+cornet_s,"shift, centre",random 3 mean,configural reliance,,,,True
+cornet_s,"shift, centre",random 4 mean,grid accuracy,0.11636118590831757,0.10560565423220396,0.1271638572216034,
+cornet_s,"shift, centre",random 4 mean,scramble accuracy,0.06593197584152222,0.05914284661412239,0.07270746678113937,
+cornet_s,"shift, centre",random 4 mean,scramble loss,0.05042921006679535,0.03902725353837013,0.06190558150410652,
+cornet_s,"shift, centre",random 4 mean,configural reliance,,,,True
+cornet_s,"shift, centre",random 5 mean,grid accuracy,0.10961990058422089,0.09896661303937435,0.11974289007484913,
+cornet_s,"shift, centre",random 5 mean,scramble accuracy,0.05572788417339325,0.04892516126856208,0.06255780905485153,
+cornet_s,"shift, centre",random 5 mean,scramble loss,0.05389201641082764,0.04302783636376262,0.06521914806216954,
+cornet_s,"shift, centre",random 5 mean,configural reliance,,,,True
+cornet_s,"shift, centre",random 6 mean,grid accuracy,0.10034800320863724,0.0908649755641818,0.11035506259649991,
+cornet_s,"shift, centre",random 6 mean,scramble accuracy,0.06526529788970947,0.05912889102473855,0.07140135020017624,
+cornet_s,"shift, centre",random 6 mean,scramble loss,0.035082705318927765,0.025014636293053626,0.045226167608052495,
+cornet_s,"shift, centre",random 6 mean,configural reliance,,,,True
+cornet_s,"shift, centre",random 7 mean,grid accuracy,0.1077217310667038,0.0975992426276207,0.11791959423571825,
+cornet_s,"shift, centre",random 7 mean,scramble accuracy,0.054421763867139816,0.04625850170850754,0.0625850260257721,
+cornet_s,"shift, centre",random 7 mean,scramble loss,0.05329996719956398,0.04184415191411972,0.06487914025783538,
+cornet_s,"shift, centre",random 7 mean,configural reliance,,,,True
+cornet_s,"shift, centre",random 8 mean,grid accuracy,0.11403286457061768,0.10120201781392098,0.1267877619713545,
+cornet_s,"shift, centre",random 8 mean,scramble accuracy,0.030503401532769203,0.02303401567041874,0.03862584764137864,
+cornet_s,"shift, centre",random 8 mean,scramble loss,0.08352946490049362,0.07003926131874323,0.09705737438052893,
+cornet_s,"shift, centre",random 8 mean,configural reliance,,,,True
+cornet_s,"shift, centre",random 9 mean,grid accuracy,0.10507660359144211,0.09501828216016292,0.1153323145583272,
+cornet_s,"shift, centre",random 9 mean,scramble accuracy,0.035319726914167404,0.028503404883667826,0.04277550429105759,
+cornet_s,"shift, centre",random 9 mean,scramble loss,0.069756880402565,0.058157429471611975,0.08192757088690997,
+cornet_s,"shift, centre",random 9 mean,configural reliance,,,,True
+cornet_s,"shift, centre",random 10 mean,grid accuracy,0.1129944771528244,0.10080313645303249,0.12519193738698958,
+cornet_s,"shift, centre",random 10 mean,scramble accuracy,0.0768299400806427,0.06733332574367523,0.08631325960159301,
+cornet_s,"shift, centre",random 10 mean,scramble loss,0.0361645370721817,0.023148931376636036,0.04958661329001188,
+cornet_s,"shift, centre",random 10 mean,configural reliance,,,,True
+cornet_s,"shift, centre",random 11 mean,grid accuracy,0.11366468667984009,0.10204729344695807,0.12522630505263804,
+cornet_s,"shift, centre",random 11 mean,scramble accuracy,0.057102035731077194,0.04893876984715462,0.06527924984693527,
+cornet_s,"shift, centre",random 11 mean,scramble loss,0.056562650948762894,0.04384518610313535,0.06944391578435898,
+cornet_s,"shift, centre",random 11 mean,configural reliance,,,,True
+cornet_s,"shift, centre",random 12 mean,grid accuracy,0.15223298966884613,0.1407499063760042,0.1636488873511553,
+cornet_s,"shift, centre",random 12 mean,scramble accuracy,0.08691157400608063,0.07734761517494917,0.09702038038522005,
+cornet_s,"shift, centre",random 12 mean,scramble loss,0.0653214156627655,0.05305485390126705,0.07823373824357986,
+cornet_s,"shift, centre",random 12 mean,configural reliance,0.7279531955718994,0.6212018191814422,0.8351156204938889,False
+cornet_s,"shift, centre",random 13 mean,grid accuracy,0.133231520652771,0.12242154721170664,0.14461938701570035,
+cornet_s,"shift, centre",random 13 mean,scramble accuracy,0.0652380883693695,0.05639455085620284,0.07409521955996752,
+cornet_s,"shift, centre",random 13 mean,scramble loss,0.06799343228340149,0.05523811262100935,0.08088431563228368,
+cornet_s,"shift, centre",random 13 mean,configural reliance,,,,True
+cornet_s,"shift, centre",random 14 mean,grid accuracy,0.1331585943698883,0.12091222628951073,0.14530218131840228,
+cornet_s,"shift, centre",random 14 mean,scramble accuracy,0.07466667145490646,0.06448980402201414,0.08488433081656695,
+cornet_s,"shift, centre",random 14 mean,scramble loss,0.05849192291498184,0.04490623287856579,0.07210477031767368,
+cornet_s,"shift, centre",random 14 mean,configural reliance,,,,True
+cornet_s,"shift, centre",random 15 mean,grid accuracy,0.10138201713562012,0.09064768403768539,0.11209637112915516,
+cornet_s,"shift, centre",random 15 mean,scramble accuracy,0.059809520840644836,0.05371392089873552,0.06589113920927048,
+cornet_s,"shift, centre",random 15 mean,scramble loss,0.04157249629497528,0.031381423491984604,0.052362577989697456,
+cornet_s,"shift, centre",random 15 mean,configural reliance,,,,True
+cornet_s,"shift, centre",random 16 mean,grid accuracy,0.13398893177509308,0.12186600994318723,0.14616013914346696,
+cornet_s,"shift, centre",random 16 mean,scramble accuracy,0.07538776099681854,0.06650339048355818,0.08482991177588702,
+cornet_s,"shift, centre",random 16 mean,scramble loss,0.058601170778274536,0.04570975620299578,0.07151353396475316,
+cornet_s,"shift, centre",random 16 mean,configural reliance,,,,True
+cornet_s,"shift, centre",random 17 mean,grid accuracy,0.09600211679935455,0.08526723720133304,0.1061793714761734,
+cornet_s,"shift, centre",random 17 mean,scramble accuracy,0.03329251706600189,0.026489797979593277,0.04010884091258049,
+cornet_s,"shift, centre",random 17 mean,scramble loss,0.06270959973335266,0.05120513187721372,0.07419357541948557,
+cornet_s,"shift, centre",random 17 mean,configural reliance,,,,True
+cornet_s,"shift, centre",random 18 mean,grid accuracy,0.14975805580615997,0.13757326193153857,0.16193532943725586,
+cornet_s,"shift, centre",random 18 mean,scramble accuracy,0.08355102688074112,0.07467991393059492,0.09297957289963961,
+cornet_s,"shift, centre",random 18 mean,scramble loss,0.06620702892541885,0.0531856557354331,0.07971874978393316,
+cornet_s,"shift, centre",random 18 mean,configural reliance,0.758749783039093,0.6551746442914009,0.8602345019578933,False
+cornet_s,"shift, centre",random 19 mean,grid accuracy,0.12944597005844116,0.11788704972714185,0.14100400246679784,
+cornet_s,"shift, centre",random 19 mean,scramble accuracy,0.06248319894075394,0.053673457261174916,0.07130654156208038,
+cornet_s,"shift, centre",random 19 mean,scramble loss,0.06696277111768723,0.054145999066531655,0.0797712193801999,
+cornet_s,"shift, centre",random 19 mean,configural reliance,,,,True
+cornet_s,"shift, centre",random 20 mean,grid accuracy,0.12257228791713715,0.1110822482034564,0.13395960181951522,
+cornet_s,"shift, centre",random 20 mean,scramble accuracy,0.0740952417254448,0.06391835957765579,0.08363263309001923,
+cornet_s,"shift, centre",random 20 mean,scramble loss,0.04847704619169235,0.03496763575822115,0.0614946817979215,
+cornet_s,"shift, centre",random 20 mean,configural reliance,,,,True
+cornet_s,"shift, corners",intact,grid accuracy,0.15798097848892212,0.14663184583187103,0.16901493370532988,
+cornet_s,"shift, corners",intact,scramble accuracy,0.0735359787940979,0.06689502336084843,0.08030952326953411,
+cornet_s,"shift, corners",intact,scramble loss,0.08444499969482422,0.07368303742259741,0.09544329997152089,
+cornet_s,"shift, corners",intact,configural reliance,0.8844169974327087,0.8190985515713691,0.95218505859375,False
+cornet_s,"shift, corners",configural zero,grid accuracy,0.14983004331588745,0.1425534062087536,0.15702903047204017,
+cornet_s,"shift, corners",configural zero,scramble accuracy,0.11397289484739304,0.10686898678541183,0.12110452391207217,
+cornet_s,"shift, corners",configural zero,scramble loss,0.035857148468494415,0.02840282451361418,0.0432075809687376,
+cornet_s,"shift, corners",configural zero,configural reliance,0.41059350967407227,0.33715780824422836,0.48337762653827665,False
+cornet_s,"shift, corners",local zero,grid accuracy,0.1042127013206482,0.0964094664901495,0.11201769299805163,
+cornet_s,"shift, corners",local zero,scramble accuracy,0.05964471027255058,0.055566377751529214,0.06371787954121828,
+cornet_s,"shift, corners",local zero,scramble loss,0.04456799104809761,0.036562477611005305,0.052627531345933676,
+cornet_s,"shift, corners",local zero,configural reliance,,,,True
+cornet_s,"shift, corners",random 1 zero,grid accuracy,0.09643851220607758,0.08808198440819978,0.10475046820938587,
+cornet_s,"shift, corners",random 1 zero,scramble accuracy,0.06524829566478729,0.05983692556619644,0.07045735530555249,
+cornet_s,"shift, corners",random 1 zero,scramble loss,0.031190216541290283,0.024316440522670745,0.038299341686069965,
+cornet_s,"shift, corners",random 1 zero,configural reliance,,,,True
+cornet_s,"shift, corners",random 2 zero,grid accuracy,0.1511158049106598,0.1407227221876383,0.1614198025316,
+cornet_s,"shift, corners",random 2 zero,scramble accuracy,0.0800614133477211,0.07200228981673717,0.08814086969941855,
+cornet_s,"shift, corners",random 2 zero,scramble loss,0.07105439156293869,0.06094203107059002,0.0812842559069395,
+cornet_s,"shift, corners",random 2 zero,configural reliance,0.8018252849578857,0.7191825225949288,0.8881688475608825,False
+cornet_s,"shift, corners",random 3 zero,grid accuracy,0.09885245561599731,0.09060288965702057,0.10717253889888526,
+cornet_s,"shift, corners",random 3 zero,scramble accuracy,0.052649661898612976,0.04619999760761857,0.059544294513761996,
+cornet_s,"shift, corners",random 3 zero,scramble loss,0.04620279371738434,0.037959447037428616,0.054607942327857005,
+cornet_s,"shift, corners",random 3 zero,configural reliance,,,,True
+cornet_s,"shift, corners",random 4 zero,grid accuracy,0.11822538822889328,0.10927964076399803,0.12715736739337444,
+cornet_s,"shift, corners",random 4 zero,scramble accuracy,0.07543878257274628,0.06967676896601915,0.08121086694300175,
+cornet_s,"shift, corners",random 4 zero,scramble loss,0.042786605656147,0.03500418141484261,0.05073904227465391,
+cornet_s,"shift, corners",random 4 zero,configural reliance,,,,True
+cornet_s,"shift, corners",random 5 zero,grid accuracy,0.09018202871084213,0.0820850133895874,0.09834551475942134,
+cornet_s,"shift, corners",random 5 zero,scramble accuracy,0.042132653295993805,0.03636734560132027,0.047752042580395934,
+cornet_s,"shift, corners",random 5 zero,scramble loss,0.04804937541484833,0.04004323426634073,0.05600350629538298,
+cornet_s,"shift, corners",random 5 zero,configural reliance,,,,True
+cornet_s,"shift, corners",random 6 zero,grid accuracy,0.1351567506790161,0.12693816125392915,0.143139661103487,
+cornet_s,"shift, corners",random 6 zero,scramble accuracy,0.08772789686918259,0.08181290328502655,0.09365303833037615,
+cornet_s,"shift, corners",random 6 zero,scramble loss,0.04742885380983353,0.03950689695775509,0.05527442507445812,
+cornet_s,"shift, corners",random 6 zero,configural reliance,0.6527796983718872,0.576267597079277,0.7268261119723319,False
+cornet_s,"shift, corners",random 7 zero,grid accuracy,0.07382992655038834,0.06876187771558762,0.07924505174160003,
+cornet_s,"shift, corners",random 7 zero,scramble accuracy,0.06479591131210327,0.06207481771707535,0.06700679659843445,
+cornet_s,"shift, corners",random 7 zero,scramble loss,0.009034015238285065,0.003965896554291248,0.01455110628157854,
+cornet_s,"shift, corners",random 7 zero,configural reliance,,,,True
+cornet_s,"shift, corners",random 8 zero,grid accuracy,0.06511908769607544,0.05766154192388058,0.07244738396257162,
+cornet_s,"shift, corners",random 8 zero,scramble accuracy,0.008540920913219452,0.005199137143790722,0.012236767122521993,
+cornet_s,"shift, corners",random 8 zero,scramble loss,0.05657816678285599,0.04939492773264647,0.0638435449451208,
+cornet_s,"shift, corners",random 8 zero,configural reliance,,,,True
+cornet_s,"shift, corners",random 9 zero,grid accuracy,0.07184406369924545,0.0660837883129716,0.07777646202594042,
+cornet_s,"shift, corners",random 9 zero,scramble accuracy,0.020901361480355263,0.016319727478548884,0.025656461715698242,
+cornet_s,"shift, corners",random 9 zero,scramble loss,0.05094270408153534,0.044396557845175266,0.057499014772474766,
+cornet_s,"shift, corners",random 9 zero,configural reliance,,,,True
+cornet_s,"shift, corners",random 10 zero,grid accuracy,0.08076620101928711,0.07270398437976837,0.08905303664505482,
+cornet_s,"shift, corners",random 10 zero,scramble accuracy,0.05694897845387459,0.0525408199056983,0.06134352833032608,
+cornet_s,"shift, corners",random 10 zero,scramble loss,0.02381722256541252,0.015551905892789365,0.03226117826998234,
+cornet_s,"shift, corners",random 10 zero,configural reliance,,,,True
+cornet_s,"shift, corners",random 11 zero,grid accuracy,0.07776881754398346,0.07320239283144474,0.0823197754099965,
+cornet_s,"shift, corners",random 11 zero,scramble accuracy,0.07107824087142944,0.06489105969667434,0.07738221585750578,
+cornet_s,"shift, corners",random 11 zero,scramble loss,0.006690576672554016,0.0007874302566051484,0.012546218559145925,
+cornet_s,"shift, corners",random 11 zero,configural reliance,,,,True
+cornet_s,"shift, corners",random 12 zero,grid accuracy,0.1254214197397232,0.1151281576603651,0.13573526702821254,
+cornet_s,"shift, corners",random 12 zero,scramble accuracy,0.03913605585694313,0.03224489465355873,0.046452720835804935,
+cornet_s,"shift, corners",random 12 zero,scramble loss,0.08628536760807037,0.07567616645246744,0.09663831647485495,
+cornet_s,"shift, corners",random 12 zero,configural reliance,,,,True
+cornet_s,"shift, corners",random 13 zero,grid accuracy,0.10379031300544739,0.09580295216292142,0.1118046237155795,
+cornet_s,"shift, corners",random 13 zero,scramble accuracy,0.06460884213447571,0.06069047711789608,0.06852377969771624,
+cornet_s,"shift, corners",random 13 zero,scramble loss,0.03918147087097168,0.03161233123391867,0.04685692600905895,
+cornet_s,"shift, corners",random 13 zero,configural reliance,,,,True
+cornet_s,"shift, corners",random 14 zero,grid accuracy,0.11064974963665009,0.10205383002758026,0.11927821859717369,
+cornet_s,"shift, corners",random 14 zero,scramble accuracy,0.046705834567546844,0.04002368487417698,0.053479673527181144,
+cornet_s,"shift, corners",random 14 zero,scramble loss,0.06394391506910324,0.05480909226462245,0.07336401361972093,
+cornet_s,"shift, corners",random 14 zero,configural reliance,,,,True
+cornet_s,"shift, corners",random 15 zero,grid accuracy,0.08112771064043045,0.07299928069114685,0.08922996539622545,
+cornet_s,"shift, corners",random 15 zero,scramble accuracy,0.051295917481184006,0.04673460219055414,0.05584030477330088,
+cornet_s,"shift, corners",random 15 zero,scramble loss,0.029831793159246445,0.02194220582023263,0.03777238000184297,
+cornet_s,"shift, corners",random 15 zero,configural reliance,,,,True
+cornet_s,"shift, corners",random 16 zero,grid accuracy,0.11417438089847565,0.10441740099340677,0.12394821885973215,
+cornet_s,"shift, corners",random 16 zero,scramble accuracy,0.055675432085990906,0.04993054717779159,0.061449197493493556,
+cornet_s,"shift, corners",random 16 zero,scramble loss,0.05849894881248474,0.049587241001427175,0.06750763803720473,
+cornet_s,"shift, corners",random 16 zero,configural reliance,,,,True
+cornet_s,"shift, corners",random 17 zero,grid accuracy,0.1147463470697403,0.10772167202085256,0.12154324259608984,
+cornet_s,"shift, corners",random 17 zero,scramble accuracy,0.07328757643699646,0.06920738480985164,0.07748147770762444,
+cornet_s,"shift, corners",random 17 zero,scramble loss,0.041458770632743835,0.03408478088676929,0.048645153827965255,
+cornet_s,"shift, corners",random 17 zero,configural reliance,,,,True
+cornet_s,"shift, corners",random 18 zero,grid accuracy,0.12692533433437347,0.11867046169936657,0.13527010343968868,
+cornet_s,"shift, corners",random 18 zero,scramble accuracy,0.064347043633461,0.05995579957962036,0.06874859612435102,
+cornet_s,"shift, corners",random 18 zero,scramble loss,0.06257829070091248,0.054325697012245655,0.07087815813720226,
+cornet_s,"shift, corners",random 18 zero,configural reliance,,,,True
+cornet_s,"shift, corners",random 19 zero,grid accuracy,0.08203639090061188,0.07524855826050043,0.08883123695850373,
+cornet_s,"shift, corners",random 19 zero,scramble accuracy,0.03988775610923767,0.03444897383451462,0.045452633593231435,
+cornet_s,"shift, corners",random 19 zero,scramble loss,0.04214863479137421,0.03499018531292677,0.04927170434966683,
+cornet_s,"shift, corners",random 19 zero,configural reliance,,,,True
+cornet_s,"shift, corners",random 20 zero,grid accuracy,0.13653430342674255,0.1287902556359768,0.14419370256364344,
+cornet_s,"shift, corners",random 20 zero,scramble accuracy,0.08392857015132904,0.07797196358442307,0.08998299408704043,
+cornet_s,"shift, corners",random 20 zero,scramble loss,0.05260573327541351,0.04488325510174036,0.060298170521855356,
+cornet_s,"shift, corners",random 20 zero,configural reliance,0.7105588912963867,0.6359019249677658,0.7849235877394676,False
+cornet_s,"shift, corners",configural mean,grid accuracy,0.14626869559288025,0.13769045397639273,0.15496263951063155,
+cornet_s,"shift, corners",configural mean,scramble accuracy,0.11288776993751526,0.1052312845364213,0.12031970918178558,
+cornet_s,"shift, corners",configural mean,scramble loss,0.03338092565536499,0.025479620695114134,0.04144910164177418,
+cornet_s,"shift, corners",configural mean,configural reliance,0.3984892666339874,0.3190365366637707,0.47680462524294853,False
+cornet_s,"shift, corners",local mean,grid accuracy,0.13293099403381348,0.12264727652072907,0.14335846826434134,
+cornet_s,"shift, corners",local mean,scramble accuracy,0.06029107794165611,0.05520088337361813,0.06552436333149672,
+cornet_s,"shift, corners",local mean,scramble loss,0.07263991236686707,0.062283854745328424,0.08304211385548114,
+cornet_s,"shift, corners",local mean,configural reliance,,,,True
+cornet_s,"shift, corners",random 1 mean,grid accuracy,0.09414461255073547,0.08538104314357042,0.10289476606994867,
+cornet_s,"shift, corners",random 1 mean,scramble accuracy,0.05422448739409447,0.04862244054675102,0.05980951711535454,
+cornet_s,"shift, corners",random 1 mean,scramble loss,0.039920125156641006,0.03138180440291762,0.04856642317026853,
+cornet_s,"shift, corners",random 1 mean,configural reliance,,,,True
+cornet_s,"shift, corners",random 2 mean,grid accuracy,0.11696629226207733,0.10799862090498209,0.12593663819134235,
+cornet_s,"shift, corners",random 2 mean,scramble accuracy,0.051649659872055054,0.045727893617004155,0.057602033112198116,
+cornet_s,"shift, corners",random 2 mean,scramble loss,0.06531663239002228,0.05622388357296586,0.07455414067953825,
+cornet_s,"shift, corners",random 2 mean,configural reliance,,,,True
+cornet_s,"shift, corners",random 3 mean,grid accuracy,0.10474815964698792,0.09581325370818376,0.11352868396788836,
+cornet_s,"shift, corners",random 3 mean,scramble accuracy,0.049792513251304626,0.044520415086299184,0.05506461132317782,
+cornet_s,"shift, corners",random 3 mean,scramble loss,0.05495564639568329,0.045837916899472475,0.06401563435792923,
+cornet_s,"shift, corners",random 3 mean,configural reliance,,,,True
+cornet_s,"shift, corners",random 4 mean,grid accuracy,0.09510720521211624,0.08781971763819456,0.1025579709559679,
+cornet_s,"shift, corners",random 4 mean,scramble accuracy,0.05847618728876114,0.05407482385635376,0.06270748376846313,
+cornet_s,"shift, corners",random 4 mean,scramble loss,0.0366310179233551,0.029055932816118003,0.04451725771650671,
+cornet_s,"shift, corners",random 4 mean,configural reliance,,,,True
+cornet_s,"shift, corners",random 5 mean,grid accuracy,0.0930788666009903,0.08518776074051856,0.10089396685361862,
+cornet_s,"shift, corners",random 5 mean,scramble accuracy,0.044200681149959564,0.03908494552597404,0.04930611336603761,
+cornet_s,"shift, corners",random 5 mean,scramble loss,0.04887818545103073,0.04057460064068437,0.05732393972575664,
+cornet_s,"shift, corners",random 5 mean,configural reliance,,,,True
+cornet_s,"shift, corners",random 6 mean,grid accuracy,0.08441166579723358,0.07787584364414216,0.09097961969673633,
+cornet_s,"shift, corners",random 6 mean,scramble accuracy,0.057986389845609665,0.053554337937384844,0.06222125710919499,
+cornet_s,"shift, corners",random 6 mean,scramble loss,0.026425275951623917,0.019741285033524035,0.033340257499367,
+cornet_s,"shift, corners",random 6 mean,configural reliance,,,,True
+cornet_s,"shift, corners",random 7 mean,grid accuracy,0.08792537450790405,0.0804846428334713,0.09529977422207593,
+cornet_s,"shift, corners",random 7 mean,scramble accuracy,0.043707482516765594,0.03809523582458496,0.04931972175836563,
+cornet_s,"shift, corners",random 7 mean,scramble loss,0.04421789199113846,0.03664269363507629,0.05227061370387673,
+cornet_s,"shift, corners",random 7 mean,configural reliance,,,,True
+cornet_s,"shift, corners",random 8 mean,grid accuracy,0.08647878468036652,0.07751790229231119,0.09520024601370096,
+cornet_s,"shift, corners",random 8 mean,scramble accuracy,0.01950855553150177,0.014928571856580674,0.024447330133989455,
+cornet_s,"shift, corners",random 8 mean,scramble loss,0.06697022914886475,0.05772836776450276,0.07603220976889133,
+cornet_s,"shift, corners",random 8 mean,configural reliance,,,,True
+cornet_s,"shift, corners",random 9 mean,grid accuracy,0.08926664292812347,0.08300434164702893,0.0959990130737424,
+cornet_s,"shift, corners",random 9 mean,scramble accuracy,0.03330272063612938,0.02854762035422027,0.03820416266098618,
+cornet_s,"shift, corners",random 9 mean,scramble loss,0.055963922291994095,0.04809647211804986,0.06416469663381577,
+cornet_s,"shift, corners",random 9 mean,configural reliance,,,,True
+cornet_s,"shift, corners",random 10 mean,grid accuracy,0.08459948003292084,0.07582185864448547,0.09341786727309227,
+cornet_s,"shift, corners",random 10 mean,scramble accuracy,0.0447210855782032,0.0391122474335134,0.0503299311734736,
+cornet_s,"shift, corners",random 10 mean,scramble loss,0.039878394454717636,0.031102933175861835,0.048829250223934646,
+cornet_s,"shift, corners",random 10 mean,configural reliance,,,,True
+cornet_s,"shift, corners",random 11 mean,grid accuracy,0.09143909811973572,0.08312591835856438,0.09973490741103888,
+cornet_s,"shift, corners",random 11 mean,scramble accuracy,0.04402720928192139,0.03858843808993697,0.049306209385395046,
+cornet_s,"shift, corners",random 11 mean,scramble loss,0.04741188883781433,0.03880285825580358,0.05596661297604441,
+cornet_s,"shift, corners",random 11 mean,configural reliance,,,,True
+cornet_s,"shift, corners",random 12 mean,grid accuracy,0.1178273856639862,0.10917563922703266,0.12652998715639113,
+cornet_s,"shift, corners",random 12 mean,scramble accuracy,0.05428571626543999,0.04822109248489141,0.06052729422226548,
+cornet_s,"shift, corners",random 12 mean,scramble loss,0.06354166567325592,0.05483871391043067,0.07234667520970105,
+cornet_s,"shift, corners",random 12 mean,configural reliance,,,,True
+cornet_s,"shift, corners",random 13 mean,grid accuracy,0.10887272655963898,0.10028254128992557,0.1174193549901247,
+cornet_s,"shift, corners",random 13 mean,scramble accuracy,0.047748297452926636,0.04195578368380666,0.05368706965819001,
+cornet_s,"shift, corners",random 13 mean,scramble loss,0.06112442910671234,0.05231884531676769,0.06971669867634774,
+cornet_s,"shift, corners",random 13 mean,configural reliance,,,,True
+cornet_s,"shift, corners",random 14 mean,grid accuracy,0.11335305124521255,0.10350415352731943,0.12308201808482408,
+cornet_s,"shift, corners",random 14 mean,scramble accuracy,0.05057822912931442,0.04347950648516417,0.05783001640811562,
+cornet_s,"shift, corners",random 14 mean,scramble loss,0.06277482211589813,0.05327825369313359,0.07229506168514489,
+cornet_s,"shift, corners",random 14 mean,configural reliance,,,,True
+cornet_s,"shift, corners",random 15 mean,grid accuracy,0.08452258259057999,0.07657978627830744,0.09262028094381093,
+cornet_s,"shift, corners",random 15 mean,scramble accuracy,0.04844897985458374,0.04369047284126282,0.053047619946300986,
+cornet_s,"shift, corners",random 15 mean,scramble loss,0.036073602735996246,0.027742972783744334,0.04454633928835392,
+cornet_s,"shift, corners",random 15 mean,configural reliance,,,,True
+cornet_s,"shift, corners",random 16 mean,grid accuracy,0.1094760149717331,0.10040855146944523,0.11824895814061165,
+cornet_s,"shift, corners",random 16 mean,scramble accuracy,0.062363944947719574,0.05673809321597219,0.06795245707035065,
+cornet_s,"shift, corners",random 16 mean,scramble loss,0.04711207002401352,0.03881055973470211,0.05566305238753557,
+cornet_s,"shift, corners",random 16 mean,configural reliance,,,,True
+cornet_s,"shift, corners",random 17 mean,grid accuracy,0.08305515348911285,0.0756266862154007,0.09043634608387947,
+cornet_s,"shift, corners",random 17 mean,scramble accuracy,0.03265306353569031,0.027721088333055376,0.037585027515888214,
+cornet_s,"shift, corners",random 17 mean,scramble loss,0.050402089953422546,0.04236230421811342,0.05845146384090185,
+cornet_s,"shift, corners",random 17 mean,configural reliance,,,,True
+cornet_s,"shift, corners",random 18 mean,grid accuracy,0.12046802043914795,0.11089172381907701,0.12963534966111184,
+cornet_s,"shift, corners",random 18 mean,scramble accuracy,0.06509523838758469,0.05949659636244178,0.07070747781544924,
+cornet_s,"shift, corners",random 18 mean,scramble loss,0.05537278205156326,0.04594600014388561,0.06477360855787992,
+cornet_s,"shift, corners",random 18 mean,configural reliance,,,,True
+cornet_s,"shift, corners",random 19 mean,grid accuracy,0.10096964240074158,0.09286297988146544,0.10905689466744661,
+cornet_s,"shift, corners",random 19 mean,scramble accuracy,0.04773809388279915,0.04194897785782814,0.05371105894446373,
+cornet_s,"shift, corners",random 19 mean,scramble loss,0.05323154851794243,0.04440279230475426,0.06213756361976266,
+cornet_s,"shift, corners",random 19 mean,configural reliance,,,,True
+cornet_s,"shift, corners",random 20 mean,grid accuracy,0.10284891724586487,0.093743234872818,0.11176919844001532,
+cornet_s,"shift, corners",random 20 mean,scramble accuracy,0.04911564290523529,0.04232652857899666,0.05574829140678048,
+cornet_s,"shift, corners",random 20 mean,scramble loss,0.05373327434062958,0.04456630824133754,0.06335728839039803,
+cornet_s,"shift, corners",random 20 mean,configural reliance,,,,True
